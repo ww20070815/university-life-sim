@@ -1,0 +1,4266 @@
+{
+  "date": "2026-11-11",
+  "kind": "桌面内置浏览器尺寸模拟，非手机真机",
+  "profiles": [
+    {
+      "name": "林知夏",
+      "title": "林知夏",
+      "options": [
+        "交换学习方法 · 关系 +4这一回合已经认真交流过了。完成主要行动后，下回合再来。",
+        "认真听她说近况 · 关系 +5这一回合已经认真交流过了。完成主要行动后，下回合再来。",
+        "一起整理课程笔记 · 关系 +6这一回合已经认真交流过了。完成主要行动后，下回合再来。"
+      ],
+      "allDisabled": true
+    },
+    {
+      "name": "沈砚",
+      "title": "沈砚",
+      "options": [
+        "聊聊最近的作品 · 关系 +4这一回合已经认真交流过了。完成主要行动后，下回合再来。",
+        "听他讲一次失败 · 关系 +5这一回合已经认真交流过了。完成主要行动后，下回合再来。",
+        "一起检查小项目 · 关系 +6这一回合已经认真交流过了。完成主要行动后，下回合再来。"
+      ],
+      "allDisabled": true
+    },
+    {
+      "name": "程乐",
+      "title": "程乐",
+      "options": [
+        "分享今天的小事 · 关系 +4这一回合已经认真交流过了。完成主要行动后，下回合再来。",
+        "认真听他的烦恼 · 关系 +5这一回合已经认真交流过了。完成主要行动后，下回合再来。",
+        "一起安排健康作息 · 关系 +6这一回合已经认真交流过了。完成主要行动后，下回合再来。"
+      ],
+      "allDisabled": true
+    },
+    {
+      "name": "许南乔",
+      "title": "许南乔",
+      "options": [
+        "交换校园观察 · 关系 +4这一回合已经认真交流过了。完成主要行动后，下回合再来。",
+        "听她谈团队难题 · 关系 +5这一回合已经认真交流过了。完成主要行动后，下回合再来。",
+        "一起整理用户反馈 · 关系 +6这一回合已经认真交流过了。完成主要行动后，下回合再来。"
+      ],
+      "allDisabled": true
+    },
+    {
+      "name": "顾清禾",
+      "title": "顾清禾",
+      "options": [
+        "聊聊喜欢的校园角落 · 关系 +4这一回合已经认真交流过了。完成主要行动后，下回合再来。",
+        "听她说创作困惑 · 关系 +5这一回合已经认真交流过了。完成主要行动后，下回合再来。",
+        "一起策划一组校园照片 · 关系 +6这一回合已经认真交流过了。完成主要行动后，下回合再来。"
+      ],
+      "allDisabled": true
+    },
+    {
+      "name": "周老师",
+      "title": "周老师",
+      "options": [
+        "请教学习与职业方向 · 关系 +4这一回合已经认真交流过了。完成主要行动后，下回合再来。",
+        "说明最近遇到的困难 · 关系 +5这一回合已经认真交流过了。完成主要行动后，下回合再来。",
+        "一起检查课程成果 · 关系 +6这一回合已经认真交流过了。完成主要行动后，下回合再来。"
+      ],
+      "allDisabled": true
+    }
+  ],
+  "campus": [
+    {
+      "page": "campus",
+      "width": 320,
+      "layout": {
+        "failedImages": [],
+        "mainButtons": [
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 206.46875,
+            "left": 32.66666793823242,
+            "right": 147.8333396911621,
+            "width": 115.16667175292967
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 206.46875,
+            "left": 156.83334350585938,
+            "right": 272.00001525878906,
+            "width": 115.16667175292967
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 206.46875,
+            "left": 32.66666793823242,
+            "right": 147.8333396911621,
+            "width": 115.16667175292967
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 206.46875,
+            "left": 156.83334350585938,
+            "right": 272.00001525878906,
+            "width": 115.16667175292967
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 32.66666793823242,
+            "right": 147.8333396911621,
+            "width": 115.16667175292967
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 156.83334350585938,
+            "right": 272.00001525878906,
+            "width": 115.16667175292967
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 94.67708587646484,
+            "left": 32.66666793823242,
+            "right": 272.0000114440918,
+            "width": 239.33334350585935
+          }
+        ],
+        "modal": null,
+        "overflow": false,
+        "scroll": 305,
+        "stage": {
+          "height": 509.0729370117187,
+          "left": 14,
+          "right": 290.66668701171875,
+          "width": 276.66668701171875
+        },
+        "viewport": 305
+      }
+    },
+    {
+      "page": "campus",
+      "width": 360,
+      "layout": {
+        "failedImages": [],
+        "mainButtons": [
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 32.66666793823242,
+            "right": 167.8333396911621,
+            "width": 135.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 176.83334350585938,
+            "right": 312.00001525878906,
+            "width": 135.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 32.66666793823242,
+            "right": 167.8333396911621,
+            "width": 135.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 176.83334350585938,
+            "right": 312.00001525878906,
+            "width": 135.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 32.66666793823242,
+            "right": 167.8333396911621,
+            "width": 135.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 176.83334350585938,
+            "right": 312.00001525878906,
+            "width": 135.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 94.67708587646484,
+            "left": 32.66666793823242,
+            "right": 312.0000114440918,
+            "width": 279.3333435058594
+          }
+        ],
+        "modal": null,
+        "overflow": false,
+        "scroll": 345,
+        "stage": {
+          "height": 515.0729370117188,
+          "left": 14,
+          "right": 330.66668701171875,
+          "width": 316.66668701171875
+        },
+        "viewport": 345
+      }
+    },
+    {
+      "page": "campus",
+      "width": 375,
+      "layout": {
+        "failedImages": [],
+        "mainButtons": [
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 32.66666793823242,
+            "right": 175.5000114440918,
+            "width": 142.83334350585938
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 184.5,
+            "right": 327.3333435058594,
+            "width": 142.83334350585938
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 32.66666793823242,
+            "right": 175.5000114440918,
+            "width": 142.83334350585938
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 184.5,
+            "right": 327.3333435058594,
+            "width": 142.83334350585938
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 32.66666793823242,
+            "right": 175.5000114440918,
+            "width": 142.83334350585938
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 184.5,
+            "right": 327.3333435058594,
+            "width": 142.83334350585938
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 94.67708587646484,
+            "left": 32.66666793823242,
+            "right": 327.3333549499512,
+            "width": 294.66668701171875
+          }
+        ],
+        "modal": null,
+        "overflow": false,
+        "scroll": 360,
+        "stage": {
+          "height": 528.8541870117188,
+          "left": 14,
+          "right": 346,
+          "width": 332
+        },
+        "viewport": 360
+      }
+    },
+    {
+      "page": "campus",
+      "width": 390,
+      "layout": {
+        "failedImages": [],
+        "mainButtons": [
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 170,
+            "left": 32.66666793823242,
+            "right": 182.8333396911621,
+            "width": 150.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 170,
+            "left": 191.83334350585935,
+            "right": 342.00001525878906,
+            "width": 150.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 32.66666793823242,
+            "right": 182.8333396911621,
+            "width": 150.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 191.83334350585935,
+            "right": 342.00001525878906,
+            "width": 150.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 32.66666793823242,
+            "right": 182.8333396911621,
+            "width": 150.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 191.83334350585935,
+            "right": 342.00001525878906,
+            "width": 150.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 94.67708587646484,
+            "left": 32.66666793823242,
+            "right": 342.0000114440918,
+            "width": 309.3333435058594
+          }
+        ],
+        "modal": null,
+        "overflow": false,
+        "scroll": 375,
+        "stage": {
+          "height": 542.0729370117188,
+          "left": 14,
+          "right": 360.6666870117187,
+          "width": 346.66668701171875
+        },
+        "viewport": 375
+      }
+    },
+    {
+      "page": "campus",
+      "width": 412,
+      "layout": {
+        "failedImages": [],
+        "mainButtons": [
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 170,
+            "left": 32.66666793823242,
+            "right": 193.8333396911621,
+            "width": 161.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 170,
+            "left": 202.83334350585935,
+            "right": 364.00001525878906,
+            "width": 161.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 32.66666793823242,
+            "right": 193.8333396911621,
+            "width": 161.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 202.83334350585935,
+            "right": 364.00001525878906,
+            "width": 161.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 170,
+            "left": 32.66666793823242,
+            "right": 193.8333396911621,
+            "width": 161.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 170,
+            "left": 202.83334350585935,
+            "right": 364.00001525878906,
+            "width": 161.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 94.67708587646484,
+            "left": 32.66666793823242,
+            "right": 364.0000114440918,
+            "width": 331.3333435058594
+          }
+        ],
+        "modal": null,
+        "overflow": false,
+        "scroll": 397,
+        "stage": {
+          "height": 561.8541870117188,
+          "left": 14,
+          "right": 382.6666870117187,
+          "width": 368.6666870117187
+        },
+        "viewport": 397
+      }
+    },
+    {
+      "page": "campus",
+      "width": 430,
+      "layout": {
+        "failedImages": [],
+        "mainButtons": [
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 170,
+            "left": 32.66666793823242,
+            "right": 202.8333396911621,
+            "width": 170.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 170,
+            "left": 211.83334350585935,
+            "right": 382.00001525878906,
+            "width": 170.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 170,
+            "left": 32.66666793823242,
+            "right": 202.8333396911621,
+            "width": 170.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 170,
+            "left": 211.83334350585935,
+            "right": 382.00001525878906,
+            "width": 170.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 170,
+            "left": 32.66666793823242,
+            "right": 202.8333396911621,
+            "width": 170.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 170,
+            "left": 211.83334350585935,
+            "right": 382.00001525878906,
+            "width": 170.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 94.67708587646484,
+            "left": 32.66666793823242,
+            "right": 382.0000114440918,
+            "width": 349.3333435058594
+          }
+        ],
+        "modal": null,
+        "overflow": false,
+        "scroll": 415,
+        "stage": {
+          "height": 573.5729370117188,
+          "left": 14,
+          "right": 400.6666870117187,
+          "width": 386.6666870117187
+        },
+        "viewport": 415
+      }
+    },
+    {
+      "page": "campus",
+      "width": 768,
+      "layout": {
+        "failedImages": [],
+        "mainButtons": [
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 42.66666793823242,
+            "right": 371.8333549499512,
+            "width": 329.16668701171875
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 380.8333435058594,
+            "right": 710.0000305175781,
+            "width": 329.16668701171875
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 42.66666793823242,
+            "right": 371.8333549499512,
+            "width": 329.16668701171875
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 380.8333435058594,
+            "right": 710.0000305175781,
+            "width": 329.16668701171875
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 42.66666793823242,
+            "right": 371.8333549499512,
+            "width": 329.16668701171875
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 380.8333435058594,
+            "right": 710.0000305175781,
+            "width": 329.16668701171875
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 42.66666793823242,
+            "right": 710.0000419616699,
+            "width": 667.3333740234375
+          }
+        ],
+        "modal": null,
+        "overflow": false,
+        "scroll": 753,
+        "stage": {
+          "height": 686.1875,
+          "left": 294,
+          "right": 728.6666870117188,
+          "width": 434.6666870117187
+        },
+        "viewport": 753
+      }
+    },
+    {
+      "page": "campus",
+      "width": 1024,
+      "layout": {
+        "failedImages": [],
+        "mainButtons": [
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 42.66666793823242,
+            "right": 499.8333549499512,
+            "width": 457.1666870117187
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 508.8333435058594,
+            "right": 966.000030517578,
+            "width": 457.1666870117187
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 42.66666793823242,
+            "right": 499.8333549499512,
+            "width": 457.1666870117187
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 508.8333435058594,
+            "right": 966.000030517578,
+            "width": 457.1666870117187
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 42.66666793823242,
+            "right": 499.8333549499512,
+            "width": 457.1666870117187
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 508.8333435058594,
+            "right": 966.000030517578,
+            "width": 457.1666870117187
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 42.66666793823242,
+            "right": 966.00004196167,
+            "width": 923.3333740234376
+          }
+        ],
+        "modal": null,
+        "overflow": false,
+        "scroll": 1009,
+        "stage": {
+          "height": 686.1875,
+          "left": 294,
+          "right": 984.6666870117188,
+          "width": 690.6666870117188
+        },
+        "viewport": 1009
+      }
+    },
+    {
+      "page": "campus",
+      "width": 1366,
+      "layout": {
+        "failedImages": [],
+        "mainButtons": [
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 993.3333740234376,
+            "right": 1296.0000610351562,
+            "width": 302.66668701171875
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 993.3333740234376,
+            "right": 1296.0000610351562,
+            "width": 302.66668701171875
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 993.3333740234376,
+            "right": 1296.0000610351562,
+            "width": 302.66668701171875
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 993.3333740234376,
+            "right": 1296.0000610351562,
+            "width": 302.66668701171875
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 993.3333740234376,
+            "right": 1296.0000610351562,
+            "width": 302.66668701171875
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 993.3333740234376,
+            "right": 1296.0000610351562,
+            "width": 302.66668701171875
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 993.3333740234376,
+            "right": 1296.0000610351562,
+            "width": 302.66668701171875
+          }
+        ],
+        "modal": null,
+        "overflow": false,
+        "scroll": 1351,
+        "stage": {
+          "height": 729.7396240234375,
+          "left": 316,
+          "right": 954.6666870117188,
+          "width": 638.6666870117188
+        },
+        "viewport": 1351
+      }
+    }
+  ],
+  "profilesLayout": [
+    {
+      "page": "teacher-profile",
+      "width": 320,
+      "layout": {
+        "failedImages": [],
+        "mainButtons": [
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 206.46875,
+            "left": 32.66666793823242,
+            "right": 147.8333396911621,
+            "width": 115.16667175292967
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 206.46875,
+            "left": 156.83334350585938,
+            "right": 272.00001525878906,
+            "width": 115.16667175292967
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 206.46875,
+            "left": 32.66666793823242,
+            "right": 147.8333396911621,
+            "width": 115.16667175292967
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 206.46875,
+            "left": 156.83334350585938,
+            "right": 272.00001525878906,
+            "width": 115.16667175292967
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 32.66666793823242,
+            "right": 147.8333396911621,
+            "width": 115.16667175292967
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 156.83334350585938,
+            "right": 272.00001525878906,
+            "width": 115.16667175292967
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 94.67708587646484,
+            "left": 32.66666793823242,
+            "right": 272.0000114440918,
+            "width": 239.33334350585935
+          }
+        ],
+        "modal": {
+          "buttonSizes": [
+            {
+              "disabled": true,
+              "font": "14px",
+              "height": 98.1204071044922,
+              "left": 34.461669921875,
+              "right": 255.10166931152344,
+              "width": 220.63999938964844
+            },
+            {
+              "disabled": true,
+              "font": "14px",
+              "height": 98.12032318115234,
+              "left": 34.461669921875,
+              "right": 255.10166931152344,
+              "width": 220.63999938964844
+            },
+            {
+              "disabled": true,
+              "font": "14px",
+              "height": 98.12044525146484,
+              "left": 34.461669921875,
+              "right": 255.10166931152344,
+              "width": 220.63999938964844
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 49.67073822021485,
+              "left": 34.461669921875,
+              "right": 255.10166931152344,
+              "width": 220.63999938964844
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 49.67057418823242,
+              "left": 34.461669921875,
+              "right": 255.10166931152344,
+              "width": 220.63999938964844
+            }
+          ],
+          "client": 715,
+          "contentWidth": 224,
+          "headingFont": "23px",
+          "height": 705.2601318359375,
+          "left": 14.10500144958496,
+          "overflowY": "auto",
+          "right": 290.56166648864746,
+          "scroll": 1047,
+          "texts": [
+            {
+              "client": 224,
+              "font": "15px",
+              "scroll": 224
+            },
+            {
+              "client": 224,
+              "font": "13px",
+              "scroll": 224
+            },
+            {
+              "client": 224,
+              "font": "14px",
+              "scroll": 224
+            },
+            {
+              "client": 224,
+              "font": "13px",
+              "scroll": 224
+            },
+            {
+              "client": 224,
+              "font": "13px",
+              "scroll": 224
+            },
+            {
+              "client": 224,
+              "font": "15px",
+              "scroll": 224
+            },
+            {
+              "client": 224,
+              "font": "12px",
+              "scroll": 224
+            }
+          ],
+          "width": 276.4566650390625
+        },
+        "overflow": false,
+        "scroll": 305,
+        "stage": {
+          "height": 509.0729370117187,
+          "left": 14,
+          "right": 290.66668701171875,
+          "width": 276.66668701171875
+        },
+        "viewport": 305
+      }
+    },
+    {
+      "page": "teacher-profile",
+      "width": 360,
+      "layout": {
+        "failedImages": [],
+        "mainButtons": [
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 32.66666793823242,
+            "right": 167.8333396911621,
+            "width": 135.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 176.83334350585938,
+            "right": 312.00001525878906,
+            "width": 135.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 32.66666793823242,
+            "right": 167.8333396911621,
+            "width": 135.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 176.83334350585938,
+            "right": 312.00001525878906,
+            "width": 135.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 32.66666793823242,
+            "right": 167.8333396911621,
+            "width": 135.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 176.83334350585938,
+            "right": 312.00001525878906,
+            "width": 135.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 94.67708587646484,
+            "left": 32.66666793823242,
+            "right": 312.0000114440918,
+            "width": 279.3333435058594
+          }
+        ],
+        "modal": {
+          "buttonSizes": [
+            {
+              "disabled": true,
+              "font": "14px",
+              "height": 98.120361328125,
+              "left": 34.76166534423828,
+              "right": 294.8017044067383,
+              "width": 260.0400390625
+            },
+            {
+              "disabled": true,
+              "font": "14px",
+              "height": 98.120361328125,
+              "left": 34.76166534423828,
+              "right": 294.8017044067383,
+              "width": 260.0400390625
+            },
+            {
+              "disabled": true,
+              "font": "14px",
+              "height": 98.12044525146484,
+              "left": 34.76166534423828,
+              "right": 294.8017044067383,
+              "width": 260.0400390625
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 49.67057418823242,
+              "left": 34.76166534423828,
+              "right": 294.8017044067383,
+              "width": 260.0400390625
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 49.67057418823242,
+              "left": 34.76166534423828,
+              "right": 294.8017044067383,
+              "width": 260.0400390625
+            }
+          ],
+          "client": 715,
+          "contentWidth": 264,
+          "headingFont": "23px",
+          "height": 705.2601318359375,
+          "left": 14.404998779296877,
+          "overflowY": "auto",
+          "right": 330.2616882324219,
+          "scroll": 993,
+          "texts": [
+            {
+              "client": 264,
+              "font": "15px",
+              "scroll": 264
+            },
+            {
+              "client": 264,
+              "font": "13px",
+              "scroll": 264
+            },
+            {
+              "client": 264,
+              "font": "14px",
+              "scroll": 264
+            },
+            {
+              "client": 264,
+              "font": "13px",
+              "scroll": 264
+            },
+            {
+              "client": 264,
+              "font": "13px",
+              "scroll": 264
+            },
+            {
+              "client": 264,
+              "font": "15px",
+              "scroll": 264
+            },
+            {
+              "client": 264,
+              "font": "12px",
+              "scroll": 264
+            }
+          ],
+          "width": 315.856689453125
+        },
+        "overflow": false,
+        "scroll": 345,
+        "stage": {
+          "height": 515.0729370117188,
+          "left": 14,
+          "right": 330.66668701171875,
+          "width": 316.66668701171875
+        },
+        "viewport": 345
+      }
+    },
+    {
+      "page": "teacher-profile",
+      "width": 375,
+      "layout": {
+        "failedImages": [],
+        "mainButtons": [
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 32.66666793823242,
+            "right": 175.5000114440918,
+            "width": 142.83334350585938
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 184.5,
+            "right": 327.3333435058594,
+            "width": 142.83334350585938
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 32.66666793823242,
+            "right": 175.5000114440918,
+            "width": 142.83334350585938
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 184.5,
+            "right": 327.3333435058594,
+            "width": 142.83334350585938
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 32.66666793823242,
+            "right": 175.5000114440918,
+            "width": 142.83334350585938
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 184.5,
+            "right": 327.3333435058594,
+            "width": 142.83334350585938
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 94.67708587646484,
+            "left": 32.66666793823242,
+            "right": 327.3333549499512,
+            "width": 294.66668701171875
+          }
+        ],
+        "modal": {
+          "buttonSizes": [
+            {
+              "disabled": true,
+              "font": "14px",
+              "height": 98.120361328125,
+              "left": 34.87666702270508,
+              "right": 310.0200080871582,
+              "width": 275.1433410644531
+            },
+            {
+              "disabled": true,
+              "font": "14px",
+              "height": 98.120361328125,
+              "left": 34.87666702270508,
+              "right": 310.0200080871582,
+              "width": 275.1433410644531
+            },
+            {
+              "disabled": true,
+              "font": "14px",
+              "height": 98.12044525146484,
+              "left": 34.87666702270508,
+              "right": 310.0200080871582,
+              "width": 275.1433410644531
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 49.67057418823242,
+              "left": 34.87666702270508,
+              "right": 310.0200080871582,
+              "width": 275.1433410644531
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 49.67057418823242,
+              "left": 34.87666702270508,
+              "right": 310.0200080871582,
+              "width": 275.1433410644531
+            }
+          ],
+          "client": 715,
+          "contentWidth": 279,
+          "headingFont": "23px",
+          "height": 705.2601318359375,
+          "left": 14.519999504089355,
+          "overflowY": "auto",
+          "right": 345.4799909591675,
+          "scroll": 993,
+          "texts": [
+            {
+              "client": 279,
+              "font": "15px",
+              "scroll": 279
+            },
+            {
+              "client": 279,
+              "font": "13px",
+              "scroll": 279
+            },
+            {
+              "client": 279,
+              "font": "14px",
+              "scroll": 279
+            },
+            {
+              "client": 279,
+              "font": "13px",
+              "scroll": 279
+            },
+            {
+              "client": 279,
+              "font": "13px",
+              "scroll": 279
+            },
+            {
+              "client": 279,
+              "font": "15px",
+              "scroll": 279
+            },
+            {
+              "client": 279,
+              "font": "12px",
+              "scroll": 279
+            }
+          ],
+          "width": 330.9599914550781
+        },
+        "overflow": false,
+        "scroll": 360,
+        "stage": {
+          "height": 528.8541870117188,
+          "left": 14,
+          "right": 346,
+          "width": 332
+        },
+        "viewport": 360
+      }
+    },
+    {
+      "page": "teacher-profile",
+      "width": 390,
+      "layout": {
+        "failedImages": [],
+        "mainButtons": [
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 170,
+            "left": 32.66666793823242,
+            "right": 182.8333396911621,
+            "width": 150.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 170,
+            "left": 191.83334350585935,
+            "right": 342.00001525878906,
+            "width": 150.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 32.66666793823242,
+            "right": 182.8333396911621,
+            "width": 150.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 191.83334350585935,
+            "right": 342.00001525878906,
+            "width": 150.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 32.66666793823242,
+            "right": 182.8333396911621,
+            "width": 150.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 191.83334350585935,
+            "right": 342.00001525878906,
+            "width": 150.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 94.67708587646484,
+            "left": 32.66666793823242,
+            "right": 342.0000114440918,
+            "width": 309.3333435058594
+          }
+        ],
+        "modal": {
+          "buttonSizes": [
+            {
+              "disabled": true,
+              "font": "14px",
+              "height": 98.120361328125,
+              "left": 34.986671447753906,
+              "right": 324.57669830322266,
+              "width": 289.59002685546875
+            },
+            {
+              "disabled": true,
+              "font": "14px",
+              "height": 98.120361328125,
+              "left": 34.986671447753906,
+              "right": 324.57669830322266,
+              "width": 289.59002685546875
+            },
+            {
+              "disabled": true,
+              "font": "14px",
+              "height": 98.12044525146484,
+              "left": 34.986671447753906,
+              "right": 324.57669830322266,
+              "width": 289.59002685546875
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 49.67057418823242,
+              "left": 34.986671447753906,
+              "right": 324.57669830322266,
+              "width": 289.59002685546875
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 49.67057418823242,
+              "left": 34.986671447753906,
+              "right": 324.57669830322266,
+              "width": 289.59002685546875
+            }
+          ],
+          "client": 715,
+          "contentWidth": 294,
+          "headingFont": "23px",
+          "height": 705.2601318359375,
+          "left": 14.6300048828125,
+          "overflowY": "auto",
+          "right": 360.03668212890625,
+          "scroll": 993,
+          "texts": [
+            {
+              "client": 294,
+              "font": "15px",
+              "scroll": 294
+            },
+            {
+              "client": 294,
+              "font": "13px",
+              "scroll": 294
+            },
+            {
+              "client": 294,
+              "font": "14px",
+              "scroll": 294
+            },
+            {
+              "client": 294,
+              "font": "13px",
+              "scroll": 294
+            },
+            {
+              "client": 294,
+              "font": "13px",
+              "scroll": 294
+            },
+            {
+              "client": 294,
+              "font": "15px",
+              "scroll": 294
+            },
+            {
+              "client": 294,
+              "font": "12px",
+              "scroll": 294
+            }
+          ],
+          "width": 345.40667724609375
+        },
+        "overflow": false,
+        "scroll": 375,
+        "stage": {
+          "height": 542.0729370117188,
+          "left": 14,
+          "right": 360.6666870117187,
+          "width": 346.66668701171875
+        },
+        "viewport": 375
+      }
+    },
+    {
+      "page": "teacher-profile",
+      "width": 412,
+      "layout": {
+        "failedImages": [],
+        "mainButtons": [
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 170,
+            "left": 32.66666793823242,
+            "right": 193.8333396911621,
+            "width": 161.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 170,
+            "left": 202.83334350585935,
+            "right": 364.00001525878906,
+            "width": 161.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 32.66666793823242,
+            "right": 193.8333396911621,
+            "width": 161.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 202.83334350585935,
+            "right": 364.00001525878906,
+            "width": 161.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 170,
+            "left": 32.66666793823242,
+            "right": 193.8333396911621,
+            "width": 161.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 170,
+            "left": 202.83334350585935,
+            "right": 364.00001525878906,
+            "width": 161.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 94.67708587646484,
+            "left": 32.66666793823242,
+            "right": 364.0000114440918,
+            "width": 331.3333435058594
+          }
+        ],
+        "modal": {
+          "buttonSizes": [
+            {
+              "disabled": true,
+              "font": "14px",
+              "height": 98.1204071044922,
+              "left": 35.15167236328125,
+              "right": 346.4117126464844,
+              "width": 311.2600402832031
+            },
+            {
+              "disabled": true,
+              "font": "14px",
+              "height": 98.120361328125,
+              "left": 35.15167236328125,
+              "right": 346.4117126464844,
+              "width": 311.2600402832031
+            },
+            {
+              "disabled": true,
+              "font": "14px",
+              "height": 98.12028503417967,
+              "left": 35.15167236328125,
+              "right": 346.4117126464844,
+              "width": 311.2600402832031
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 49.67073822021485,
+              "left": 35.15167236328125,
+              "right": 346.4117126464844,
+              "width": 311.2600402832031
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 49.67073822021485,
+              "left": 35.15167236328125,
+              "right": 346.4117126464844,
+              "width": 311.2600402832031
+            }
+          ],
+          "client": 715,
+          "contentWidth": 316,
+          "headingFont": "23px",
+          "height": 705.2601318359375,
+          "left": 14.795003890991213,
+          "overflowY": "auto",
+          "right": 381.8716640472412,
+          "scroll": 964,
+          "texts": [
+            {
+              "client": 316,
+              "font": "15px",
+              "scroll": 316
+            },
+            {
+              "client": 316,
+              "font": "13px",
+              "scroll": 316
+            },
+            {
+              "client": 316,
+              "font": "14px",
+              "scroll": 316
+            },
+            {
+              "client": 316,
+              "font": "13px",
+              "scroll": 316
+            },
+            {
+              "client": 316,
+              "font": "13px",
+              "scroll": 316
+            },
+            {
+              "client": 316,
+              "font": "15px",
+              "scroll": 316
+            },
+            {
+              "client": 316,
+              "font": "12px",
+              "scroll": 316
+            }
+          ],
+          "width": 367.07666015625
+        },
+        "overflow": false,
+        "scroll": 397,
+        "stage": {
+          "height": 561.8541870117188,
+          "left": 14,
+          "right": 382.6666870117187,
+          "width": 368.6666870117187
+        },
+        "viewport": 397
+      }
+    },
+    {
+      "page": "teacher-profile",
+      "width": 430,
+      "layout": {
+        "failedImages": [],
+        "mainButtons": [
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 170,
+            "left": 32.66666793823242,
+            "right": 202.8333396911621,
+            "width": 170.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 170,
+            "left": 211.83334350585935,
+            "right": 382.00001525878906,
+            "width": 170.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 170,
+            "left": 32.66666793823242,
+            "right": 202.8333396911621,
+            "width": 170.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 170,
+            "left": 211.83334350585935,
+            "right": 382.00001525878906,
+            "width": 170.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 170,
+            "left": 32.66666793823242,
+            "right": 202.8333396911621,
+            "width": 170.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 170,
+            "left": 211.83334350585935,
+            "right": 382.00001525878906,
+            "width": 170.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 94.67708587646484,
+            "left": 32.66666793823242,
+            "right": 382.0000114440918,
+            "width": 349.3333435058594
+          }
+        ],
+        "modal": {
+          "buttonSizes": [
+            {
+              "disabled": true,
+              "font": "14px",
+              "height": 98.120361328125,
+              "left": 35.286659240722656,
+              "right": 364.2767105102539,
+              "width": 328.99005126953125
+            },
+            {
+              "disabled": true,
+              "font": "14px",
+              "height": 98.120361328125,
+              "left": 35.286659240722656,
+              "right": 364.2767105102539,
+              "width": 328.99005126953125
+            },
+            {
+              "disabled": true,
+              "font": "14px",
+              "height": 98.120361328125,
+              "left": 35.286659240722656,
+              "right": 364.2767105102539,
+              "width": 328.99005126953125
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 49.67073822021485,
+              "left": 35.286659240722656,
+              "right": 364.2767105102539,
+              "width": 328.99005126953125
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 49.67073822021485,
+              "left": 35.286659240722656,
+              "right": 364.2767105102539,
+              "width": 328.99005126953125
+            }
+          ],
+          "client": 715,
+          "contentWidth": 334,
+          "headingFont": "23px",
+          "height": 705.2601318359375,
+          "left": 14.92999267578125,
+          "overflowY": "auto",
+          "right": 399.7366333007813,
+          "scroll": 935,
+          "texts": [
+            {
+              "client": 334,
+              "font": "15px",
+              "scroll": 334
+            },
+            {
+              "client": 334,
+              "font": "13px",
+              "scroll": 334
+            },
+            {
+              "client": 334,
+              "font": "14px",
+              "scroll": 334
+            },
+            {
+              "client": 334,
+              "font": "13px",
+              "scroll": 334
+            },
+            {
+              "client": 334,
+              "font": "13px",
+              "scroll": 334
+            },
+            {
+              "client": 334,
+              "font": "15px",
+              "scroll": 334
+            },
+            {
+              "client": 334,
+              "font": "12px",
+              "scroll": 334
+            }
+          ],
+          "width": 384.806640625
+        },
+        "overflow": false,
+        "scroll": 415,
+        "stage": {
+          "height": 573.5729370117188,
+          "left": 14,
+          "right": 400.6666870117187,
+          "width": 386.6666870117187
+        },
+        "viewport": 415
+      }
+    },
+    {
+      "page": "teacher-profile",
+      "width": 768,
+      "layout": {
+        "failedImages": [],
+        "mainButtons": [
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 42.66666793823242,
+            "right": 371.8333549499512,
+            "width": 329.16668701171875
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 380.8333435058594,
+            "right": 710.0000305175781,
+            "width": 329.16668701171875
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 42.66666793823242,
+            "right": 371.8333549499512,
+            "width": 329.16668701171875
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 380.8333435058594,
+            "right": 710.0000305175781,
+            "width": 329.16668701171875
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 42.66666793823242,
+            "right": 371.8333549499512,
+            "width": 329.16668701171875
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 380.8333435058594,
+            "right": 710.0000305175781,
+            "width": 329.16668701171875
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 42.66666793823242,
+            "right": 710.0000419616699,
+            "width": 667.3333740234375
+          }
+        ],
+        "modal": {
+          "buttonSizes": [
+            {
+              "disabled": true,
+              "font": "13px",
+              "height": 76.375,
+              "left": 102,
+              "right": 635.3333740234375,
+              "width": 533.3333740234375
+            },
+            {
+              "disabled": true,
+              "font": "13px",
+              "height": 76.375,
+              "left": 102,
+              "right": 635.3333740234375,
+              "width": 533.3333740234375
+            },
+            {
+              "disabled": true,
+              "font": "13px",
+              "height": 76.375,
+              "left": 102,
+              "right": 635.3333740234375,
+              "width": 533.3333740234375
+            },
+            {
+              "disabled": false,
+              "font": "13px",
+              "height": 48.78125,
+              "left": 102,
+              "right": 635.3333740234375,
+              "width": 533.3333740234375
+            },
+            {
+              "disabled": false,
+              "font": "13px",
+              "height": 48.78125,
+              "left": 102,
+              "right": 635.3333740234375,
+              "width": 533.3333740234375
+            }
+          ],
+          "client": 691,
+          "contentWidth": 533,
+          "headingFont": "26px",
+          "height": 692,
+          "left": 71.33333587646484,
+          "overflowY": "auto",
+          "right": 681.3333358764648,
+          "scroll": 869,
+          "texts": [
+            {
+              "client": 533,
+              "font": "14px",
+              "scroll": 533
+            },
+            {
+              "client": 533,
+              "font": "13px",
+              "scroll": 533
+            },
+            {
+              "client": 533,
+              "font": "14px",
+              "scroll": 533
+            },
+            {
+              "client": 533,
+              "font": "12px",
+              "scroll": 533
+            },
+            {
+              "client": 533,
+              "font": "13px",
+              "scroll": 533
+            },
+            {
+              "client": 533,
+              "font": "14px",
+              "scroll": 533
+            },
+            {
+              "client": 533,
+              "font": "11px",
+              "scroll": 533
+            }
+          ],
+          "width": 610
+        },
+        "overflow": false,
+        "scroll": 753,
+        "stage": {
+          "height": 686.1875,
+          "left": 294,
+          "right": 728.6666870117188,
+          "width": 434.6666870117187
+        },
+        "viewport": 753
+      }
+    },
+    {
+      "page": "teacher-profile",
+      "width": 1024,
+      "layout": {
+        "failedImages": [],
+        "mainButtons": [
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 42.66666793823242,
+            "right": 499.8333549499512,
+            "width": 457.1666870117187
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 508.8333435058594,
+            "right": 966.000030517578,
+            "width": 457.1666870117187
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 42.66666793823242,
+            "right": 499.8333549499512,
+            "width": 457.1666870117187
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 508.8333435058594,
+            "right": 966.000030517578,
+            "width": 457.1666870117187
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 42.66666793823242,
+            "right": 499.8333549499512,
+            "width": 457.1666870117187
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 508.8333435058594,
+            "right": 966.000030517578,
+            "width": 457.1666870117187
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 42.66666793823242,
+            "right": 966.00004196167,
+            "width": 923.3333740234376
+          }
+        ],
+        "modal": {
+          "buttonSizes": [
+            {
+              "disabled": true,
+              "font": "13px",
+              "height": 76.375,
+              "left": 230,
+              "right": 763.3333740234375,
+              "width": 533.3333740234375
+            },
+            {
+              "disabled": true,
+              "font": "13px",
+              "height": 76.375,
+              "left": 230,
+              "right": 763.3333740234375,
+              "width": 533.3333740234375
+            },
+            {
+              "disabled": true,
+              "font": "13px",
+              "height": 76.375,
+              "left": 230,
+              "right": 763.3333740234375,
+              "width": 533.3333740234375
+            },
+            {
+              "disabled": false,
+              "font": "13px",
+              "height": 48.78125,
+              "left": 230,
+              "right": 763.3333740234375,
+              "width": 533.3333740234375
+            },
+            {
+              "disabled": false,
+              "font": "13px",
+              "height": 48.78125,
+              "left": 230,
+              "right": 763.3333740234375,
+              "width": 533.3333740234375
+            }
+          ],
+          "client": 691,
+          "contentWidth": 533,
+          "headingFont": "26px",
+          "height": 692,
+          "left": 199.33334350585935,
+          "overflowY": "auto",
+          "right": 809.3333435058594,
+          "scroll": 869,
+          "texts": [
+            {
+              "client": 533,
+              "font": "14px",
+              "scroll": 533
+            },
+            {
+              "client": 533,
+              "font": "13px",
+              "scroll": 533
+            },
+            {
+              "client": 533,
+              "font": "14px",
+              "scroll": 533
+            },
+            {
+              "client": 533,
+              "font": "12px",
+              "scroll": 533
+            },
+            {
+              "client": 533,
+              "font": "13px",
+              "scroll": 533
+            },
+            {
+              "client": 533,
+              "font": "14px",
+              "scroll": 533
+            },
+            {
+              "client": 533,
+              "font": "11px",
+              "scroll": 533
+            }
+          ],
+          "width": 610
+        },
+        "overflow": false,
+        "scroll": 1009,
+        "stage": {
+          "height": 686.1875,
+          "left": 294,
+          "right": 984.6666870117188,
+          "width": 690.6666870117188
+        },
+        "viewport": 1009
+      }
+    },
+    {
+      "page": "teacher-profile",
+      "width": 1366,
+      "layout": {
+        "failedImages": [],
+        "mainButtons": [
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 993.3333740234376,
+            "right": 1296.0000610351562,
+            "width": 302.66668701171875
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 993.3333740234376,
+            "right": 1296.0000610351562,
+            "width": 302.66668701171875
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 993.3333740234376,
+            "right": 1296.0000610351562,
+            "width": 302.66668701171875
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 993.3333740234376,
+            "right": 1296.0000610351562,
+            "width": 302.66668701171875
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 993.3333740234376,
+            "right": 1296.0000610351562,
+            "width": 302.66668701171875
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 993.3333740234376,
+            "right": 1296.0000610351562,
+            "width": 302.66668701171875
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 993.3333740234376,
+            "right": 1296.0000610351562,
+            "width": 302.66668701171875
+          }
+        ],
+        "modal": {
+          "buttonSizes": [
+            {
+              "disabled": true,
+              "font": "13px",
+              "height": 76.375,
+              "left": 401,
+              "right": 934.3333740234376,
+              "width": 533.3333740234375
+            },
+            {
+              "disabled": true,
+              "font": "13px",
+              "height": 76.375,
+              "left": 401,
+              "right": 934.3333740234376,
+              "width": 533.3333740234375
+            },
+            {
+              "disabled": true,
+              "font": "13px",
+              "height": 76.375,
+              "left": 401,
+              "right": 934.3333740234376,
+              "width": 533.3333740234375
+            },
+            {
+              "disabled": false,
+              "font": "13px",
+              "height": 48.78125,
+              "left": 401,
+              "right": 934.3333740234376,
+              "width": 533.3333740234375
+            },
+            {
+              "disabled": false,
+              "font": "13px",
+              "height": 48.78125,
+              "left": 401,
+              "right": 934.3333740234376,
+              "width": 533.3333740234375
+            }
+          ],
+          "client": 691,
+          "contentWidth": 533,
+          "headingFont": "26px",
+          "height": 692,
+          "left": 370.3333435058594,
+          "overflowY": "auto",
+          "right": 980.3333435058594,
+          "scroll": 869,
+          "texts": [
+            {
+              "client": 533,
+              "font": "14px",
+              "scroll": 533
+            },
+            {
+              "client": 533,
+              "font": "13px",
+              "scroll": 533
+            },
+            {
+              "client": 533,
+              "font": "14px",
+              "scroll": 533
+            },
+            {
+              "client": 533,
+              "font": "12px",
+              "scroll": 533
+            },
+            {
+              "client": 533,
+              "font": "13px",
+              "scroll": 533
+            },
+            {
+              "client": 533,
+              "font": "14px",
+              "scroll": 533
+            },
+            {
+              "client": 533,
+              "font": "11px",
+              "scroll": 533
+            }
+          ],
+          "width": 610
+        },
+        "overflow": false,
+        "scroll": 1351,
+        "stage": {
+          "height": 729.7396240234375,
+          "left": 316,
+          "right": 954.6666870117188,
+          "width": 638.6666870117188
+        },
+        "viewport": 1351
+      }
+    },
+    {
+      "page": "npc-list",
+      "width": 320,
+      "layout": {
+        "failedImages": [],
+        "mainButtons": [
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 206.46875,
+            "left": 32.66666793823242,
+            "right": 147.8333396911621,
+            "width": 115.16667175292967
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 206.46875,
+            "left": 156.83334350585938,
+            "right": 272.00001525878906,
+            "width": 115.16667175292967
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 206.46875,
+            "left": 32.66666793823242,
+            "right": 147.8333396911621,
+            "width": 115.16667175292967
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 206.46875,
+            "left": 156.83334350585938,
+            "right": 272.00001525878906,
+            "width": 115.16667175292967
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 32.66666793823242,
+            "right": 147.8333396911621,
+            "width": 115.16667175292967
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 156.83334350585938,
+            "right": 272.00001525878906,
+            "width": 115.16667175292967
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 94.67708587646484,
+            "left": 32.66666793823242,
+            "right": 272.0000114440918,
+            "width": 239.33334350585935
+          }
+        ],
+        "modal": {
+          "buttonSizes": [
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 93.27083587646484,
+              "left": 32.66666793823242,
+              "right": 256.6666679382324,
+              "width": 224
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 93.27083587646484,
+              "left": 32.66666793823242,
+              "right": 256.6666679382324,
+              "width": 224
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 80,
+              "left": 32.66666793823242,
+              "right": 256.6666679382324,
+              "width": 224
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 93.27083587646484,
+              "left": 32.66666793823242,
+              "right": 256.6666679382324,
+              "width": 224
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 93.27083587646484,
+              "left": 32.66666793823242,
+              "right": 256.6666679382324,
+              "width": 224
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 93.27083587646484,
+              "left": 32.66666793823242,
+              "right": 256.6666679382324,
+              "width": 224
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 50.42708587646485,
+              "left": 32.66666793823242,
+              "right": 256.6666679382324,
+              "width": 224
+            }
+          ],
+          "client": 715,
+          "contentWidth": 224,
+          "headingFont": "23px",
+          "height": 716,
+          "left": 12,
+          "overflowY": "auto",
+          "right": 292.66668701171875,
+          "scroll": 992,
+          "texts": [
+            {
+              "client": 224,
+              "font": "15px",
+              "scroll": 224
+            },
+            {
+              "client": 224,
+              "font": "13px",
+              "scroll": 224
+            }
+          ],
+          "width": 280.66668701171875
+        },
+        "overflow": false,
+        "scroll": 305,
+        "stage": {
+          "height": 509.0729370117187,
+          "left": 14,
+          "right": 290.66668701171875,
+          "width": 276.66668701171875
+        },
+        "viewport": 305
+      }
+    },
+    {
+      "page": "npc-list",
+      "width": 360,
+      "layout": {
+        "failedImages": [],
+        "mainButtons": [
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 32.66666793823242,
+            "right": 167.8333396911621,
+            "width": 135.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 176.83334350585938,
+            "right": 312.00001525878906,
+            "width": 135.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 32.66666793823242,
+            "right": 167.8333396911621,
+            "width": 135.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 176.83334350585938,
+            "right": 312.00001525878906,
+            "width": 135.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 32.66666793823242,
+            "right": 167.8333396911621,
+            "width": 135.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 176.83334350585938,
+            "right": 312.00001525878906,
+            "width": 135.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 94.67708587646484,
+            "left": 32.66666793823242,
+            "right": 312.0000114440918,
+            "width": 279.3333435058594
+          }
+        ],
+        "modal": {
+          "buttonSizes": [
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 80,
+              "left": 32.66666793823242,
+              "right": 296.6666679382324,
+              "width": 264
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 80,
+              "left": 32.66666793823242,
+              "right": 296.6666679382324,
+              "width": 264
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 80,
+              "left": 32.66666793823242,
+              "right": 296.6666679382324,
+              "width": 264
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 80,
+              "left": 32.66666793823242,
+              "right": 296.6666679382324,
+              "width": 264
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 80,
+              "left": 32.66666793823242,
+              "right": 296.6666679382324,
+              "width": 264
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 80,
+              "left": 32.66666793823242,
+              "right": 296.6666679382324,
+              "width": 264
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 50.42708587646485,
+              "left": 32.66666793823242,
+              "right": 296.6666679382324,
+              "width": 264
+            }
+          ],
+          "client": 715,
+          "contentWidth": 264,
+          "headingFont": "23px",
+          "height": 716,
+          "left": 12,
+          "overflowY": "auto",
+          "right": 332.66668701171875,
+          "scroll": 875,
+          "texts": [
+            {
+              "client": 264,
+              "font": "15px",
+              "scroll": 264
+            },
+            {
+              "client": 264,
+              "font": "13px",
+              "scroll": 264
+            }
+          ],
+          "width": 320.66668701171875
+        },
+        "overflow": false,
+        "scroll": 345,
+        "stage": {
+          "height": 515.0729370117188,
+          "left": 14,
+          "right": 330.66668701171875,
+          "width": 316.66668701171875
+        },
+        "viewport": 345
+      }
+    },
+    {
+      "page": "npc-list",
+      "width": 375,
+      "layout": {
+        "failedImages": [],
+        "mainButtons": [
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 32.66666793823242,
+            "right": 175.5000114440918,
+            "width": 142.83334350585938
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 184.5,
+            "right": 327.3333435058594,
+            "width": 142.83334350585938
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 32.66666793823242,
+            "right": 175.5000114440918,
+            "width": 142.83334350585938
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 184.5,
+            "right": 327.3333435058594,
+            "width": 142.83334350585938
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 32.66666793823242,
+            "right": 175.5000114440918,
+            "width": 142.83334350585938
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 184.5,
+            "right": 327.3333435058594,
+            "width": 142.83334350585938
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 94.67708587646484,
+            "left": 32.66666793823242,
+            "right": 327.3333549499512,
+            "width": 294.66668701171875
+          }
+        ],
+        "modal": {
+          "buttonSizes": [
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 80,
+              "left": 32.66666793823242,
+              "right": 312.0000114440918,
+              "width": 279.3333435058594
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 80,
+              "left": 32.66666793823242,
+              "right": 312.0000114440918,
+              "width": 279.3333435058594
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 80,
+              "left": 32.66666793823242,
+              "right": 312.0000114440918,
+              "width": 279.3333435058594
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 80,
+              "left": 32.66666793823242,
+              "right": 312.0000114440918,
+              "width": 279.3333435058594
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 80,
+              "left": 32.66666793823242,
+              "right": 312.0000114440918,
+              "width": 279.3333435058594
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 80,
+              "left": 32.66666793823242,
+              "right": 312.0000114440918,
+              "width": 279.3333435058594
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 50.42708587646485,
+              "left": 32.66666793823242,
+              "right": 312.0000114440918,
+              "width": 279.3333435058594
+            }
+          ],
+          "client": 715,
+          "contentWidth": 279,
+          "headingFont": "23px",
+          "height": 716,
+          "left": 12,
+          "overflowY": "auto",
+          "right": 348,
+          "scroll": 875,
+          "texts": [
+            {
+              "client": 279,
+              "font": "15px",
+              "scroll": 279
+            },
+            {
+              "client": 279,
+              "font": "13px",
+              "scroll": 279
+            }
+          ],
+          "width": 336
+        },
+        "overflow": false,
+        "scroll": 360,
+        "stage": {
+          "height": 528.8541870117188,
+          "left": 14,
+          "right": 346,
+          "width": 332
+        },
+        "viewport": 360
+      }
+    },
+    {
+      "page": "npc-list",
+      "width": 390,
+      "layout": {
+        "failedImages": [],
+        "mainButtons": [
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 170,
+            "left": 32.66666793823242,
+            "right": 182.8333396911621,
+            "width": 150.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 170,
+            "left": 191.83334350585935,
+            "right": 342.00001525878906,
+            "width": 150.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 32.66666793823242,
+            "right": 182.8333396911621,
+            "width": 150.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 191.83334350585935,
+            "right": 342.00001525878906,
+            "width": 150.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 32.66666793823242,
+            "right": 182.8333396911621,
+            "width": 150.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 191.83334350585935,
+            "right": 342.00001525878906,
+            "width": 150.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 94.67708587646484,
+            "left": 32.66666793823242,
+            "right": 342.0000114440918,
+            "width": 309.3333435058594
+          }
+        ],
+        "modal": {
+          "buttonSizes": [
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 80,
+              "left": 32.66666793823242,
+              "right": 326.6666679382324,
+              "width": 294
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 80,
+              "left": 32.66666793823242,
+              "right": 326.6666679382324,
+              "width": 294
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 80,
+              "left": 32.66666793823242,
+              "right": 326.6666679382324,
+              "width": 294
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 80,
+              "left": 32.66666793823242,
+              "right": 326.6666679382324,
+              "width": 294
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 80,
+              "left": 32.66666793823242,
+              "right": 326.6666679382324,
+              "width": 294
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 80,
+              "left": 32.66666793823242,
+              "right": 326.6666679382324,
+              "width": 294
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 50.42708587646485,
+              "left": 32.66666793823242,
+              "right": 326.6666679382324,
+              "width": 294
+            }
+          ],
+          "client": 715,
+          "contentWidth": 294,
+          "headingFont": "23px",
+          "height": 716,
+          "left": 12,
+          "overflowY": "auto",
+          "right": 362.6666870117187,
+          "scroll": 875,
+          "texts": [
+            {
+              "client": 294,
+              "font": "15px",
+              "scroll": 294
+            },
+            {
+              "client": 294,
+              "font": "13px",
+              "scroll": 294
+            }
+          ],
+          "width": 350.66668701171875
+        },
+        "overflow": false,
+        "scroll": 375,
+        "stage": {
+          "height": 542.0729370117188,
+          "left": 14,
+          "right": 360.6666870117187,
+          "width": 346.66668701171875
+        },
+        "viewport": 375
+      }
+    },
+    {
+      "page": "npc-list",
+      "width": 412,
+      "layout": {
+        "failedImages": [],
+        "mainButtons": [
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 170,
+            "left": 32.66666793823242,
+            "right": 193.8333396911621,
+            "width": 161.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 170,
+            "left": 202.83334350585935,
+            "right": 364.00001525878906,
+            "width": 161.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 32.66666793823242,
+            "right": 193.8333396911621,
+            "width": 161.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 202.83334350585935,
+            "right": 364.00001525878906,
+            "width": 161.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 170,
+            "left": 32.66666793823242,
+            "right": 193.8333396911621,
+            "width": 161.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 170,
+            "left": 202.83334350585935,
+            "right": 364.00001525878906,
+            "width": 161.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 94.67708587646484,
+            "left": 32.66666793823242,
+            "right": 364.0000114440918,
+            "width": 331.3333435058594
+          }
+        ],
+        "modal": {
+          "buttonSizes": [
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 80,
+              "left": 32.66666793823242,
+              "right": 348.6666679382324,
+              "width": 316
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 80,
+              "left": 32.66666793823242,
+              "right": 348.6666679382324,
+              "width": 316
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 80,
+              "left": 32.66666793823242,
+              "right": 348.6666679382324,
+              "width": 316
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 80,
+              "left": 32.66666793823242,
+              "right": 348.6666679382324,
+              "width": 316
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 80,
+              "left": 32.66666793823242,
+              "right": 348.6666679382324,
+              "width": 316
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 80,
+              "left": 32.66666793823242,
+              "right": 348.6666679382324,
+              "width": 316
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 50.42708587646485,
+              "left": 32.66666793823242,
+              "right": 348.6666679382324,
+              "width": 316
+            }
+          ],
+          "client": 715,
+          "contentWidth": 316,
+          "headingFont": "23px",
+          "height": 716,
+          "left": 12,
+          "overflowY": "auto",
+          "right": 384.6666870117187,
+          "scroll": 875,
+          "texts": [
+            {
+              "client": 316,
+              "font": "15px",
+              "scroll": 316
+            },
+            {
+              "client": 316,
+              "font": "13px",
+              "scroll": 316
+            }
+          ],
+          "width": 372.6666870117187
+        },
+        "overflow": false,
+        "scroll": 397,
+        "stage": {
+          "height": 561.8541870117188,
+          "left": 14,
+          "right": 382.6666870117187,
+          "width": 368.6666870117187
+        },
+        "viewport": 397
+      }
+    },
+    {
+      "page": "npc-list",
+      "width": 430,
+      "layout": {
+        "failedImages": [],
+        "mainButtons": [
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 170,
+            "left": 32.66666793823242,
+            "right": 202.8333396911621,
+            "width": 170.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 170,
+            "left": 211.83334350585935,
+            "right": 382.00001525878906,
+            "width": 170.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 170,
+            "left": 32.66666793823242,
+            "right": 202.8333396911621,
+            "width": 170.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 170,
+            "left": 211.83334350585935,
+            "right": 382.00001525878906,
+            "width": 170.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 170,
+            "left": 32.66666793823242,
+            "right": 202.8333396911621,
+            "width": 170.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 170,
+            "left": 211.83334350585935,
+            "right": 382.00001525878906,
+            "width": 170.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 94.67708587646484,
+            "left": 32.66666793823242,
+            "right": 382.0000114440918,
+            "width": 349.3333435058594
+          }
+        ],
+        "modal": {
+          "buttonSizes": [
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 80,
+              "left": 32.66666793823242,
+              "right": 366.6666679382324,
+              "width": 334
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 80,
+              "left": 32.66666793823242,
+              "right": 366.6666679382324,
+              "width": 334
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 80,
+              "left": 32.66666793823242,
+              "right": 366.6666679382324,
+              "width": 334
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 80,
+              "left": 32.66666793823242,
+              "right": 366.6666679382324,
+              "width": 334
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 80,
+              "left": 32.66666793823242,
+              "right": 366.6666679382324,
+              "width": 334
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 80,
+              "left": 32.66666793823242,
+              "right": 366.6666679382324,
+              "width": 334
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 50.42708587646485,
+              "left": 32.66666793823242,
+              "right": 366.6666679382324,
+              "width": 334
+            }
+          ],
+          "client": 715,
+          "contentWidth": 334,
+          "headingFont": "23px",
+          "height": 716,
+          "left": 12,
+          "overflowY": "auto",
+          "right": 402.6666870117187,
+          "scroll": 875,
+          "texts": [
+            {
+              "client": 334,
+              "font": "15px",
+              "scroll": 334
+            },
+            {
+              "client": 334,
+              "font": "13px",
+              "scroll": 334
+            }
+          ],
+          "width": 390.6666870117187
+        },
+        "overflow": false,
+        "scroll": 415,
+        "stage": {
+          "height": 573.5729370117188,
+          "left": 14,
+          "right": 400.6666870117187,
+          "width": 386.6666870117187
+        },
+        "viewport": 415
+      }
+    }
+  ],
+  "selection": [
+    {
+      "width": 320,
+      "layout": {
+        "failedImages": [],
+        "mainButtons": [
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 206.46875,
+            "left": 32.66666793823242,
+            "right": 147.8333396911621,
+            "width": 115.16667175292967
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 206.46875,
+            "left": 156.83334350585938,
+            "right": 272.00001525878906,
+            "width": 115.16667175292967
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 206.46875,
+            "left": 32.66666793823242,
+            "right": 147.8333396911621,
+            "width": 115.16667175292967
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 206.46875,
+            "left": 156.83334350585938,
+            "right": 272.00001525878906,
+            "width": 115.16667175292967
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 32.66666793823242,
+            "right": 147.8333396911621,
+            "width": 115.16667175292967
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 156.83334350585938,
+            "right": 272.00001525878906,
+            "width": 115.16667175292967
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 94.67708587646484,
+            "left": 32.66666793823242,
+            "right": 272.0000114440918,
+            "width": 239.33334350585935
+          }
+        ],
+        "modal": {
+          "buttonSizes": [
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 206.5,
+              "left": 32.66666793823242,
+              "right": 256.6666679382324,
+              "width": 224
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 205.83334350585935,
+              "left": 32.66666793823242,
+              "right": 256.6666679382324,
+              "width": 224
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 50.42708587646485,
+              "left": 32.66666793823242,
+              "right": 256.6666679382324,
+              "width": 224
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 50.42708587646485,
+              "left": 32.66666793823242,
+              "right": 256.6666679382324,
+              "width": 224
+            }
+          ],
+          "client": 715,
+          "contentWidth": 224,
+          "headingFont": "23px",
+          "height": 716,
+          "left": 12,
+          "overflowY": "auto",
+          "right": 292.66668701171875,
+          "scroll": 785,
+          "texts": [
+            {
+              "client": 224,
+              "font": "15px",
+              "scroll": 224
+            },
+            {
+              "client": 108,
+              "font": "13px",
+              "scroll": 108
+            },
+            {
+              "client": 109,
+              "font": "13px",
+              "scroll": 109
+            }
+          ],
+          "width": 280.66668701171875
+        },
+        "overflow": false,
+        "scroll": 305,
+        "stage": {
+          "height": 509.0729370117187,
+          "left": 14,
+          "right": 290.66668701171875,
+          "width": 276.66668701171875
+        },
+        "viewport": 305
+      }
+    },
+    {
+      "width": 360,
+      "layout": {
+        "failedImages": [],
+        "mainButtons": [
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 32.66666793823242,
+            "right": 167.8333396911621,
+            "width": 135.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 176.83334350585938,
+            "right": 312.00001525878906,
+            "width": 135.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 32.66666793823242,
+            "right": 167.8333396911621,
+            "width": 135.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 176.83334350585938,
+            "right": 312.00001525878906,
+            "width": 135.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 32.66666793823242,
+            "right": 167.8333396911621,
+            "width": 135.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 176.83334350585938,
+            "right": 312.00001525878906,
+            "width": 135.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 94.67708587646484,
+            "left": 32.66666793823242,
+            "right": 312.0000114440918,
+            "width": 279.3333435058594
+          }
+        ],
+        "modal": {
+          "buttonSizes": [
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 206.5,
+              "left": 32.66666793823242,
+              "right": 296.6666679382324,
+              "width": 264
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 205.83334350585935,
+              "left": 32.66666793823242,
+              "right": 296.6666679382324,
+              "width": 264
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 50.42708587646485,
+              "left": 32.66666793823242,
+              "right": 296.6666679382324,
+              "width": 264
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 50.42708587646485,
+              "left": 32.66666793823242,
+              "right": 296.6666679382324,
+              "width": 264
+            }
+          ],
+          "client": 715,
+          "contentWidth": 264,
+          "headingFont": "23px",
+          "height": 716,
+          "left": 12,
+          "overflowY": "auto",
+          "right": 332.66668701171875,
+          "scroll": 785,
+          "texts": [
+            {
+              "client": 264,
+              "font": "15px",
+              "scroll": 264
+            },
+            {
+              "client": 148,
+              "font": "13px",
+              "scroll": 148
+            },
+            {
+              "client": 149,
+              "font": "13px",
+              "scroll": 149
+            }
+          ],
+          "width": 320.66668701171875
+        },
+        "overflow": false,
+        "scroll": 345,
+        "stage": {
+          "height": 515.0729370117188,
+          "left": 14,
+          "right": 330.66668701171875,
+          "width": 316.66668701171875
+        },
+        "viewport": 345
+      }
+    },
+    {
+      "width": 375,
+      "layout": {
+        "failedImages": [],
+        "mainButtons": [
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 32.66666793823242,
+            "right": 175.5000114440918,
+            "width": 142.83334350585938
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 184.5,
+            "right": 327.3333435058594,
+            "width": 142.83334350585938
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 32.66666793823242,
+            "right": 175.5000114440918,
+            "width": 142.83334350585938
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 184.5,
+            "right": 327.3333435058594,
+            "width": 142.83334350585938
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 32.66666793823242,
+            "right": 175.5000114440918,
+            "width": 142.83334350585938
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 184.5,
+            "right": 327.3333435058594,
+            "width": 142.83334350585938
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 94.67708587646484,
+            "left": 32.66666793823242,
+            "right": 327.3333549499512,
+            "width": 294.66668701171875
+          }
+        ],
+        "modal": {
+          "buttonSizes": [
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 206.5,
+              "left": 32.66666793823242,
+              "right": 312.0000114440918,
+              "width": 279.3333435058594
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 205.83334350585935,
+              "left": 32.66666793823242,
+              "right": 312.0000114440918,
+              "width": 279.3333435058594
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 50.42708587646485,
+              "left": 32.66666793823242,
+              "right": 312.0000114440918,
+              "width": 279.3333435058594
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 50.42708587646485,
+              "left": 32.66666793823242,
+              "right": 312.0000114440918,
+              "width": 279.3333435058594
+            }
+          ],
+          "client": 715,
+          "contentWidth": 279,
+          "headingFont": "23px",
+          "height": 716,
+          "left": 12,
+          "overflowY": "auto",
+          "right": 348,
+          "scroll": 785,
+          "texts": [
+            {
+              "client": 279,
+              "font": "15px",
+              "scroll": 279
+            },
+            {
+              "client": 163,
+              "font": "13px",
+              "scroll": 163
+            },
+            {
+              "client": 164,
+              "font": "13px",
+              "scroll": 164
+            }
+          ],
+          "width": 336
+        },
+        "overflow": false,
+        "scroll": 360,
+        "stage": {
+          "height": 528.8541870117188,
+          "left": 14,
+          "right": 346,
+          "width": 332
+        },
+        "viewport": 360
+      }
+    },
+    {
+      "width": 390,
+      "layout": {
+        "failedImages": [],
+        "mainButtons": [
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 170,
+            "left": 32.66666793823242,
+            "right": 182.8333396911621,
+            "width": 150.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 170,
+            "left": 191.83334350585935,
+            "right": 342.00001525878906,
+            "width": 150.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 32.66666793823242,
+            "right": 182.8333396911621,
+            "width": 150.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 191.83334350585935,
+            "right": 342.00001525878906,
+            "width": 150.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 32.66666793823242,
+            "right": 182.8333396911621,
+            "width": 150.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 191.83334350585935,
+            "right": 342.00001525878906,
+            "width": 150.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 94.67708587646484,
+            "left": 32.66666793823242,
+            "right": 342.0000114440918,
+            "width": 309.3333435058594
+          }
+        ],
+        "modal": {
+          "buttonSizes": [
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 206.5,
+              "left": 32.66666793823242,
+              "right": 326.6666679382324,
+              "width": 294
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 205.83334350585935,
+              "left": 32.66666793823242,
+              "right": 326.6666679382324,
+              "width": 294
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 50.42708587646485,
+              "left": 32.66666793823242,
+              "right": 326.6666679382324,
+              "width": 294
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 50.42708587646485,
+              "left": 32.66666793823242,
+              "right": 326.6666679382324,
+              "width": 294
+            }
+          ],
+          "client": 715,
+          "contentWidth": 294,
+          "headingFont": "23px",
+          "height": 716,
+          "left": 12,
+          "overflowY": "auto",
+          "right": 362.6666870117187,
+          "scroll": 785,
+          "texts": [
+            {
+              "client": 294,
+              "font": "15px",
+              "scroll": 294
+            },
+            {
+              "client": 178,
+              "font": "13px",
+              "scroll": 178
+            },
+            {
+              "client": 179,
+              "font": "13px",
+              "scroll": 179
+            }
+          ],
+          "width": 350.66668701171875
+        },
+        "overflow": false,
+        "scroll": 375,
+        "stage": {
+          "height": 542.0729370117188,
+          "left": 14,
+          "right": 360.6666870117187,
+          "width": 346.66668701171875
+        },
+        "viewport": 375
+      }
+    },
+    {
+      "width": 412,
+      "layout": {
+        "failedImages": [],
+        "mainButtons": [
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 170,
+            "left": 32.66666793823242,
+            "right": 193.8333396911621,
+            "width": 161.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 170,
+            "left": 202.83334350585935,
+            "right": 364.00001525878906,
+            "width": 161.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 32.66666793823242,
+            "right": 193.8333396911621,
+            "width": 161.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 184.27084350585935,
+            "left": 202.83334350585935,
+            "right": 364.00001525878906,
+            "width": 161.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 170,
+            "left": 32.66666793823242,
+            "right": 193.8333396911621,
+            "width": 161.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 170,
+            "left": 202.83334350585935,
+            "right": 364.00001525878906,
+            "width": 161.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 94.67708587646484,
+            "left": 32.66666793823242,
+            "right": 364.0000114440918,
+            "width": 331.3333435058594
+          }
+        ],
+        "modal": {
+          "buttonSizes": [
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 206.5,
+              "left": 32.66666793823242,
+              "right": 348.6666679382324,
+              "width": 316
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 205.83334350585935,
+              "left": 32.66666793823242,
+              "right": 348.6666679382324,
+              "width": 316
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 50.42708587646485,
+              "left": 32.66666793823242,
+              "right": 348.6666679382324,
+              "width": 316
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 50.42708587646485,
+              "left": 32.66666793823242,
+              "right": 348.6666679382324,
+              "width": 316
+            }
+          ],
+          "client": 715,
+          "contentWidth": 316,
+          "headingFont": "23px",
+          "height": 716,
+          "left": 12,
+          "overflowY": "auto",
+          "right": 384.6666870117187,
+          "scroll": 755,
+          "texts": [
+            {
+              "client": 316,
+              "font": "15px",
+              "scroll": 316
+            },
+            {
+              "client": 200,
+              "font": "13px",
+              "scroll": 200
+            },
+            {
+              "client": 201,
+              "font": "13px",
+              "scroll": 201
+            }
+          ],
+          "width": 372.6666870117187
+        },
+        "overflow": false,
+        "scroll": 397,
+        "stage": {
+          "height": 561.8541870117188,
+          "left": 14,
+          "right": 382.6666870117187,
+          "width": 368.6666870117187
+        },
+        "viewport": 397
+      }
+    },
+    {
+      "width": 430,
+      "layout": {
+        "failedImages": [],
+        "mainButtons": [
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 170,
+            "left": 32.66666793823242,
+            "right": 202.8333396911621,
+            "width": 170.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 170,
+            "left": 211.83334350585935,
+            "right": 382.00001525878906,
+            "width": 170.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 170,
+            "left": 32.66666793823242,
+            "right": 202.8333396911621,
+            "width": 170.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 170,
+            "left": 211.83334350585935,
+            "right": 382.00001525878906,
+            "width": 170.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 170,
+            "left": 32.66666793823242,
+            "right": 202.8333396911621,
+            "width": 170.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 170,
+            "left": 211.83334350585935,
+            "right": 382.00001525878906,
+            "width": 170.1666717529297
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 94.67708587646484,
+            "left": 32.66666793823242,
+            "right": 382.0000114440918,
+            "width": 349.3333435058594
+          }
+        ],
+        "modal": {
+          "buttonSizes": [
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 206.5,
+              "left": 32.66666793823242,
+              "right": 366.6666679382324,
+              "width": 334
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 205.83334350585935,
+              "left": 32.66666793823242,
+              "right": 366.6666679382324,
+              "width": 334
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 50.42708587646485,
+              "left": 32.66666793823242,
+              "right": 366.6666679382324,
+              "width": 334
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 50.42708587646485,
+              "left": 32.66666793823242,
+              "right": 366.6666679382324,
+              "width": 334
+            }
+          ],
+          "client": 715,
+          "contentWidth": 334,
+          "headingFont": "23px",
+          "height": 716,
+          "left": 12,
+          "overflowY": "auto",
+          "right": 402.6666870117187,
+          "scroll": 755,
+          "texts": [
+            {
+              "client": 334,
+              "font": "15px",
+              "scroll": 334
+            },
+            {
+              "client": 218,
+              "font": "13px",
+              "scroll": 218
+            },
+            {
+              "client": 219,
+              "font": "13px",
+              "scroll": 219
+            }
+          ],
+          "width": 390.6666870117187
+        },
+        "overflow": false,
+        "scroll": 415,
+        "stage": {
+          "height": 573.5729370117188,
+          "left": 14,
+          "right": 400.6666870117187,
+          "width": 386.6666870117187
+        },
+        "viewport": 415
+      }
+    }
+  ],
+  "landscape": [
+    {
+      "page": "campus-landscape",
+      "width": 844,
+      "height": 390,
+      "layout": {
+        "failedImages": [],
+        "mainButtons": [
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 42.66666793823242,
+            "right": 409.8333549499512,
+            "width": 367.1666870117187
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 418.8333435058594,
+            "right": 786.0000305175781,
+            "width": 367.1666870117187
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 42.66666793823242,
+            "right": 409.8333549499512,
+            "width": 367.1666870117187
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 418.8333435058594,
+            "right": 786.0000305175781,
+            "width": 367.1666870117187
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 42.66666793823242,
+            "right": 409.8333549499512,
+            "width": 367.1666870117187
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 418.8333435058594,
+            "right": 786.0000305175781,
+            "width": 367.1666870117187
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 42.66666793823242,
+            "right": 786.0000419616699,
+            "width": 743.3333740234375
+          }
+        ],
+        "modal": null,
+        "overflow": false,
+        "scroll": 829,
+        "stage": {
+          "height": 686.1875,
+          "left": 294,
+          "right": 804.6666870117188,
+          "width": 510.6666870117187
+        },
+        "viewport": 829
+      }
+    },
+    {
+      "page": "npc-landscape",
+      "width": 844,
+      "height": 390,
+      "layout": {
+        "failedImages": [],
+        "mainButtons": [
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 42.66666793823242,
+            "right": 409.8333549499512,
+            "width": 367.1666870117187
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 418.8333435058594,
+            "right": 786.0000305175781,
+            "width": 367.1666870117187
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 42.66666793823242,
+            "right": 409.8333549499512,
+            "width": 367.1666870117187
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 418.8333435058594,
+            "right": 786.0000305175781,
+            "width": 367.1666870117187
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 42.66666793823242,
+            "right": 409.8333549499512,
+            "width": 367.1666870117187
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 418.8333435058594,
+            "right": 786.0000305175781,
+            "width": 367.1666870117187
+          },
+          {
+            "disabled": false,
+            "font": "14px",
+            "height": 75.78125,
+            "left": 42.66666793823242,
+            "right": 786.0000419616699,
+            "width": 743.3333740234375
+          }
+        ],
+        "modal": {
+          "buttonSizes": [
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 86.68001556396484,
+              "left": 144.114990234375,
+              "right": 400.8716735839844,
+              "width": 256.7566833496094
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 86.68001556396484,
+              "left": 412.691650390625,
+              "right": 669.4483337402344,
+              "width": 256.7566833496094
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 86.67999267578125,
+              "left": 144.114990234375,
+              "right": 400.8716735839844,
+              "width": 256.7566833496094
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 86.67999267578125,
+              "left": 412.691650390625,
+              "right": 669.4483337402344,
+              "width": 256.7566833496094
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 91.87178802490234,
+              "left": 144.114990234375,
+              "right": 400.8716735839844,
+              "width": 256.7566833496094
+            },
+            {
+              "disabled": false,
+              "font": "14px",
+              "height": 91.87178802490234,
+              "left": 412.691650390625,
+              "right": 669.4483337402344,
+              "width": 256.7566833496094
+            },
+            {
+              "disabled": false,
+              "font": "13px",
+              "height": 48.049522399902344,
+              "left": 144.114990234375,
+              "right": 669.4483642578125,
+              "width": 525.3333740234375
+            }
+          ],
+          "client": 365,
+          "contentWidth": 533,
+          "headingFont": "26px",
+          "height": 360.510009765625,
+          "left": 113.9083251953125,
+          "overflowY": "auto",
+          "right": 714.75830078125,
+          "scroll": 612,
+          "texts": [
+            {
+              "client": 533,
+              "font": "14px",
+              "scroll": 533
+            },
+            {
+              "client": 533,
+              "font": "13px",
+              "scroll": 533
+            }
+          ],
+          "width": 600.8499755859375
+        },
+        "overflow": false,
+        "scroll": 829,
+        "stage": {
+          "height": 686.1875,
+          "left": 294,
+          "right": 804.6666870117188,
+          "width": 510.6666870117187
+        },
+        "viewport": 829
+      }
+    }
+  ],
+  "before": {
+    "money": "¥ 880",
+    "stats": [
+      [
+        "学业",
+        "55"
+      ],
+      [
+        "专业技能",
+        "20"
+      ],
+      [
+        "社交",
+        "60"
+      ],
+      [
+        "健康",
+        "100"
+      ],
+      [
+        "心情",
+        "100"
+      ]
+    ],
+    "term": "大一 · 第二学期"
+  },
+  "after": {
+    "money": "¥ 880",
+    "stats": [
+      [
+        "学业",
+        "55"
+      ],
+      [
+        "专业技能",
+        "20"
+      ],
+      [
+        "社交",
+        "60"
+      ],
+      [
+        "健康",
+        "100"
+      ],
+      [
+        "心情",
+        "100"
+      ]
+    ],
+    "term": "大一 · 第二学期"
+  },
+  "listBefore": [
+    "知夏林知夏同级学霸 · 尚未相识12 / 100",
+    "沈砚沈砚技术社骨干 · 尚未相识8 / 100",
+    "程乐程乐室友 · 认识32 / 100",
+    "南乔许南乔创业社负责人 · 尚未相识5 / 100",
+    "清禾顾清禾摄影爱好者 · 尚未相识10 / 100",
+    "老师周老师专业指导教师 · 尚未相识15 / 100"
+  ],
+  "listAfter": [
+    "知夏林知夏同级学霸 · 尚未相识12 / 100",
+    "沈砚沈砚技术社骨干 · 尚未相识8 / 100",
+    "程乐程乐室友 · 认识32 / 100",
+    "南乔许南乔创业社负责人 · 尚未相识5 / 100",
+    "清禾顾清禾摄影爱好者 · 尚未相识10 / 100",
+    "老师周老师专业指导教师 · 尚未相识15 / 100"
+  ],
+  "console": []
+}

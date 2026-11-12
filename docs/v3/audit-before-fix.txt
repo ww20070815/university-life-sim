@@ -1,0 +1,105 @@
+✔ 六位成年虚构人物有独立背景、地点、五章设计和教师排除恋爱 (0.6621ms)
+✔ 每回合全体人物合计一次奖励，浏览不消费，主属性与回合不被关系函数修改 (0.412ms)
+✔ 合作需已有相关行动；待选事件、学期总结和毕业不可额外刷关系 (0.3587ms)
+✔ 32 回合高关系路线可达上限但不越界，原八结局与核心进度不受影响 (2.6054ms)
+✔ 旧档首次读取和关系互动只写扩展；刷新保留选择与预算 (0.4053ms)
+✔ 核心保存双锚点：事件中断和最后扩展写入失败仍可恢复同一人物记录 (0.2645ms)
+✔ 不同局/坏数据隔离，重建必须显式调用且保留旧扩展，不清除核心档 (0.2712ms)
+✔ 新游戏明确重置关系与局次，禁止继承上一局互动；存储禁用不崩溃 (0.2174ms)
+✔ 损坏数值、乱序互动、伪造奖励、未来回合不能加载 (0.2468ms)
+✖ 两个页面共享同回合交流预算，后点击不能覆盖先前人物记录 (0.6478ms)
+✖ 另一页面保存主要行动时合并最新关系，不抹掉已经领取的交流 (0.2685ms)
+✖ 过期页面不能覆盖另一个页面推进后的核心档或新局扩展 (0.3028ms)
+✔ 存档在另一个页面被删除或损坏时，旧页面不重新写回关系 (0.1588ms)
+✖ 六位人物的三类互动、饱和上限与快速重复点击逐一验证 (5.6571ms)
+ℹ tests 14
+ℹ suites 0
+ℹ pass 10
+ℹ fail 4
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 77.7235
+
+✖ failing tests:
+
+test at tests\relationships.test.cjs:15:1
+✖ 两个页面共享同回合交流预算，后点击不能覆盖先前人物记录 (0.6478ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  true !== false
+  
+      at TestContext.<anonymous> (D:\大学生生存模拟器\tests\relationships.test.cjs:19:5)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: true,
+    expected: false,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\relationships.test.cjs:23:1
+✖ 另一页面保存主要行动时合并最新关系，不抹掉已经领取的交流 (0.2685ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  10 !== 15
+  
+      at TestContext.<anonymous> (D:\大学生生存模拟器\tests\relationships.test.cjs:28:45)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 10,
+    expected: 15,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests\relationships.test.cjs:30:1
+✖ 过期页面不能覆盖另一个页面推进后的核心档或新局扩展 (0.3028ms)
+  AssertionError [ERR_ASSERTION]: Missing expected exception.
+      at TestContext.<anonymous> (D:\大学生生存模拟器\tests\relationships.test.cjs:38:7)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: undefined,
+    expected: undefined,
+    operator: 'throws',
+    diff: 'simple'
+  }
+
+test at tests\relationships.test.cjs:50:1
+✖ 六位人物的三类互动、饱和上限与快速重复点击逐一验证 (5.6571ms)
+  AssertionError [ERR_ASSERTION]: The expression evaluated to a falsy value:
+  
+    a.ok(result.ok)
+  
+      at TestContext.<anonymous> (D:\大学生生存模拟器\tests\relationships.test.cjs:55:52)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1402:25)
+      at Test.processPendingSubtests (node:internal/test_runner/test:974:18)
+      at Test.postRun (node:internal/test_runner/test:1542:19)
+      at Test.run (node:internal/test_runner/test:1467:12)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:974:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: false,
+    expected: true,
+    operator: '==',
+    diff: 'simple'
+  }

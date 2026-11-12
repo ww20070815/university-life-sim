@@ -1,0 +1,38 @@
+[
+  {
+    "id": "campus",
+    "title": "校园午后",
+    "bpm": 76,
+    "seconds": 50.53,
+    "bytes": 2228254,
+    "peak": 0.181,
+    "format": "PCM WAV, mono, 22050 Hz, 16-bit"
+  },
+  {
+    "id": "library",
+    "title": "书页与阳光",
+    "bpm": 68,
+    "seconds": 56.47,
+    "bytes": 2490396,
+    "peak": 0.148,
+    "format": "PCM WAV, mono, 22050 Hz, 16-bit"
+  },
+  {
+    "id": "story",
+    "title": "晚风正好",
+    "bpm": 72,
+    "seconds": 53.33,
+    "bytes": 2352044,
+    "peak": 0.173,
+    "format": "PCM WAV, mono, 22050 Hz, 16-bit"
+  },
+  {
+    "id": "graduation",
+    "title": "未完的夏天",
+    "bpm": 74,
+    "seconds": 51.89,
+    "bytes": 2288476,
+    "peak": 0.181,
+    "format": "PCM WAV, mono, 22050 Hz, 16-bit"
+  }
+]

@@ -1,0 +1,5228 @@
+{
+  "before": [
+    {
+      "client": 305,
+      "homePeopleButtonsOverlap": 99.80206298828124,
+      "scroll": 305,
+      "topButtons": [
+        {
+          "font": "9px",
+          "height": 32,
+          "text": "动画：开启"
+        },
+        {
+          "font": "9px",
+          "height": 32,
+          "text": "新的一局"
+        },
+        {
+          "font": "9px",
+          "height": 32,
+          "text": "清除存档"
+        }
+      ],
+      "width": 320
+    },
+    {
+      "client": 345,
+      "homePeopleButtonsOverlap": 99.80206298828124,
+      "scroll": 345,
+      "topButtons": [
+        {
+          "font": "10px",
+          "height": 32,
+          "text": "动画：开启"
+        },
+        {
+          "font": "10px",
+          "height": 32,
+          "text": "新的一局"
+        },
+        {
+          "font": "10px",
+          "height": 32,
+          "text": "清除存档"
+        }
+      ],
+      "width": 360
+    },
+    {
+      "client": 360,
+      "homePeopleButtonsOverlap": 99.80206298828124,
+      "scroll": 360,
+      "topButtons": [
+        {
+          "font": "10px",
+          "height": 32,
+          "text": "动画：开启"
+        },
+        {
+          "font": "10px",
+          "height": 32,
+          "text": "新的一局"
+        },
+        {
+          "font": "10px",
+          "height": 32,
+          "text": "清除存档"
+        }
+      ],
+      "width": 375
+    },
+    {
+      "client": 375,
+      "homePeopleButtonsOverlap": 99.80206298828124,
+      "scroll": 375,
+      "topButtons": [
+        {
+          "font": "10px",
+          "height": 32,
+          "text": "动画：开启"
+        },
+        {
+          "font": "10px",
+          "height": 32,
+          "text": "新的一局"
+        },
+        {
+          "font": "10px",
+          "height": 32,
+          "text": "清除存档"
+        }
+      ],
+      "width": 390
+    },
+    {
+      "client": 397,
+      "homePeopleButtonsOverlap": 99.80206298828124,
+      "scroll": 397,
+      "topButtons": [
+        {
+          "font": "10px",
+          "height": 32,
+          "text": "动画：开启"
+        },
+        {
+          "font": "10px",
+          "height": 32,
+          "text": "新的一局"
+        },
+        {
+          "font": "10px",
+          "height": 32,
+          "text": "清除存档"
+        }
+      ],
+      "width": 412
+    },
+    {
+      "client": 415,
+      "homePeopleButtonsOverlap": 99.80206298828124,
+      "scroll": 415,
+      "topButtons": [
+        {
+          "font": "10px",
+          "height": 32,
+          "text": "动画：开启"
+        },
+        {
+          "font": "10px",
+          "height": 32,
+          "text": "新的一局"
+        },
+        {
+          "font": "10px",
+          "height": 32,
+          "text": "清除存档"
+        }
+      ],
+      "width": 430
+    }
+  ],
+  "events": [
+    {
+      "actors": [
+        {
+          "character": "female",
+          "inside": true,
+          "ratio": 0.4461069096634848,
+          "selector": ".main-actor"
+        },
+        {
+          "character": "female",
+          "inside": true,
+          "ratio": 0.4460825973008857,
+          "selector": ".story-art .actor"
+        }
+      ],
+      "buttons": [
+        {
+          "clipped": false,
+          "font": "19px",
+          "height": 47.84375,
+          "label": "四大学四年青春没有标准答案"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "动画：开启"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "新的一局"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "清除存档"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "玩法与毕业方向 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "更换人物形象 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 292.5,
+          "label": ""
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 206.46875,
+          "label": "▤认真学习图书馆的灯，为你亮着学业 +9  专业技能 +1  健"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 206.46875,
+          "label": "⌘技能训练把想法变成真正的作品专业技能 +10  学业 +1  "
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 206.46875,
+          "label": "♧社交活动和有趣的人，交换日常社交 +10  心情 +5  金钱"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 206.46875,
+          "label": "¥校园兼职用自己的努力，赚一点底气金钱 +360元  社交 +2"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "↗健身运动去操场，和晚风跑个满怀健康 +13  心情 +6"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "♫娱乐放松今天也要给快乐留点位置心情 +15  学业 -3  金"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 94.67708587646484,
+          "label": "☾好好休息充满电，明天再出发健康 +11  心情 +9"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 73.10551452636719,
+          "label": "集中复习，查漏补缺学业 +6 · 健康 -4 · 心情 -3"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 73.10546875,
+          "label": "按计划复习，保证睡眠学业 +3 · 健康 +3 · 心情 +2"
+        }
+      ],
+      "client": 305,
+      "fonts": {
+        ".action strong": "15px",
+        ".effect-preview": "12px",
+        ".stage-dialogue p": "15px",
+        ".stat-line": "14px"
+      },
+      "game": true,
+      "home": false,
+      "homePeopleButtonsOverlap": null,
+      "mainActorDialogueOverlap": 0,
+      "modal": {
+        "bottom": 623.3800048828125,
+        "client": 264,
+        "height": 606.760009765625,
+        "scroll": 264,
+        "scrollable": true,
+        "top": 16.6199951171875
+      },
+      "sceneBackground": "cover, cover",
+      "scroll": 305,
+      "storyBackground": "cover, cover",
+      "width": 320
+    },
+    {
+      "actors": [
+        {
+          "character": "female",
+          "inside": true,
+          "ratio": 0.4460868865602205,
+          "selector": ".main-actor"
+        },
+        {
+          "character": "female",
+          "inside": true,
+          "ratio": 0.4460825515115872,
+          "selector": ".story-art .actor"
+        }
+      ],
+      "buttons": [
+        {
+          "clipped": false,
+          "font": "19px",
+          "height": 47.84375,
+          "label": "四大学四年青春没有标准答案"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "动画：开启"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "新的一局"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "清除存档"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "玩法与毕业方向 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "更换人物形象 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 324,
+          "label": ""
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.270751953125,
+          "label": "▤认真学习图书馆的灯，为你亮着学业 +9  专业技能 +1  健"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.270751953125,
+          "label": "⌘技能训练把想法变成真正的作品专业技能 +10  学业 +1  "
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "♧社交活动和有趣的人，交换日常社交 +10  心情 +5  金钱"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "¥校园兼职用自己的努力，赚一点底气金钱 +360元  社交 +2"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "↗健身运动去操场，和晚风跑个满怀健康 +13  心情 +6"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "♫娱乐放松今天也要给快乐留点位置心情 +15  学业 -3  金"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 94.67708587646484,
+          "label": "☾好好休息充满电，明天再出发健康 +11  心情 +9"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 73.10551452636719,
+          "label": "集中复习，查漏补缺学业 +6 · 健康 -4 · 心情 -3"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 73.10546875,
+          "label": "按计划复习，保证睡眠学业 +3 · 健康 +3 · 心情 +2"
+        }
+      ],
+      "client": 345,
+      "fonts": {
+        ".action strong": "15px",
+        ".effect-preview": "12px",
+        ".stage-dialogue p": "15px",
+        ".stat-line": "14px"
+      },
+      "game": true,
+      "home": false,
+      "homePeopleButtonsOverlap": null,
+      "mainActorDialogueOverlap": 0,
+      "modal": {
+        "bottom": 623.3800048828125,
+        "client": 304,
+        "height": 606.760009765625,
+        "scroll": 304,
+        "scrollable": true,
+        "top": 16.6199951171875
+      },
+      "sceneBackground": "cover, cover",
+      "scroll": 345,
+      "storyBackground": "cover, cover",
+      "width": 360
+    },
+    {
+      "actors": [
+        {
+          "character": "female",
+          "inside": true,
+          "ratio": 0.44606904831985167,
+          "selector": ".main-actor"
+        },
+        {
+          "character": "female",
+          "inside": true,
+          "ratio": 0.4460826430901842,
+          "selector": ".story-art .actor"
+        }
+      ],
+      "buttons": [
+        {
+          "clipped": false,
+          "font": "19px",
+          "height": 47.84375,
+          "label": "四大学四年青春没有标准答案"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "动画：开启"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "新的一局"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "清除存档"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "玩法与毕业方向 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "更换人物形象 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 337.78131103515625,
+          "label": ""
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "▤认真学习图书馆的灯，为你亮着学业 +9  专业技能 +1  健"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "⌘技能训练把想法变成真正的作品专业技能 +10  学业 +1  "
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "♧社交活动和有趣的人，交换日常社交 +10  心情 +5  金钱"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "¥校园兼职用自己的努力，赚一点底气金钱 +360元  社交 +2"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "↗健身运动去操场，和晚风跑个满怀健康 +13  心情 +6"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "♫娱乐放松今天也要给快乐留点位置心情 +15  学业 -3  金"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 94.67708587646484,
+          "label": "☾好好休息充满电，明天再出发健康 +11  心情 +9"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 73.10551452636719,
+          "label": "集中复习，查漏补缺学业 +6 · 健康 -4 · 心情 -3"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 73.10546875,
+          "label": "按计划复习，保证睡眠学业 +3 · 健康 +3 · 心情 +2"
+        }
+      ],
+      "client": 360,
+      "fonts": {
+        ".action strong": "15px",
+        ".effect-preview": "12px",
+        ".stage-dialogue p": "15px",
+        ".stat-line": "14px"
+      },
+      "game": true,
+      "home": false,
+      "homePeopleButtonsOverlap": null,
+      "mainActorDialogueOverlap": 0,
+      "modal": {
+        "bottom": 623.3800048828125,
+        "client": 319,
+        "height": 606.760009765625,
+        "scroll": 319,
+        "scrollable": true,
+        "top": 16.6199951171875
+      },
+      "sceneBackground": "cover, cover",
+      "scroll": 360,
+      "storyBackground": "cover, cover",
+      "width": 375
+    },
+    {
+      "actors": [
+        {
+          "character": "female",
+          "inside": true,
+          "ratio": 0.4460474353275043,
+          "selector": ".main-actor"
+        },
+        {
+          "character": "female",
+          "inside": true,
+          "ratio": 0.4460826430901842,
+          "selector": ".story-art .actor"
+        }
+      ],
+      "buttons": [
+        {
+          "clipped": false,
+          "font": "19px",
+          "height": 47.84375,
+          "label": "四大学四年青春没有标准答案"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "动画：开启"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "新的一局"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "清除存档"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "玩法与毕业方向 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "更换人物形象 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 351,
+          "label": ""
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "▤认真学习图书馆的灯，为你亮着学业 +9  专业技能 +1  健"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "⌘技能训练把想法变成真正的作品专业技能 +10  学业 +1  "
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "♧社交活动和有趣的人，交换日常社交 +10  心情 +5  金钱"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "¥校园兼职用自己的努力，赚一点底气金钱 +360元  社交 +2"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "↗健身运动去操场，和晚风跑个满怀健康 +13  心情 +6"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "♫娱乐放松今天也要给快乐留点位置心情 +15  学业 -3  金"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 94.67708587646484,
+          "label": "☾好好休息充满电，明天再出发健康 +11  心情 +9"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 73.10546875,
+          "label": "集中复习，查漏补缺学业 +6 · 健康 -4 · 心情 -3"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 73.10546875,
+          "label": "按计划复习，保证睡眠学业 +3 · 健康 +3 · 心情 +2"
+        }
+      ],
+      "client": 375,
+      "fonts": {
+        ".action strong": "15px",
+        ".effect-preview": "12px",
+        ".stage-dialogue p": "15px",
+        ".stat-line": "14px"
+      },
+      "game": true,
+      "home": false,
+      "homePeopleButtonsOverlap": null,
+      "mainActorDialogueOverlap": 0,
+      "modal": {
+        "bottom": 603.9262084960938,
+        "client": 349,
+        "height": 567.86279296875,
+        "scroll": 349,
+        "scrollable": false,
+        "top": 36.06341552734375
+      },
+      "sceneBackground": "cover, cover",
+      "scroll": 375,
+      "storyBackground": "cover, cover",
+      "width": 390
+    },
+    {
+      "actors": [
+        {
+          "character": "female",
+          "inside": true,
+          "ratio": 0.44602232876633485,
+          "selector": ".main-actor"
+        },
+        {
+          "character": "female",
+          "inside": true,
+          "ratio": 0.4460825515115872,
+          "selector": ".story-art .actor"
+        }
+      ],
+      "buttons": [
+        {
+          "clipped": false,
+          "font": "19px",
+          "height": 47.84375,
+          "label": "四大学四年青春没有标准答案"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "动画：开启"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "新的一局"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "清除存档"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "玩法与毕业方向 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "更换人物形象 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 370.78131103515625,
+          "label": ""
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "▤认真学习图书馆的灯，为你亮着学业 +9  专业技能 +1  健"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "⌘技能训练把想法变成真正的作品专业技能 +10  学业 +1  "
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "♧社交活动和有趣的人，交换日常社交 +10  心情 +5  金钱"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "¥校园兼职用自己的努力，赚一点底气金钱 +360元  社交 +2"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "↗健身运动去操场，和晚风跑个满怀健康 +13  心情 +6"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "♫娱乐放松今天也要给快乐留点位置心情 +15  学业 -3  金"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 94.67708587646484,
+          "label": "☾好好休息充满电，明天再出发健康 +11  心情 +9"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 73.10546875,
+          "label": "集中复习，查漏补缺学业 +6 · 健康 -4 · 心情 -3"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 73.10546875,
+          "label": "按计划复习，保证睡眠学业 +3 · 健康 +3 · 心情 +2"
+        }
+      ],
+      "client": 397,
+      "fonts": {
+        ".action strong": "15px",
+        ".effect-preview": "12px",
+        ".stage-dialogue p": "15px",
+        ".stat-line": "14px"
+      },
+      "game": true,
+      "home": false,
+      "homePeopleButtonsOverlap": null,
+      "mainActorDialogueOverlap": 0,
+      "modal": {
+        "bottom": 603.9262084960938,
+        "client": 371,
+        "height": 567.86279296875,
+        "scroll": 371,
+        "scrollable": false,
+        "top": 36.06341552734375
+      },
+      "sceneBackground": "cover, cover",
+      "scroll": 397,
+      "storyBackground": "cover, cover",
+      "width": 412
+    },
+    {
+      "actors": [
+        {
+          "character": "female",
+          "inside": true,
+          "ratio": 0.4459934082140998,
+          "selector": ".main-actor"
+        },
+        {
+          "character": "female",
+          "inside": true,
+          "ratio": 0.4460826430901842,
+          "selector": ".story-art .actor"
+        }
+      ],
+      "buttons": [
+        {
+          "clipped": false,
+          "font": "19px",
+          "height": 47.84375,
+          "label": "四大学四年青春没有标准答案"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "动画：开启"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "新的一局"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "清除存档"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "玩法与毕业方向 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "更换人物形象 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 382.5,
+          "label": ""
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170.00009155273438,
+          "label": "▤认真学习图书馆的灯，为你亮着学业 +9  专业技能 +1  健"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170.00009155273438,
+          "label": "⌘技能训练把想法变成真正的作品专业技能 +10  学业 +1  "
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "♧社交活动和有趣的人，交换日常社交 +10  心情 +5  金钱"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "¥校园兼职用自己的努力，赚一点底气金钱 +360元  社交 +2"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "↗健身运动去操场，和晚风跑个满怀健康 +13  心情 +6"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "♫娱乐放松今天也要给快乐留点位置心情 +15  学业 -3  金"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 94.67708587646484,
+          "label": "☾好好休息充满电，明天再出发健康 +11  心情 +9"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 73.10546875,
+          "label": "集中复习，查漏补缺学业 +6 · 健康 -4 · 心情 -3"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 73.10546875,
+          "label": "按计划复习，保证睡眠学业 +3 · 健康 +3 · 心情 +2"
+        }
+      ],
+      "client": 415,
+      "fonts": {
+        ".action strong": "15px",
+        ".effect-preview": "12px",
+        ".stage-dialogue p": "15px",
+        ".stat-line": "14px"
+      },
+      "game": true,
+      "home": false,
+      "homePeopleButtonsOverlap": null,
+      "mainActorDialogueOverlap": 0,
+      "modal": {
+        "bottom": 603.9262084960938,
+        "client": 389,
+        "height": 567.86279296875,
+        "scroll": 389,
+        "scrollable": false,
+        "top": 36.06341552734375
+      },
+      "sceneBackground": "cover, cover",
+      "scroll": 415,
+      "storyBackground": "cover, cover",
+      "width": 430
+    }
+  ],
+  "roles": [
+    {
+      "actors": [
+        {
+          "character": "male",
+          "inside": true,
+          "ratio": 0.4444444444444444,
+          "selector": ".main-actor"
+        },
+        {
+          "character": "male",
+          "inside": true,
+          "ratio": 0.4444444444444444,
+          "selector": ".character-card .actor"
+        },
+        {
+          "character": "female",
+          "inside": true,
+          "ratio": 0.4444444444444444,
+          "selector": ".character-card .actor"
+        }
+      ],
+      "buttons": [
+        {
+          "clipped": false,
+          "font": "19px",
+          "height": 47.84375,
+          "label": "四大学四年青春没有标准答案"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "动画：关闭"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "新的一局"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "清除存档"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "玩法与毕业方向 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "更换人物形象 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 292.5,
+          "label": ""
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 206.46875,
+          "label": "▤认真学习图书馆的灯，为你亮着学业 +9  专业技能 +1  健"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 206.46875,
+          "label": "⌘技能训练把想法变成真正的作品专业技能 +10  学业 +1  "
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 206.46875,
+          "label": "♧社交活动和有趣的人，交换日常社交 +10  心情 +5  金钱"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 206.46875,
+          "label": "¥校园兼职用自己的努力，赚一点底气金钱 +360元  社交 +2"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "↗健身运动去操场，和晚风跑个满怀健康 +13  心情 +6"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "♫娱乐放松今天也要给快乐留点位置心情 +15  学业 -3  金"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 94.67708587646484,
+          "label": "☾好好休息充满电，明天再出发健康 +11  心情 +9"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 206.5,
+          "label": "男主角 · 向光而行清爽，坚定，沉稳。把热爱藏进日常，用自己的节"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 205.83334350585935,
+          "label": "女主角 · 自有锋芒明亮，独立，自信。温柔也有力量，始终掌握自己"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 50.42708587646485,
+          "label": "确认形象，继续旅程 →"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 50.42708587646485,
+          "label": "保留原来的形象"
+        }
+      ],
+      "client": 305,
+      "fonts": {
+        ".action strong": "15px",
+        ".effect-preview": "12px",
+        ".stage-dialogue p": "15px",
+        ".stat-line": "14px"
+      },
+      "game": true,
+      "home": false,
+      "homePeopleButtonsOverlap": null,
+      "mainActorDialogueOverlap": 0,
+      "modal": {
+        "bottom": 628,
+        "client": 264,
+        "height": 616,
+        "scroll": 264,
+        "scrollable": true,
+        "top": 12
+      },
+      "sceneBackground": "cover, cover",
+      "scroll": 305,
+      "storyBackground": null,
+      "width": 320
+    },
+    {
+      "actors": [
+        {
+          "character": "male",
+          "inside": true,
+          "ratio": 0.4444444444444444,
+          "selector": ".main-actor"
+        },
+        {
+          "character": "male",
+          "inside": true,
+          "ratio": 0.4444444444444444,
+          "selector": ".character-card .actor"
+        },
+        {
+          "character": "female",
+          "inside": true,
+          "ratio": 0.4444444444444444,
+          "selector": ".character-card .actor"
+        }
+      ],
+      "buttons": [
+        {
+          "clipped": false,
+          "font": "19px",
+          "height": 47.84375,
+          "label": "四大学四年青春没有标准答案"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "动画：关闭"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "新的一局"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "清除存档"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "玩法与毕业方向 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "更换人物形象 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 324,
+          "label": ""
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "▤认真学习图书馆的灯，为你亮着学业 +9  专业技能 +1  健"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "⌘技能训练把想法变成真正的作品专业技能 +10  学业 +1  "
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "♧社交活动和有趣的人，交换日常社交 +10  心情 +5  金钱"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "¥校园兼职用自己的努力，赚一点底气金钱 +360元  社交 +2"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "↗健身运动去操场，和晚风跑个满怀健康 +13  心情 +6"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "♫娱乐放松今天也要给快乐留点位置心情 +15  学业 -3  金"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 94.67708587646484,
+          "label": "☾好好休息充满电，明天再出发健康 +11  心情 +9"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 206.5,
+          "label": "男主角 · 向光而行清爽，坚定，沉稳。把热爱藏进日常，用自己的节"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 205.83334350585935,
+          "label": "女主角 · 自有锋芒明亮，独立，自信。温柔也有力量，始终掌握自己"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 50.42708587646485,
+          "label": "确认形象，继续旅程 →"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 50.42708587646485,
+          "label": "保留原来的形象"
+        }
+      ],
+      "client": 345,
+      "fonts": {
+        ".action strong": "15px",
+        ".effect-preview": "12px",
+        ".stage-dialogue p": "15px",
+        ".stat-line": "14px"
+      },
+      "game": true,
+      "home": false,
+      "homePeopleButtonsOverlap": null,
+      "mainActorDialogueOverlap": 0,
+      "modal": {
+        "bottom": 628,
+        "client": 304,
+        "height": 616,
+        "scroll": 304,
+        "scrollable": true,
+        "top": 12
+      },
+      "sceneBackground": "cover, cover",
+      "scroll": 345,
+      "storyBackground": null,
+      "width": 360
+    },
+    {
+      "actors": [
+        {
+          "character": "male",
+          "inside": true,
+          "ratio": 0.4444444444444444,
+          "selector": ".main-actor"
+        },
+        {
+          "character": "male",
+          "inside": true,
+          "ratio": 0.4444444444444444,
+          "selector": ".character-card .actor"
+        },
+        {
+          "character": "female",
+          "inside": true,
+          "ratio": 0.4444444444444444,
+          "selector": ".character-card .actor"
+        }
+      ],
+      "buttons": [
+        {
+          "clipped": false,
+          "font": "19px",
+          "height": 47.84375,
+          "label": "四大学四年青春没有标准答案"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "动画：关闭"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "新的一局"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "清除存档"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "玩法与毕业方向 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "更换人物形象 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 337.78125,
+          "label": ""
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "▤认真学习图书馆的灯，为你亮着学业 +9  专业技能 +1  健"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "⌘技能训练把想法变成真正的作品专业技能 +10  学业 +1  "
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "♧社交活动和有趣的人，交换日常社交 +10  心情 +5  金钱"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "¥校园兼职用自己的努力，赚一点底气金钱 +360元  社交 +2"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "↗健身运动去操场，和晚风跑个满怀健康 +13  心情 +6"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "♫娱乐放松今天也要给快乐留点位置心情 +15  学业 -3  金"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 94.67708587646484,
+          "label": "☾好好休息充满电，明天再出发健康 +11  心情 +9"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 206.5,
+          "label": "男主角 · 向光而行清爽，坚定，沉稳。把热爱藏进日常，用自己的节"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 205.83334350585935,
+          "label": "女主角 · 自有锋芒明亮，独立，自信。温柔也有力量，始终掌握自己"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 50.42708587646485,
+          "label": "确认形象，继续旅程 →"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 50.42708587646485,
+          "label": "保留原来的形象"
+        }
+      ],
+      "client": 360,
+      "fonts": {
+        ".action strong": "15px",
+        ".effect-preview": "12px",
+        ".stage-dialogue p": "15px",
+        ".stat-line": "14px"
+      },
+      "game": true,
+      "home": false,
+      "homePeopleButtonsOverlap": null,
+      "mainActorDialogueOverlap": 0,
+      "modal": {
+        "bottom": 628,
+        "client": 319,
+        "height": 616,
+        "scroll": 319,
+        "scrollable": true,
+        "top": 12
+      },
+      "sceneBackground": "cover, cover",
+      "scroll": 360,
+      "storyBackground": null,
+      "width": 375
+    },
+    {
+      "actors": [
+        {
+          "character": "male",
+          "inside": true,
+          "ratio": 0.4444444444444444,
+          "selector": ".main-actor"
+        },
+        {
+          "character": "male",
+          "inside": true,
+          "ratio": 0.4444444444444444,
+          "selector": ".character-card .actor"
+        },
+        {
+          "character": "female",
+          "inside": true,
+          "ratio": 0.4444444444444444,
+          "selector": ".character-card .actor"
+        }
+      ],
+      "buttons": [
+        {
+          "clipped": false,
+          "font": "19px",
+          "height": 47.84375,
+          "label": "四大学四年青春没有标准答案"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "动画：关闭"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "新的一局"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "清除存档"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "玩法与毕业方向 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "更换人物形象 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 351,
+          "label": ""
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "▤认真学习图书馆的灯，为你亮着学业 +9  专业技能 +1  健"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "⌘技能训练把想法变成真正的作品专业技能 +10  学业 +1  "
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "♧社交活动和有趣的人，交换日常社交 +10  心情 +5  金钱"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "¥校园兼职用自己的努力，赚一点底气金钱 +360元  社交 +2"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "↗健身运动去操场，和晚风跑个满怀健康 +13  心情 +6"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "♫娱乐放松今天也要给快乐留点位置心情 +15  学业 -3  金"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 94.67708587646484,
+          "label": "☾好好休息充满电，明天再出发健康 +11  心情 +9"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 206.5,
+          "label": "男主角 · 向光而行清爽，坚定，沉稳。把热爱藏进日常，用自己的节"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 205.83334350585935,
+          "label": "女主角 · 自有锋芒明亮，独立，自信。温柔也有力量，始终掌握自己"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 50.42708587646485,
+          "label": "确认形象，继续旅程 →"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 50.42708587646485,
+          "label": "保留原来的形象"
+        }
+      ],
+      "client": 375,
+      "fonts": {
+        ".action strong": "15px",
+        ".effect-preview": "12px",
+        ".stage-dialogue p": "15px",
+        ".stat-line": "14px"
+      },
+      "game": true,
+      "home": false,
+      "homePeopleButtonsOverlap": null,
+      "mainActorDialogueOverlap": 0,
+      "modal": {
+        "bottom": 628,
+        "client": 334,
+        "height": 616,
+        "scroll": 334,
+        "scrollable": true,
+        "top": 12
+      },
+      "sceneBackground": "cover, cover",
+      "scroll": 375,
+      "storyBackground": null,
+      "width": 390
+    },
+    {
+      "actors": [
+        {
+          "character": "male",
+          "inside": true,
+          "ratio": 0.4444444581621365,
+          "selector": ".main-actor"
+        },
+        {
+          "character": "male",
+          "inside": true,
+          "ratio": 0.4444444444444444,
+          "selector": ".character-card .actor"
+        },
+        {
+          "character": "female",
+          "inside": true,
+          "ratio": 0.4444444444444444,
+          "selector": ".character-card .actor"
+        }
+      ],
+      "buttons": [
+        {
+          "clipped": false,
+          "font": "19px",
+          "height": 47.84375,
+          "label": "四大学四年青春没有标准答案"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "动画：关闭"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "新的一局"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "清除存档"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "玩法与毕业方向 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "更换人物形象 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 370.78125,
+          "label": ""
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "▤认真学习图书馆的灯，为你亮着学业 +9  专业技能 +1  健"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "⌘技能训练把想法变成真正的作品专业技能 +10  学业 +1  "
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "♧社交活动和有趣的人，交换日常社交 +10  心情 +5  金钱"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "¥校园兼职用自己的努力，赚一点底气金钱 +360元  社交 +2"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "↗健身运动去操场，和晚风跑个满怀健康 +13  心情 +6"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "♫娱乐放松今天也要给快乐留点位置心情 +15  学业 -3  金"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 94.67708587646484,
+          "label": "☾好好休息充满电，明天再出发健康 +11  心情 +9"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 206.5,
+          "label": "男主角 · 向光而行清爽，坚定，沉稳。把热爱藏进日常，用自己的节"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 205.83334350585935,
+          "label": "女主角 · 自有锋芒明亮，独立，自信。温柔也有力量，始终掌握自己"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 50.42708587646485,
+          "label": "确认形象，继续旅程 →"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 50.42708587646485,
+          "label": "保留原来的形象"
+        }
+      ],
+      "client": 397,
+      "fonts": {
+        ".action strong": "15px",
+        ".effect-preview": "12px",
+        ".stage-dialogue p": "15px",
+        ".stat-line": "14px"
+      },
+      "game": true,
+      "home": false,
+      "homePeopleButtonsOverlap": null,
+      "mainActorDialogueOverlap": 0,
+      "modal": {
+        "bottom": 628,
+        "client": 356,
+        "height": 616,
+        "scroll": 356,
+        "scrollable": true,
+        "top": 12
+      },
+      "sceneBackground": "cover, cover",
+      "scroll": 397,
+      "storyBackground": null,
+      "width": 412
+    },
+    {
+      "actors": [
+        {
+          "character": "male",
+          "inside": true,
+          "ratio": 0.4444444444444444,
+          "selector": ".main-actor"
+        },
+        {
+          "character": "male",
+          "inside": true,
+          "ratio": 0.4444444444444444,
+          "selector": ".character-card .actor"
+        },
+        {
+          "character": "female",
+          "inside": true,
+          "ratio": 0.4444444444444444,
+          "selector": ".character-card .actor"
+        }
+      ],
+      "buttons": [
+        {
+          "clipped": false,
+          "font": "19px",
+          "height": 47.84375,
+          "label": "四大学四年青春没有标准答案"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "动画：关闭"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "新的一局"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "清除存档"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "玩法与毕业方向 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "更换人物形象 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 382.5,
+          "label": ""
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "▤认真学习图书馆的灯，为你亮着学业 +9  专业技能 +1  健"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "⌘技能训练把想法变成真正的作品专业技能 +10  学业 +1  "
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "♧社交活动和有趣的人，交换日常社交 +10  心情 +5  金钱"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "¥校园兼职用自己的努力，赚一点底气金钱 +360元  社交 +2"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "↗健身运动去操场，和晚风跑个满怀健康 +13  心情 +6"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "♫娱乐放松今天也要给快乐留点位置心情 +15  学业 -3  金"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 94.67708587646484,
+          "label": "☾好好休息充满电，明天再出发健康 +11  心情 +9"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 206.5,
+          "label": "男主角 · 向光而行清爽，坚定，沉稳。把热爱藏进日常，用自己的节"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 205.83334350585935,
+          "label": "女主角 · 自有锋芒明亮，独立，自信。温柔也有力量，始终掌握自己"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 50.42708587646485,
+          "label": "确认形象，继续旅程 →"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 50.42708587646485,
+          "label": "保留原来的形象"
+        }
+      ],
+      "client": 415,
+      "fonts": {
+        ".action strong": "15px",
+        ".effect-preview": "12px",
+        ".stage-dialogue p": "15px",
+        ".stat-line": "14px"
+      },
+      "game": true,
+      "home": false,
+      "homePeopleButtonsOverlap": null,
+      "mainActorDialogueOverlap": 0,
+      "modal": {
+        "bottom": 628,
+        "client": 374,
+        "height": 616,
+        "scroll": 374,
+        "scrollable": true,
+        "top": 12
+      },
+      "sceneBackground": "cover, cover",
+      "scroll": 415,
+      "storyBackground": null,
+      "width": 430
+    }
+  ],
+  "gameMale": [
+    {
+      "actors": [
+        {
+          "character": "male",
+          "inside": true,
+          "ratio": 0.4444444444444444,
+          "selector": ".main-actor"
+        }
+      ],
+      "buttons": [
+        {
+          "clipped": false,
+          "font": "19px",
+          "height": 47.84375,
+          "label": "四大学四年青春没有标准答案"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "动画：关闭"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "新的一局"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "清除存档"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "玩法与毕业方向 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "更换人物形象 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 292.5,
+          "label": ""
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 206.46875,
+          "label": "▤认真学习图书馆的灯，为你亮着学业 +9  专业技能 +1  健"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 206.46875,
+          "label": "⌘技能训练把想法变成真正的作品专业技能 +10  学业 +1  "
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 206.46875,
+          "label": "♧社交活动和有趣的人，交换日常社交 +10  心情 +5  金钱"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 206.46875,
+          "label": "¥校园兼职用自己的努力，赚一点底气金钱 +360元  社交 +2"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "↗健身运动去操场，和晚风跑个满怀健康 +13  心情 +6"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "♫娱乐放松今天也要给快乐留点位置心情 +15  学业 -3  金"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 94.67708587646484,
+          "label": "☾好好休息充满电，明天再出发健康 +11  心情 +9"
+        }
+      ],
+      "client": 305,
+      "fonts": {
+        ".action strong": "15px",
+        ".effect-preview": "12px",
+        ".stage-dialogue p": "15px",
+        ".stat-line": "14px"
+      },
+      "game": true,
+      "home": false,
+      "homePeopleButtonsOverlap": null,
+      "mainActorDialogueOverlap": 0,
+      "modal": null,
+      "sceneBackground": "cover, cover",
+      "scroll": 305,
+      "storyBackground": null,
+      "width": 320
+    },
+    {
+      "actors": [
+        {
+          "character": "male",
+          "inside": true,
+          "ratio": 0.4444444444444444,
+          "selector": ".main-actor"
+        }
+      ],
+      "buttons": [
+        {
+          "clipped": false,
+          "font": "19px",
+          "height": 47.84375,
+          "label": "四大学四年青春没有标准答案"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "动画：关闭"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "新的一局"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "清除存档"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "玩法与毕业方向 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "更换人物形象 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 324,
+          "label": ""
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "▤认真学习图书馆的灯，为你亮着学业 +9  专业技能 +1  健"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "⌘技能训练把想法变成真正的作品专业技能 +10  学业 +1  "
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "♧社交活动和有趣的人，交换日常社交 +10  心情 +5  金钱"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "¥校园兼职用自己的努力，赚一点底气金钱 +360元  社交 +2"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "↗健身运动去操场，和晚风跑个满怀健康 +13  心情 +6"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "♫娱乐放松今天也要给快乐留点位置心情 +15  学业 -3  金"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 94.67708587646484,
+          "label": "☾好好休息充满电，明天再出发健康 +11  心情 +9"
+        }
+      ],
+      "client": 345,
+      "fonts": {
+        ".action strong": "15px",
+        ".effect-preview": "12px",
+        ".stage-dialogue p": "15px",
+        ".stat-line": "14px"
+      },
+      "game": true,
+      "home": false,
+      "homePeopleButtonsOverlap": null,
+      "mainActorDialogueOverlap": 0,
+      "modal": null,
+      "sceneBackground": "cover, cover",
+      "scroll": 345,
+      "storyBackground": null,
+      "width": 360
+    },
+    {
+      "actors": [
+        {
+          "character": "male",
+          "inside": true,
+          "ratio": 0.4444444444444444,
+          "selector": ".main-actor"
+        }
+      ],
+      "buttons": [
+        {
+          "clipped": false,
+          "font": "19px",
+          "height": 47.84375,
+          "label": "四大学四年青春没有标准答案"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "动画：关闭"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "新的一局"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "清除存档"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "玩法与毕业方向 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "更换人物形象 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 337.78125,
+          "label": ""
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "▤认真学习图书馆的灯，为你亮着学业 +9  专业技能 +1  健"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "⌘技能训练把想法变成真正的作品专业技能 +10  学业 +1  "
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "♧社交活动和有趣的人，交换日常社交 +10  心情 +5  金钱"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "¥校园兼职用自己的努力，赚一点底气金钱 +360元  社交 +2"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "↗健身运动去操场，和晚风跑个满怀健康 +13  心情 +6"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "♫娱乐放松今天也要给快乐留点位置心情 +15  学业 -3  金"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 94.67708587646484,
+          "label": "☾好好休息充满电，明天再出发健康 +11  心情 +9"
+        }
+      ],
+      "client": 360,
+      "fonts": {
+        ".action strong": "15px",
+        ".effect-preview": "12px",
+        ".stage-dialogue p": "15px",
+        ".stat-line": "14px"
+      },
+      "game": true,
+      "home": false,
+      "homePeopleButtonsOverlap": null,
+      "mainActorDialogueOverlap": 0,
+      "modal": null,
+      "sceneBackground": "cover, cover",
+      "scroll": 360,
+      "storyBackground": null,
+      "width": 375
+    },
+    {
+      "actors": [
+        {
+          "character": "male",
+          "inside": true,
+          "ratio": 0.4444444444444444,
+          "selector": ".main-actor"
+        }
+      ],
+      "buttons": [
+        {
+          "clipped": false,
+          "font": "19px",
+          "height": 47.84375,
+          "label": "四大学四年青春没有标准答案"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "动画：关闭"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "新的一局"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "清除存档"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "玩法与毕业方向 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "更换人物形象 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 351,
+          "label": ""
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "▤认真学习图书馆的灯，为你亮着学业 +9  专业技能 +1  健"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "⌘技能训练把想法变成真正的作品专业技能 +10  学业 +1  "
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "♧社交活动和有趣的人，交换日常社交 +10  心情 +5  金钱"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "¥校园兼职用自己的努力，赚一点底气金钱 +360元  社交 +2"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "↗健身运动去操场，和晚风跑个满怀健康 +13  心情 +6"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "♫娱乐放松今天也要给快乐留点位置心情 +15  学业 -3  金"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 94.67708587646484,
+          "label": "☾好好休息充满电，明天再出发健康 +11  心情 +9"
+        }
+      ],
+      "client": 375,
+      "fonts": {
+        ".action strong": "15px",
+        ".effect-preview": "12px",
+        ".stage-dialogue p": "15px",
+        ".stat-line": "14px"
+      },
+      "game": true,
+      "home": false,
+      "homePeopleButtonsOverlap": null,
+      "mainActorDialogueOverlap": 0,
+      "modal": null,
+      "sceneBackground": "cover, cover",
+      "scroll": 375,
+      "storyBackground": null,
+      "width": 390
+    },
+    {
+      "actors": [
+        {
+          "character": "male",
+          "inside": true,
+          "ratio": 0.4444444581621365,
+          "selector": ".main-actor"
+        }
+      ],
+      "buttons": [
+        {
+          "clipped": false,
+          "font": "19px",
+          "height": 47.84375,
+          "label": "四大学四年青春没有标准答案"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "动画：关闭"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "新的一局"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "清除存档"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "玩法与毕业方向 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "更换人物形象 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 370.78125,
+          "label": ""
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "▤认真学习图书馆的灯，为你亮着学业 +9  专业技能 +1  健"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "⌘技能训练把想法变成真正的作品专业技能 +10  学业 +1  "
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "♧社交活动和有趣的人，交换日常社交 +10  心情 +5  金钱"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "¥校园兼职用自己的努力，赚一点底气金钱 +360元  社交 +2"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "↗健身运动去操场，和晚风跑个满怀健康 +13  心情 +6"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "♫娱乐放松今天也要给快乐留点位置心情 +15  学业 -3  金"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 94.67708587646484,
+          "label": "☾好好休息充满电，明天再出发健康 +11  心情 +9"
+        }
+      ],
+      "client": 397,
+      "fonts": {
+        ".action strong": "15px",
+        ".effect-preview": "12px",
+        ".stage-dialogue p": "15px",
+        ".stat-line": "14px"
+      },
+      "game": true,
+      "home": false,
+      "homePeopleButtonsOverlap": null,
+      "mainActorDialogueOverlap": 0,
+      "modal": null,
+      "sceneBackground": "cover, cover",
+      "scroll": 397,
+      "storyBackground": null,
+      "width": 412
+    },
+    {
+      "actors": [
+        {
+          "character": "male",
+          "inside": true,
+          "ratio": 0.4444444444444444,
+          "selector": ".main-actor"
+        }
+      ],
+      "buttons": [
+        {
+          "clipped": false,
+          "font": "19px",
+          "height": 47.84375,
+          "label": "四大学四年青春没有标准答案"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "动画：关闭"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "新的一局"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "清除存档"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "玩法与毕业方向 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "更换人物形象 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 382.5,
+          "label": ""
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "▤认真学习图书馆的灯，为你亮着学业 +9  专业技能 +1  健"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "⌘技能训练把想法变成真正的作品专业技能 +10  学业 +1  "
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "♧社交活动和有趣的人，交换日常社交 +10  心情 +5  金钱"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "¥校园兼职用自己的努力，赚一点底气金钱 +360元  社交 +2"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "↗健身运动去操场，和晚风跑个满怀健康 +13  心情 +6"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "♫娱乐放松今天也要给快乐留点位置心情 +15  学业 -3  金"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 94.67708587646484,
+          "label": "☾好好休息充满电，明天再出发健康 +11  心情 +9"
+        }
+      ],
+      "client": 415,
+      "fonts": {
+        ".action strong": "15px",
+        ".effect-preview": "12px",
+        ".stage-dialogue p": "15px",
+        ".stat-line": "14px"
+      },
+      "game": true,
+      "home": false,
+      "homePeopleButtonsOverlap": null,
+      "mainActorDialogueOverlap": 0,
+      "modal": null,
+      "sceneBackground": "cover, cover",
+      "scroll": 415,
+      "storyBackground": null,
+      "width": 430
+    }
+  ],
+  "gameFemale": [
+    {
+      "actors": [
+        {
+          "character": "female",
+          "inside": true,
+          "ratio": 0.4444444444444444,
+          "selector": ".main-actor"
+        }
+      ],
+      "buttons": [
+        {
+          "clipped": false,
+          "font": "19px",
+          "height": 47.84375,
+          "label": "四大学四年青春没有标准答案"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "动画：关闭"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "新的一局"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "清除存档"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "玩法与毕业方向 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "更换人物形象 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 292.5,
+          "label": ""
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 206.46875,
+          "label": "▤认真学习图书馆的灯，为你亮着学业 +9  专业技能 +1  健"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 206.46875,
+          "label": "⌘技能训练把想法变成真正的作品专业技能 +10  学业 +1  "
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 206.46875,
+          "label": "♧社交活动和有趣的人，交换日常社交 +10  心情 +5  金钱"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 206.46875,
+          "label": "¥校园兼职用自己的努力，赚一点底气金钱 +360元  社交 +2"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "↗健身运动去操场，和晚风跑个满怀健康 +13  心情 +6"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "♫娱乐放松今天也要给快乐留点位置心情 +15  学业 -3  金"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 94.67708587646484,
+          "label": "☾好好休息充满电，明天再出发健康 +11  心情 +9"
+        }
+      ],
+      "client": 305,
+      "fonts": {
+        ".action strong": "15px",
+        ".effect-preview": "12px",
+        ".stage-dialogue p": "15px",
+        ".stat-line": "14px"
+      },
+      "game": true,
+      "home": false,
+      "homePeopleButtonsOverlap": null,
+      "mainActorDialogueOverlap": 0,
+      "modal": null,
+      "sceneBackground": "cover, cover",
+      "scroll": 305,
+      "storyBackground": null,
+      "width": 320
+    },
+    {
+      "actors": [
+        {
+          "character": "female",
+          "inside": true,
+          "ratio": 0.4444444444444444,
+          "selector": ".main-actor"
+        }
+      ],
+      "buttons": [
+        {
+          "clipped": false,
+          "font": "19px",
+          "height": 47.84375,
+          "label": "四大学四年青春没有标准答案"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "动画：关闭"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "新的一局"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "清除存档"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "玩法与毕业方向 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "更换人物形象 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 324,
+          "label": ""
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "▤认真学习图书馆的灯，为你亮着学业 +9  专业技能 +1  健"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "⌘技能训练把想法变成真正的作品专业技能 +10  学业 +1  "
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "♧社交活动和有趣的人，交换日常社交 +10  心情 +5  金钱"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "¥校园兼职用自己的努力，赚一点底气金钱 +360元  社交 +2"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "↗健身运动去操场，和晚风跑个满怀健康 +13  心情 +6"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "♫娱乐放松今天也要给快乐留点位置心情 +15  学业 -3  金"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 94.67708587646484,
+          "label": "☾好好休息充满电，明天再出发健康 +11  心情 +9"
+        }
+      ],
+      "client": 345,
+      "fonts": {
+        ".action strong": "15px",
+        ".effect-preview": "12px",
+        ".stage-dialogue p": "15px",
+        ".stat-line": "14px"
+      },
+      "game": true,
+      "home": false,
+      "homePeopleButtonsOverlap": null,
+      "mainActorDialogueOverlap": 0,
+      "modal": null,
+      "sceneBackground": "cover, cover",
+      "scroll": 345,
+      "storyBackground": null,
+      "width": 360
+    },
+    {
+      "actors": [
+        {
+          "character": "female",
+          "inside": true,
+          "ratio": 0.4444444444444444,
+          "selector": ".main-actor"
+        }
+      ],
+      "buttons": [
+        {
+          "clipped": false,
+          "font": "19px",
+          "height": 47.84375,
+          "label": "四大学四年青春没有标准答案"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "动画：关闭"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "新的一局"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "清除存档"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "玩法与毕业方向 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "更换人物形象 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 337.78125,
+          "label": ""
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "▤认真学习图书馆的灯，为你亮着学业 +9  专业技能 +1  健"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "⌘技能训练把想法变成真正的作品专业技能 +10  学业 +1  "
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "♧社交活动和有趣的人，交换日常社交 +10  心情 +5  金钱"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "¥校园兼职用自己的努力，赚一点底气金钱 +360元  社交 +2"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "↗健身运动去操场，和晚风跑个满怀健康 +13  心情 +6"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "♫娱乐放松今天也要给快乐留点位置心情 +15  学业 -3  金"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 94.67708587646484,
+          "label": "☾好好休息充满电，明天再出发健康 +11  心情 +9"
+        }
+      ],
+      "client": 360,
+      "fonts": {
+        ".action strong": "15px",
+        ".effect-preview": "12px",
+        ".stage-dialogue p": "15px",
+        ".stat-line": "14px"
+      },
+      "game": true,
+      "home": false,
+      "homePeopleButtonsOverlap": null,
+      "mainActorDialogueOverlap": 0,
+      "modal": null,
+      "sceneBackground": "cover, cover",
+      "scroll": 360,
+      "storyBackground": null,
+      "width": 375
+    },
+    {
+      "actors": [
+        {
+          "character": "female",
+          "inside": true,
+          "ratio": 0.4444444444444444,
+          "selector": ".main-actor"
+        }
+      ],
+      "buttons": [
+        {
+          "clipped": false,
+          "font": "19px",
+          "height": 47.84375,
+          "label": "四大学四年青春没有标准答案"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "动画：关闭"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "新的一局"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "清除存档"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "玩法与毕业方向 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "更换人物形象 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 351,
+          "label": ""
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "▤认真学习图书馆的灯，为你亮着学业 +9  专业技能 +1  健"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "⌘技能训练把想法变成真正的作品专业技能 +10  学业 +1  "
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "♧社交活动和有趣的人，交换日常社交 +10  心情 +5  金钱"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "¥校园兼职用自己的努力，赚一点底气金钱 +360元  社交 +2"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "↗健身运动去操场，和晚风跑个满怀健康 +13  心情 +6"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "♫娱乐放松今天也要给快乐留点位置心情 +15  学业 -3  金"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 94.67708587646484,
+          "label": "☾好好休息充满电，明天再出发健康 +11  心情 +9"
+        }
+      ],
+      "client": 375,
+      "fonts": {
+        ".action strong": "15px",
+        ".effect-preview": "12px",
+        ".stage-dialogue p": "15px",
+        ".stat-line": "14px"
+      },
+      "game": true,
+      "home": false,
+      "homePeopleButtonsOverlap": null,
+      "mainActorDialogueOverlap": 0,
+      "modal": null,
+      "sceneBackground": "cover, cover",
+      "scroll": 375,
+      "storyBackground": null,
+      "width": 390
+    },
+    {
+      "actors": [
+        {
+          "character": "female",
+          "inside": true,
+          "ratio": 0.4444444581621365,
+          "selector": ".main-actor"
+        }
+      ],
+      "buttons": [
+        {
+          "clipped": false,
+          "font": "19px",
+          "height": 47.84375,
+          "label": "四大学四年青春没有标准答案"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "动画：关闭"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "新的一局"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "清除存档"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "玩法与毕业方向 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "更换人物形象 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 370.78125,
+          "label": ""
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "▤认真学习图书馆的灯，为你亮着学业 +9  专业技能 +1  健"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "⌘技能训练把想法变成真正的作品专业技能 +10  学业 +1  "
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "♧社交活动和有趣的人，交换日常社交 +10  心情 +5  金钱"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 184.27084350585935,
+          "label": "¥校园兼职用自己的努力，赚一点底气金钱 +360元  社交 +2"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "↗健身运动去操场，和晚风跑个满怀健康 +13  心情 +6"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "♫娱乐放松今天也要给快乐留点位置心情 +15  学业 -3  金"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 94.67708587646484,
+          "label": "☾好好休息充满电，明天再出发健康 +11  心情 +9"
+        }
+      ],
+      "client": 397,
+      "fonts": {
+        ".action strong": "15px",
+        ".effect-preview": "12px",
+        ".stage-dialogue p": "15px",
+        ".stat-line": "14px"
+      },
+      "game": true,
+      "home": false,
+      "homePeopleButtonsOverlap": null,
+      "mainActorDialogueOverlap": 0,
+      "modal": null,
+      "sceneBackground": "cover, cover",
+      "scroll": 397,
+      "storyBackground": null,
+      "width": 412
+    },
+    {
+      "actors": [
+        {
+          "character": "female",
+          "inside": true,
+          "ratio": 0.4444444444444444,
+          "selector": ".main-actor"
+        }
+      ],
+      "buttons": [
+        {
+          "clipped": false,
+          "font": "19px",
+          "height": 47.84375,
+          "label": "四大学四年青春没有标准答案"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "动画：关闭"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "新的一局"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "清除存档"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "玩法与毕业方向 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "更换人物形象 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 382.5,
+          "label": ""
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "▤认真学习图书馆的灯，为你亮着学业 +9  专业技能 +1  健"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "⌘技能训练把想法变成真正的作品专业技能 +10  学业 +1  "
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "♧社交活动和有趣的人，交换日常社交 +10  心情 +5  金钱"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "¥校园兼职用自己的努力，赚一点底气金钱 +360元  社交 +2"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "↗健身运动去操场，和晚风跑个满怀健康 +13  心情 +6"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "♫娱乐放松今天也要给快乐留点位置心情 +15  学业 -3  金"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 94.67708587646484,
+          "label": "☾好好休息充满电，明天再出发健康 +11  心情 +9"
+        }
+      ],
+      "client": 415,
+      "fonts": {
+        ".action strong": "15px",
+        ".effect-preview": "12px",
+        ".stage-dialogue p": "15px",
+        ".stat-line": "14px"
+      },
+      "game": true,
+      "home": false,
+      "homePeopleButtonsOverlap": null,
+      "mainActorDialogueOverlap": 0,
+      "modal": null,
+      "sceneBackground": "cover, cover",
+      "scroll": 415,
+      "storyBackground": null,
+      "width": 430
+    }
+  ],
+  "home": [
+    {
+      "actors": [
+        {
+          "character": "male",
+          "inside": true,
+          "ratio": 0.44612154883277494,
+          "selector": ".poster-portrait-slot .actor"
+        },
+        {
+          "character": "female",
+          "inside": true,
+          "ratio": 0.44612154883277494,
+          "selector": ".poster-portrait-slot .actor"
+        }
+      ],
+      "buttons": [
+        {
+          "clipped": false,
+          "font": "19px",
+          "height": 47.84375,
+          "label": "四大学四年青春没有标准答案"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "动画：开启"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "新的一局"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "清除存档"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 48.42708587646485,
+          "label": "开始新游戏 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 48.42708587646485,
+          "label": "继续我的旅程 · 第 4 回合 →"
+        },
+        {
+          "clipped": false,
+          "font": "13px",
+          "height": 45.44791793823242,
+          "label": "怎么玩？ 阅读入学指南"
+        }
+      ],
+      "client": 305,
+      "fonts": null,
+      "game": false,
+      "home": true,
+      "homePeopleButtonsOverlap": 0,
+      "mainActorDialogueOverlap": null,
+      "modal": null,
+      "sceneBackground": null,
+      "scroll": 305,
+      "storyBackground": null,
+      "width": 320
+    },
+    {
+      "actors": [
+        {
+          "character": "male",
+          "inside": true,
+          "ratio": 0.4442966452655526,
+          "selector": ".poster-portrait-slot .actor"
+        },
+        {
+          "character": "female",
+          "inside": true,
+          "ratio": 0.4442965977230168,
+          "selector": ".poster-portrait-slot .actor"
+        }
+      ],
+      "buttons": [
+        {
+          "clipped": false,
+          "font": "19px",
+          "height": 47.84375,
+          "label": "四大学四年青春没有标准答案"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "动画：开启"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "新的一局"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "清除存档"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 48.42708587646485,
+          "label": "开始新游戏 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 48.42708587646485,
+          "label": "继续我的旅程 · 第 4 回合 →"
+        },
+        {
+          "clipped": false,
+          "font": "13px",
+          "height": 45.44791793823242,
+          "label": "怎么玩？ 阅读入学指南"
+        }
+      ],
+      "client": 345,
+      "fonts": null,
+      "game": false,
+      "home": true,
+      "homePeopleButtonsOverlap": 0,
+      "mainActorDialogueOverlap": null,
+      "modal": null,
+      "sceneBackground": null,
+      "scroll": 345,
+      "storyBackground": null,
+      "width": 360
+    },
+    {
+      "actors": [
+        {
+          "character": "male",
+          "inside": true,
+          "ratio": 0.44336434933374425,
+          "selector": ".poster-portrait-slot .actor"
+        },
+        {
+          "character": "female",
+          "inside": true,
+          "ratio": 0.4433643043838876,
+          "selector": ".poster-portrait-slot .actor"
+        }
+      ],
+      "buttons": [
+        {
+          "clipped": false,
+          "font": "19px",
+          "height": 47.84375,
+          "label": "四大学四年青春没有标准答案"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "动画：开启"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "新的一局"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "清除存档"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 48.42708587646485,
+          "label": "开始新游戏 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 48.42708587646485,
+          "label": "继续我的旅程 · 第 4 回合 →"
+        },
+        {
+          "clipped": false,
+          "font": "13px",
+          "height": 45.44791793823242,
+          "label": "怎么玩？ 阅读入学指南"
+        }
+      ],
+      "client": 360,
+      "fonts": null,
+      "game": false,
+      "home": true,
+      "homePeopleButtonsOverlap": 0,
+      "mainActorDialogueOverlap": null,
+      "modal": null,
+      "sceneBackground": null,
+      "scroll": 360,
+      "storyBackground": null,
+      "width": 375
+    },
+    {
+      "actors": [
+        {
+          "character": "male",
+          "inside": true,
+          "ratio": 0.4433734243828461,
+          "selector": ".poster-portrait-slot .actor"
+        },
+        {
+          "character": "female",
+          "inside": true,
+          "ratio": 0.4433735100834956,
+          "selector": ".poster-portrait-slot .actor"
+        }
+      ],
+      "buttons": [
+        {
+          "clipped": false,
+          "font": "19px",
+          "height": 47.84375,
+          "label": "四大学四年青春没有标准答案"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "动画：开启"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "新的一局"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "清除存档"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 48.42708587646485,
+          "label": "开始新游戏 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 48.42708587646485,
+          "label": "继续我的旅程 · 第 4 回合 →"
+        },
+        {
+          "clipped": false,
+          "font": "13px",
+          "height": 45.44791793823242,
+          "label": "怎么玩？ 阅读入学指南"
+        }
+      ],
+      "client": 375,
+      "fonts": null,
+      "game": false,
+      "home": true,
+      "homePeopleButtonsOverlap": 0,
+      "mainActorDialogueOverlap": null,
+      "modal": null,
+      "sceneBackground": null,
+      "scroll": 375,
+      "storyBackground": null,
+      "width": 390
+    },
+    {
+      "actors": [
+        {
+          "character": "male",
+          "inside": true,
+          "ratio": 0.44338211592036975,
+          "selector": ".poster-portrait-slot .actor"
+        },
+        {
+          "character": "female",
+          "inside": true,
+          "ratio": 0.4433821976309647,
+          "selector": ".poster-portrait-slot .actor"
+        }
+      ],
+      "buttons": [
+        {
+          "clipped": false,
+          "font": "19px",
+          "height": 47.84375,
+          "label": "四大学四年青春没有标准答案"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "动画：开启"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "新的一局"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "清除存档"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 48.42708587646485,
+          "label": "开始新游戏 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 48.42708587646485,
+          "label": "继续我的旅程 · 第 4 回合 →"
+        },
+        {
+          "clipped": false,
+          "font": "13px",
+          "height": 45.44791793823242,
+          "label": "怎么玩？ 阅读入学指南"
+        }
+      ],
+      "client": 397,
+      "fonts": null,
+      "game": false,
+      "home": true,
+      "homePeopleButtonsOverlap": 0,
+      "mainActorDialogueOverlap": null,
+      "modal": null,
+      "sceneBackground": null,
+      "scroll": 397,
+      "storyBackground": null,
+      "width": 412
+    },
+    {
+      "actors": [
+        {
+          "character": "male",
+          "inside": true,
+          "ratio": 0.4433904301255367,
+          "selector": ".poster-portrait-slot .actor"
+        },
+        {
+          "character": "female",
+          "inside": true,
+          "ratio": 0.443390348422519,
+          "selector": ".poster-portrait-slot .actor"
+        }
+      ],
+      "buttons": [
+        {
+          "clipped": false,
+          "font": "19px",
+          "height": 47.84375,
+          "label": "四大学四年青春没有标准答案"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "动画：开启"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "新的一局"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "清除存档"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 48.42708587646485,
+          "label": "开始新游戏 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 48.42708587646485,
+          "label": "继续我的旅程 · 第 4 回合 →"
+        },
+        {
+          "clipped": false,
+          "font": "13px",
+          "height": 45.44791793823242,
+          "label": "怎么玩？ 阅读入学指南"
+        }
+      ],
+      "client": 415,
+      "fonts": null,
+      "game": false,
+      "home": true,
+      "homePeopleButtonsOverlap": 0,
+      "mainActorDialogueOverlap": null,
+      "modal": null,
+      "sceneBackground": null,
+      "scroll": 415,
+      "storyBackground": null,
+      "width": 430
+    }
+  ],
+  "landscape": [
+    {
+      "view": "game",
+      "actors": [
+        {
+          "character": "female",
+          "inside": true,
+          "ratio": 0.4444444444444444,
+          "selector": ".main-actor"
+        }
+      ],
+      "buttons": [
+        {
+          "clipped": false,
+          "font": "19px",
+          "height": 47.84375,
+          "label": "四大学四年青春没有标准答案"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "动画：关闭"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "新的一局"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "清除存档"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "玩法与毕业方向 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "更换人物形象 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 292.5,
+          "label": ""
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "▤认真学习图书馆的灯，为你亮着学业 +9  专业技能 +1  健"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "⌘技能训练把想法变成真正的作品专业技能 +10  学业 +1  "
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "♧社交活动和有趣的人，交换日常社交 +10  心情 +5  金钱"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "¥校园兼职用自己的努力，赚一点底气金钱 +360元  社交 +2"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "↗健身运动去操场，和晚风跑个满怀健康 +13  心情 +6"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "♫娱乐放松今天也要给快乐留点位置心情 +15  学业 -3  金"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 94.67708587646484,
+          "label": "☾好好休息充满电，明天再出发健康 +11  心情 +9"
+        }
+      ],
+      "client": 725,
+      "fonts": {
+        ".action strong": "15px",
+        ".effect-preview": "12px",
+        ".stage-dialogue p": "15px",
+        ".stat-line": "14px"
+      },
+      "game": true,
+      "home": false,
+      "homePeopleButtonsOverlap": null,
+      "mainActorDialogueOverlap": 0,
+      "modal": null,
+      "sceneBackground": "cover, cover",
+      "scroll": 725,
+      "storyBackground": null,
+      "width": 740
+    },
+    {
+      "view": "game",
+      "actors": [
+        {
+          "character": "female",
+          "inside": true,
+          "ratio": 0.4444444444444444,
+          "selector": ".main-actor"
+        }
+      ],
+      "buttons": [
+        {
+          "clipped": false,
+          "font": "21px",
+          "height": 49.48958587646485,
+          "label": "四大学四年青春没有标准答案"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "动画：关闭"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "新的一局"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "清除存档"
+        },
+        {
+          "clipped": false,
+          "font": "11px",
+          "height": 44,
+          "label": "玩法与毕业方向 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "11px",
+          "height": 44,
+          "label": "更换人物形象 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 292.5,
+          "label": ""
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 75.78125,
+          "label": "▤认真学习图书馆的灯，为你亮着学业 +9  专业技能 +1  健"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 75.78125,
+          "label": "⌘技能训练把想法变成真正的作品专业技能 +10  学业 +1  "
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 75.78125,
+          "label": "♧社交活动和有趣的人，交换日常社交 +10  心情 +5  金钱"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 75.78125,
+          "label": "¥校园兼职用自己的努力，赚一点底气金钱 +360元  社交 +2"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 75.78125,
+          "label": "↗健身运动去操场，和晚风跑个满怀健康 +13  心情 +6"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 75.78125,
+          "label": "♫娱乐放松今天也要给快乐留点位置心情 +15  学业 -3  金"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 75.78125,
+          "label": "☾好好休息充满电，明天再出发健康 +11  心情 +9"
+        }
+      ],
+      "client": 829,
+      "fonts": {
+        ".action strong": "13px",
+        ".effect-preview": "10px",
+        ".stage-dialogue p": "15px",
+        ".stat-line": "12px"
+      },
+      "game": true,
+      "home": false,
+      "homePeopleButtonsOverlap": null,
+      "mainActorDialogueOverlap": 0,
+      "modal": null,
+      "sceneBackground": "cover, cover",
+      "scroll": 829,
+      "storyBackground": null,
+      "width": 844
+    },
+    {
+      "view": "game",
+      "actors": [
+        {
+          "character": "female",
+          "inside": true,
+          "ratio": 0.4444444444444444,
+          "selector": ".main-actor"
+        }
+      ],
+      "buttons": [
+        {
+          "clipped": false,
+          "font": "21px",
+          "height": 49.48958587646485,
+          "label": "四大学四年青春没有标准答案"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "动画：关闭"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "新的一局"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "清除存档"
+        },
+        {
+          "clipped": false,
+          "font": "11px",
+          "height": 44,
+          "label": "玩法与毕业方向 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "11px",
+          "height": 44,
+          "label": "更换人物形象 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 292.5,
+          "label": ""
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 75.78125,
+          "label": "▤认真学习图书馆的灯，为你亮着学业 +9  专业技能 +1  健"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 75.78125,
+          "label": "⌘技能训练把想法变成真正的作品专业技能 +10  学业 +1  "
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 75.78125,
+          "label": "♧社交活动和有趣的人，交换日常社交 +10  心情 +5  金钱"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 75.78125,
+          "label": "¥校园兼职用自己的努力，赚一点底气金钱 +360元  社交 +2"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 75.78125,
+          "label": "↗健身运动去操场，和晚风跑个满怀健康 +13  心情 +6"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 75.78125,
+          "label": "♫娱乐放松今天也要给快乐留点位置心情 +15  学业 -3  金"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 75.78125,
+          "label": "☾好好休息充满电，明天再出发健康 +11  心情 +9"
+        }
+      ],
+      "client": 917,
+      "fonts": {
+        ".action strong": "13px",
+        ".effect-preview": "10px",
+        ".stage-dialogue p": "15px",
+        ".stat-line": "12px"
+      },
+      "game": true,
+      "home": false,
+      "homePeopleButtonsOverlap": null,
+      "mainActorDialogueOverlap": 0,
+      "modal": null,
+      "sceneBackground": "cover, cover",
+      "scroll": 917,
+      "storyBackground": null,
+      "width": 932
+    },
+    {
+      "view": "role",
+      "actors": [
+        {
+          "character": "female",
+          "inside": true,
+          "ratio": 0.4444444444444444,
+          "selector": ".main-actor"
+        },
+        {
+          "character": "male",
+          "inside": true,
+          "ratio": 0.4444444444444444,
+          "selector": ".character-card .actor"
+        },
+        {
+          "character": "female",
+          "inside": true,
+          "ratio": 0.4444444444444444,
+          "selector": ".character-card .actor"
+        }
+      ],
+      "buttons": [
+        {
+          "clipped": false,
+          "font": "19px",
+          "height": 47.84375,
+          "label": "四大学四年青春没有标准答案"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "动画：关闭"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "新的一局"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "清除存档"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "玩法与毕业方向 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "更换人物形象 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 292.5,
+          "label": ""
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "▤认真学习图书馆的灯，为你亮着学业 +9  专业技能 +1  健"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "⌘技能训练把想法变成真正的作品专业技能 +10  学业 +1  "
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "♧社交活动和有趣的人，交换日常社交 +10  心情 +5  金钱"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "¥校园兼职用自己的努力，赚一点底气金钱 +360元  社交 +2"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "↗健身运动去操场，和晚风跑个满怀健康 +13  心情 +6"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "♫娱乐放松今天也要给快乐留点位置心情 +15  学业 -3  金"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 94.67708587646484,
+          "label": "☾好好休息充满电，明天再出发健康 +11  心情 +9"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 205.83334350585935,
+          "label": "男主角 · 向光而行清爽，坚定，沉稳。把热爱藏进日常，用自己的节"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 206.5,
+          "label": "女主角 · 自有锋芒明亮，独立，自信。温柔也有力量，始终掌握自己"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 50.42708587646485,
+          "label": "确认形象，继续旅程 →"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 50.42708587646485,
+          "label": "保留原来的形象"
+        }
+      ],
+      "client": 725,
+      "fonts": {
+        ".action strong": "15px",
+        ".effect-preview": "12px",
+        ".stage-dialogue p": "15px",
+        ".stat-line": "14px"
+      },
+      "game": true,
+      "home": false,
+      "homePeopleButtonsOverlap": null,
+      "mainActorDialogueOverlap": 0,
+      "modal": {
+        "bottom": 348,
+        "client": 593,
+        "height": 336,
+        "scroll": 593,
+        "scrollable": true,
+        "top": 12
+      },
+      "sceneBackground": "cover, cover",
+      "scroll": 725,
+      "storyBackground": null,
+      "width": 740
+    },
+    {
+      "view": "role",
+      "actors": [
+        {
+          "character": "female",
+          "inside": true,
+          "ratio": 0.4444444444444444,
+          "selector": ".main-actor"
+        },
+        {
+          "character": "male",
+          "inside": true,
+          "ratio": 0.4461538461538462,
+          "selector": ".character-card .actor"
+        },
+        {
+          "character": "female",
+          "inside": true,
+          "ratio": 0.4461538461538462,
+          "selector": ".character-card .actor"
+        }
+      ],
+      "buttons": [
+        {
+          "clipped": false,
+          "font": "21px",
+          "height": 49.48958587646485,
+          "label": "四大学四年青春没有标准答案"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "动画：关闭"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "新的一局"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "清除存档"
+        },
+        {
+          "clipped": false,
+          "font": "11px",
+          "height": 44,
+          "label": "玩法与毕业方向 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "11px",
+          "height": 44,
+          "label": "更换人物形象 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 292.5,
+          "label": ""
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 75.78125,
+          "label": "▤认真学习图书馆的灯，为你亮着学业 +9  专业技能 +1  健"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 75.78125,
+          "label": "⌘技能训练把想法变成真正的作品专业技能 +10  学业 +1  "
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 75.78125,
+          "label": "♧社交活动和有趣的人，交换日常社交 +10  心情 +5  金钱"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 75.78125,
+          "label": "¥校园兼职用自己的努力，赚一点底气金钱 +360元  社交 +2"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 75.78125,
+          "label": "↗健身运动去操场，和晚风跑个满怀健康 +13  心情 +6"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 75.78125,
+          "label": "♫娱乐放松今天也要给快乐留点位置心情 +15  学业 -3  金"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 75.78125,
+          "label": "☾好好休息充满电，明天再出发健康 +11  心情 +9"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 393.1041870117187,
+          "label": "男主角 · 向光而行清爽，坚定，沉稳。把热爱藏进日常，用自己的节"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 393.1041870117187,
+          "label": "女主角 · 自有锋芒明亮，独立，自信。温柔也有力量，始终掌握自己"
+        },
+        {
+          "clipped": false,
+          "font": "13px",
+          "height": 48.78125,
+          "label": "确认形象，继续旅程 →"
+        },
+        {
+          "clipped": false,
+          "font": "13px",
+          "height": 48.78125,
+          "label": "保留原来的形象"
+        }
+      ],
+      "client": 829,
+      "fonts": {
+        ".action strong": "13px",
+        ".effect-preview": "10px",
+        ".stage-dialogue p": "15px",
+        ".stat-line": "12px"
+      },
+      "game": true,
+      "home": false,
+      "homePeopleButtonsOverlap": null,
+      "mainActorDialogueOverlap": 0,
+      "modal": {
+        "bottom": 378,
+        "client": 593,
+        "height": 366,
+        "scroll": 593,
+        "scrollable": true,
+        "top": 12
+      },
+      "sceneBackground": "cover, cover",
+      "scroll": 829,
+      "storyBackground": null,
+      "width": 844
+    },
+    {
+      "view": "role",
+      "actors": [
+        {
+          "character": "female",
+          "inside": true,
+          "ratio": 0.4444444444444444,
+          "selector": ".main-actor"
+        },
+        {
+          "character": "male",
+          "inside": true,
+          "ratio": 0.4461538461538462,
+          "selector": ".character-card .actor"
+        },
+        {
+          "character": "female",
+          "inside": true,
+          "ratio": 0.4461538461538462,
+          "selector": ".character-card .actor"
+        }
+      ],
+      "buttons": [
+        {
+          "clipped": false,
+          "font": "21px",
+          "height": 49.48958587646485,
+          "label": "四大学四年青春没有标准答案"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "动画：关闭"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "新的一局"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "清除存档"
+        },
+        {
+          "clipped": false,
+          "font": "11px",
+          "height": 44,
+          "label": "玩法与毕业方向 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "11px",
+          "height": 44,
+          "label": "更换人物形象 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 292.5,
+          "label": ""
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 75.78125,
+          "label": "▤认真学习图书馆的灯，为你亮着学业 +9  专业技能 +1  健"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 75.78125,
+          "label": "⌘技能训练把想法变成真正的作品专业技能 +10  学业 +1  "
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 75.78125,
+          "label": "♧社交活动和有趣的人，交换日常社交 +10  心情 +5  金钱"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 75.78125,
+          "label": "¥校园兼职用自己的努力，赚一点底气金钱 +360元  社交 +2"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 75.78125,
+          "label": "↗健身运动去操场，和晚风跑个满怀健康 +13  心情 +6"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 75.78125,
+          "label": "♫娱乐放松今天也要给快乐留点位置心情 +15  学业 -3  金"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 75.78125,
+          "label": "☾好好休息充满电，明天再出发健康 +11  心情 +9"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 393.1041870117187,
+          "label": "男主角 · 向光而行清爽，坚定，沉稳。把热爱藏进日常，用自己的节"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 393.1041870117187,
+          "label": "女主角 · 自有锋芒明亮，独立，自信。温柔也有力量，始终掌握自己"
+        },
+        {
+          "clipped": false,
+          "font": "13px",
+          "height": 48.78125,
+          "label": "确认形象，继续旅程 →"
+        },
+        {
+          "clipped": false,
+          "font": "13px",
+          "height": 48.78125,
+          "label": "保留原来的形象"
+        }
+      ],
+      "client": 917,
+      "fonts": {
+        ".action strong": "13px",
+        ".effect-preview": "10px",
+        ".stage-dialogue p": "15px",
+        ".stat-line": "12px"
+      },
+      "game": true,
+      "home": false,
+      "homePeopleButtonsOverlap": null,
+      "mainActorDialogueOverlap": 0,
+      "modal": {
+        "bottom": 418,
+        "client": 593,
+        "height": 406,
+        "scroll": 593,
+        "scrollable": true,
+        "top": 12
+      },
+      "sceneBackground": "cover, cover",
+      "scroll": 917,
+      "storyBackground": null,
+      "width": 932
+    },
+    {
+      "view": "event",
+      "actors": [
+        {
+          "character": "female",
+          "inside": true,
+          "ratio": 0.4433381181140092,
+          "selector": ".main-actor"
+        },
+        {
+          "character": "female",
+          "inside": true,
+          "ratio": 0.4460678340737124,
+          "selector": ".story-art .actor"
+        }
+      ],
+      "buttons": [
+        {
+          "clipped": false,
+          "font": "19px",
+          "height": 47.84375,
+          "label": "四大学四年青春没有标准答案"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "动画：开启"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "新的一局"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "清除存档"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "玩法与毕业方向 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 48,
+          "label": "更换人物形象 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 292.5,
+          "label": ""
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "▤认真学习图书馆的灯，为你亮着学业 +9  专业技能 +1  健"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "⌘技能训练把想法变成真正的作品专业技能 +10  学业 +1  "
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "♧社交活动和有趣的人，交换日常社交 +10  心情 +5  金钱"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "¥校园兼职用自己的努力，赚一点底气金钱 +360元  社交 +2"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "↗健身运动去操场，和晚风跑个满怀健康 +13  心情 +6"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 170,
+          "label": "♫娱乐放松今天也要给快乐留点位置心情 +15  学业 -3  金"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 94.67708587646484,
+          "label": "☾好好休息充满电，明天再出发健康 +11  心情 +9"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 74.21875,
+          "label": "去操场慢慢走一圈健康 +4 · 心情 +5"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 74.21875,
+          "label": "回图书馆完成小目标学业 +3 · 专业技能 +2"
+        }
+      ],
+      "client": 725,
+      "fonts": {
+        ".action strong": "15px",
+        ".effect-preview": "12px",
+        ".stage-dialogue p": "15px",
+        ".stat-line": "14px"
+      },
+      "game": true,
+      "home": false,
+      "homePeopleButtonsOverlap": null,
+      "mainActorDialogueOverlap": 0,
+      "modal": {
+        "bottom": 358,
+        "client": 593,
+        "height": 336,
+        "scroll": 593,
+        "scrollable": true,
+        "top": 22
+      },
+      "sceneBackground": "cover, cover",
+      "scroll": 725,
+      "storyBackground": "cover, cover",
+      "width": 740
+    },
+    {
+      "view": "event",
+      "actors": [
+        {
+          "character": "female",
+          "inside": true,
+          "ratio": 0.4433218825691459,
+          "selector": ".main-actor"
+        },
+        {
+          "character": "female",
+          "inside": true,
+          "ratio": 0.4460678340737124,
+          "selector": ".story-art .actor"
+        }
+      ],
+      "buttons": [
+        {
+          "clipped": false,
+          "font": "21px",
+          "height": 49.48958587646485,
+          "label": "四大学四年青春没有标准答案"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "动画：开启"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "新的一局"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "清除存档"
+        },
+        {
+          "clipped": false,
+          "font": "11px",
+          "height": 44,
+          "label": "玩法与毕业方向 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "11px",
+          "height": 44,
+          "label": "更换人物形象 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 292.5,
+          "label": ""
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 75.78125,
+          "label": "▤认真学习图书馆的灯，为你亮着学业 +9  专业技能 +1  健"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 75.78125,
+          "label": "⌘技能训练把想法变成真正的作品专业技能 +10  学业 +1  "
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 75.78125,
+          "label": "♧社交活动和有趣的人，交换日常社交 +10  心情 +5  金钱"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 75.78125,
+          "label": "¥校园兼职用自己的努力，赚一点底气金钱 +360元  社交 +2"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 75.78125,
+          "label": "↗健身运动去操场，和晚风跑个满怀健康 +13  心情 +6"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 75.78125,
+          "label": "♫娱乐放松今天也要给快乐留点位置心情 +15  学业 -3  金"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 75.78125,
+          "label": "☾好好休息充满电，明天再出发健康 +11  心情 +9"
+        },
+        {
+          "clipped": false,
+          "font": "13px",
+          "height": 70.92708587646484,
+          "label": "去操场慢慢走一圈健康 +4 · 心情 +5"
+        },
+        {
+          "clipped": false,
+          "font": "13px",
+          "height": 70.92708587646484,
+          "label": "回图书馆完成小目标学业 +3 · 专业技能 +2"
+        }
+      ],
+      "client": 829,
+      "fonts": {
+        ".action strong": "13px",
+        ".effect-preview": "10px",
+        ".stage-dialogue p": "15px",
+        ".stat-line": "12px"
+      },
+      "game": true,
+      "home": false,
+      "homePeopleButtonsOverlap": null,
+      "mainActorDialogueOverlap": 0,
+      "modal": {
+        "bottom": 388,
+        "client": 593,
+        "height": 366,
+        "scroll": 593,
+        "scrollable": true,
+        "top": 22
+      },
+      "sceneBackground": "cover, cover",
+      "scroll": 829,
+      "storyBackground": "cover, cover",
+      "width": 844
+    },
+    {
+      "view": "event",
+      "actors": [
+        {
+          "character": "female",
+          "inside": true,
+          "ratio": 0.44331068595715634,
+          "selector": ".main-actor"
+        },
+        {
+          "character": "female",
+          "inside": true,
+          "ratio": 0.4460678340737124,
+          "selector": ".story-art .actor"
+        }
+      ],
+      "buttons": [
+        {
+          "clipped": false,
+          "font": "21px",
+          "height": 49.48958587646485,
+          "label": "四大学四年青春没有标准答案"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "动画：开启"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "新的一局"
+        },
+        {
+          "clipped": false,
+          "font": "12px",
+          "height": 44,
+          "label": "清除存档"
+        },
+        {
+          "clipped": false,
+          "font": "11px",
+          "height": 44,
+          "label": "玩法与毕业方向 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "11px",
+          "height": 44,
+          "label": "更换人物形象 ↗"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 292.5,
+          "label": ""
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 75.78125,
+          "label": "▤认真学习图书馆的灯，为你亮着学业 +9  专业技能 +1  健"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 75.78125,
+          "label": "⌘技能训练把想法变成真正的作品专业技能 +10  学业 +1  "
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 75.78125,
+          "label": "♧社交活动和有趣的人，交换日常社交 +10  心情 +5  金钱"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 75.78125,
+          "label": "¥校园兼职用自己的努力，赚一点底气金钱 +360元  社交 +2"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 75.78125,
+          "label": "↗健身运动去操场，和晚风跑个满怀健康 +13  心情 +6"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 75.78125,
+          "label": "♫娱乐放松今天也要给快乐留点位置心情 +15  学业 -3  金"
+        },
+        {
+          "clipped": false,
+          "font": "14px",
+          "height": 75.78125,
+          "label": "☾好好休息充满电，明天再出发健康 +11  心情 +9"
+        },
+        {
+          "clipped": false,
+          "font": "13px",
+          "height": 70.92708587646484,
+          "label": "去操场慢慢走一圈健康 +4 · 心情 +5"
+        },
+        {
+          "clipped": false,
+          "font": "13px",
+          "height": 70.92708587646484,
+          "label": "回图书馆完成小目标学业 +3 · 专业技能 +2"
+        }
+      ],
+      "client": 917,
+      "fonts": {
+        ".action strong": "13px",
+        ".effect-preview": "10px",
+        ".stage-dialogue p": "15px",
+        ".stat-line": "12px"
+      },
+      "game": true,
+      "home": false,
+      "homePeopleButtonsOverlap": null,
+      "mainActorDialogueOverlap": 0,
+      "modal": {
+        "bottom": 428,
+        "client": 593,
+        "height": 406,
+        "scroll": 593,
+        "scrollable": true,
+        "top": 22
+      },
+      "sceneBackground": "cover, cover",
+      "scroll": 917,
+      "storyBackground": "cover, cover",
+      "width": 932
+    }
+  ],
+  "storage": {
+    "pendingBefore": {
+      "title": "高数考试临时复习",
+      "stats": [
+        "54",
+        "21",
+        "40",
+        "72",
+        "66"
+      ],
+      "money": "¥ 1,000",
+      "round": "第 1 / 32 回合"
+    },
+    "pendingAfter": {
+      "title": "高数考试临时复习",
+      "stats": [
+        "54",
+        "21",
+        "40",
+        "72",
+        "66"
+      ],
+      "money": "¥ 1,000",
+      "round": "第 1 / 32 回合"
+    },
+    "pendingEqual": true,
+    "roleChangeEqual": true,
+    "roundAfterRefresh": "第 3 / 32 回合",
+    "sameRound": true,
+    "characterAfterRefresh": "female",
+    "summaryRestored": true
+  },
+  "expressions": {
+    "normal": "sad",
+    "clicked": "happy"
+  },
+  "motionOff": {
+    "blink": "none",
+    "breathing": "none",
+    "motion": "off"
+  },
+  "motionRestored": "动画：关闭",
+  "motionOn": {
+    "blink": "blink",
+    "breathing": "breathe",
+    "motion": "on"
+  },
+  "desktop": [
+    {
+      "client": 1009,
+      "desktopPeople": "block",
+      "mobilePortrait": "none",
+      "scroll": 1009,
+      "width": 1024
+    },
+    {
+      "client": 1351,
+      "desktopPeople": "block",
+      "mobilePortrait": "none",
+      "scroll": 1351,
+      "width": 1366
+    }
+  ],
+  "shortScreen": {
+    "actors": [
+      {
+        "character": "female",
+        "inside": true,
+        "ratio": 0.44596072901309747,
+        "selector": ".main-actor"
+      },
+      {
+        "character": "female",
+        "inside": true,
+        "ratio": 0.4460825973008857,
+        "selector": ".story-art .actor"
+      }
+    ],
+    "buttons": [
+      {
+        "clipped": false,
+        "font": "19px",
+        "height": 47.84375,
+        "label": "四大学四年青春没有标准答案"
+      },
+      {
+        "clipped": false,
+        "font": "12px",
+        "height": 44,
+        "label": "动画：开启"
+      },
+      {
+        "clipped": false,
+        "font": "12px",
+        "height": 44,
+        "label": "新的一局"
+      },
+      {
+        "clipped": false,
+        "font": "12px",
+        "height": 44,
+        "label": "清除存档"
+      },
+      {
+        "clipped": false,
+        "font": "12px",
+        "height": 48,
+        "label": "玩法与毕业方向 ↗"
+      },
+      {
+        "clipped": false,
+        "font": "12px",
+        "height": 48,
+        "label": "更换人物形象 ↗"
+      },
+      {
+        "clipped": false,
+        "font": "14px",
+        "height": 292.5,
+        "label": ""
+      },
+      {
+        "clipped": false,
+        "font": "14px",
+        "height": 206.46875,
+        "label": "▤认真学习图书馆的灯，为你亮着学业 +9  专业技能 +1  健"
+      },
+      {
+        "clipped": false,
+        "font": "14px",
+        "height": 206.46875,
+        "label": "⌘技能训练把想法变成真正的作品专业技能 +10  学业 +1  "
+      },
+      {
+        "clipped": false,
+        "font": "14px",
+        "height": 206.46875,
+        "label": "♧社交活动和有趣的人，交换日常社交 +10  心情 +5  金钱"
+      },
+      {
+        "clipped": false,
+        "font": "14px",
+        "height": 206.46875,
+        "label": "¥校园兼职用自己的努力，赚一点底气金钱 +360元  社交 +2"
+      },
+      {
+        "clipped": false,
+        "font": "14px",
+        "height": 184.27084350585935,
+        "label": "↗健身运动去操场，和晚风跑个满怀健康 +13  心情 +6"
+      },
+      {
+        "clipped": false,
+        "font": "14px",
+        "height": 184.27084350585935,
+        "label": "♫娱乐放松今天也要给快乐留点位置心情 +15  学业 -3  金"
+      },
+      {
+        "clipped": false,
+        "font": "14px",
+        "height": 94.67708587646484,
+        "label": "☾好好休息充满电，明天再出发健康 +11  心情 +9"
+      },
+      {
+        "clipped": false,
+        "font": "14px",
+        "height": 73.10551452636719,
+        "label": "集中复习，查漏补缺学业 +6 · 健康 -4 · 心情 -3"
+      },
+      {
+        "clipped": false,
+        "font": "14px",
+        "height": 73.10546875,
+        "label": "按计划复习，保证睡眠学业 +3 · 健康 +3 · 心情 +2"
+      }
+    ],
+    "client": 305,
+    "fonts": {
+      ".action strong": "15px",
+      ".effect-preview": "12px",
+      ".stage-dialogue p": "15px",
+      ".stat-line": "14px"
+    },
+    "game": true,
+    "home": false,
+    "homePeopleButtonsOverlap": null,
+    "mainActorDialogueOverlap": 0,
+    "modal": {
+      "bottom": 551.9200248718262,
+      "client": 264,
+      "height": 535.8400268554688,
+      "scroll": 264,
+      "scrollable": true,
+      "top": 16.079998016357422
+    },
+    "sceneBackground": "cover, cover",
+    "scroll": 305,
+    "storyBackground": "cover, cover",
+    "width": 320
+  },
+  "summaryAudit": {
+    "actors": [
+      {
+        "character": "female",
+        "inside": true,
+        "ratio": 0.4461234964103977,
+        "selector": ".main-actor"
+      },
+      {
+        "character": "female",
+        "inside": true,
+        "ratio": 0.4460825973008857,
+        "selector": ".story-art .actor"
+      }
+    ],
+    "buttons": [
+      {
+        "clipped": false,
+        "font": "19px",
+        "height": 47.84375,
+        "label": "四大学四年青春没有标准答案"
+      },
+      {
+        "clipped": false,
+        "font": "12px",
+        "height": 44,
+        "label": "动画：开启"
+      },
+      {
+        "clipped": false,
+        "font": "12px",
+        "height": 44,
+        "label": "新的一局"
+      },
+      {
+        "clipped": false,
+        "font": "12px",
+        "height": 44,
+        "label": "清除存档"
+      },
+      {
+        "clipped": false,
+        "font": "12px",
+        "height": 48,
+        "label": "玩法与毕业方向 ↗"
+      },
+      {
+        "clipped": false,
+        "font": "12px",
+        "height": 48,
+        "label": "更换人物形象 ↗"
+      },
+      {
+        "clipped": false,
+        "font": "14px",
+        "height": 292.5,
+        "label": ""
+      },
+      {
+        "clipped": false,
+        "font": "14px",
+        "height": 206.46875,
+        "label": "▤认真学习图书馆的灯，为你亮着学业 +9  专业技能 +1  健"
+      },
+      {
+        "clipped": false,
+        "font": "14px",
+        "height": 206.46875,
+        "label": "⌘技能训练把想法变成真正的作品专业技能 +10  学业 +1  "
+      },
+      {
+        "clipped": false,
+        "font": "14px",
+        "height": 206.46875,
+        "label": "♧社交活动和有趣的人，交换日常社交 +10  心情 +5  金钱"
+      },
+      {
+        "clipped": false,
+        "font": "14px",
+        "height": 206.46875,
+        "label": "¥校园兼职用自己的努力，赚一点底气金钱 +360元  社交 +2"
+      },
+      {
+        "clipped": false,
+        "font": "14px",
+        "height": 184.27084350585935,
+        "label": "↗健身运动去操场，和晚风跑个满怀健康 +13  心情 +6"
+      },
+      {
+        "clipped": false,
+        "font": "14px",
+        "height": 184.27084350585935,
+        "label": "♫娱乐放松今天也要给快乐留点位置心情 +15  学业 -3  金"
+      },
+      {
+        "clipped": false,
+        "font": "14px",
+        "height": 94.67708587646484,
+        "label": "☾好好休息充满电，明天再出发健康 +11  心情 +9"
+      },
+      {
+        "clipped": false,
+        "font": "14px",
+        "height": 49.67073822021485,
+        "label": "开启下一学期 →"
+      }
+    ],
+    "client": 305,
+    "fonts": {
+      ".action strong": "15px",
+      ".effect-preview": "12px",
+      ".stage-dialogue p": "15px",
+      ".stat-line": "14px"
+    },
+    "game": true,
+    "home": false,
+    "homePeopleButtonsOverlap": null,
+    "mainActorDialogueOverlap": 0,
+    "modal": {
+      "bottom": 551.9200248718262,
+      "client": 264,
+      "height": 535.8400268554688,
+      "scroll": 264,
+      "scrollable": true,
+      "top": 16.079998016357422
+    },
+    "sceneBackground": "cover, cover",
+    "scroll": 305,
+    "storyBackground": "cover, cover",
+    "width": 320
+  }
+}

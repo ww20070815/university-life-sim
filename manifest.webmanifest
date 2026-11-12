@@ -1,0 +1,10 @@
+{
+  "id":"./", "name":"大学四年：青春没有标准答案", "short_name":"大学四年",
+  "description":"32次选择，属于你的大学四年。", "lang":"zh-CN",
+  "start_url":"./", "scope":"./", "display":"standalone",
+  "background_color":"#f7f5ee", "theme_color":"#eaf0eb",
+  "icons":[
+    {"src":"./assets/icons/icon-192.png","sizes":"192x192","type":"image/png","purpose":"any maskable"},
+    {"src":"./assets/icons/icon-512.png","sizes":"512x512","type":"image/png","purpose":"any maskable"}
+  ]
+}

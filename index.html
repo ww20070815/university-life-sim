@@ -1,38 +1,26 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#f7f8f2">
-  <meta name="description" content="32次选择，属于你的大学四年。一款无需联网的校园生活模拟游戏。">
-  <title>大学四年：青春没有标准答案</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="game.js" defer></script>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover"><meta name="theme-color" content="#eaf0eb"><meta name="description" content="32次选择，属于你的大学四年。原创校园人生模拟游戏。"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default">
+<title>大学四年：我的大学校园 · V3.4</title>
+<link rel="icon" href="./assets/icons/icon.svg" type="image/svg+xml"><link rel="apple-touch-icon" href="./assets/icons/apple-touch-icon.png"><link rel="manifest" href="./manifest.webmanifest"><link rel="preload" href="./assets/backgrounds/campus.webp" as="image"><link rel="stylesheet" href="./style.css">
+<script src="./npc-data.js" defer></script><script src="./phone-data.js" defer></script><script src="./story-data.js" defer></script><script src="./story.js" defer></script><script src="./campus-data.js" defer></script><script src="./campus.js" defer></script><script src="./phone.js" defer></script><script src="./relationships.js" defer></script><script src="./audio.js" defer></script><script src="./visual.js" defer></script><script src="./companion-ui.js" defer></script><script src="./story-ui.js" defer></script><script src="./campus-art.js" defer></script><script src="./campus-ui.js" defer></script><script src="./phone-ui.js" defer></script><script src="./game.js" defer></script>
 </head>
 <body>
-  <header class="topbar"><a class="brand" href="./index.html"><span class="brand-mark">四</span> 大学四年<span class="brand-sub">校园生活模拟器</span></a><div class="top-actions"><span id="save-status" role="status">准备开启校园生活</span><button class="text-button" id="new-game">新的一局</button><button class="text-button muted" id="clear-save">清除存档</button></div></header>
-  <main>
-    <section class="hero">
-      <div class="hero-copy"><div class="eyebrow"><span class="status-dot"></span> 致每一个正在探索的你</div><h1>大学四年<span>青春没有标准答案。</span></h1><p>在课堂、操场与晚风之间，<br>慢慢找到属于自己的方向。</p><div class="hero-tags"><span>4 个学年</span><i></i><span>32 次选择</span><i></i><span>你来定义青春</span></div></div>
-      <svg class="campus" viewBox="0 0 580 280" aria-hidden="true">
-        <ellipse cx="304" cy="247" rx="238" ry="17" fill="#dbe9de"/><circle cx="459" cy="61" r="31" fill="#f5d99e"/><path d="M48 73h48m-32-8h23M367 38h46" stroke="#fff" stroke-width="10" stroke-linecap="round"/>
-        <path d="M86 240V129l73-42 74 42v111" fill="#acc9d4"/><path d="M68 130l91-52 91 52" fill="none" stroke="#617e8d" stroke-width="8" stroke-linejoin="round"/>
-        <path d="M205 241V107h232v134" fill="#ecdac1"/><path d="M193 108h254v13H193z" fill="#b8a489"/><path d="M267 241V83h107v158" fill="#f5e9d4"/><path d="M253 84l68-43 67 43" fill="#8daebc"/><path d="M271 81h100" stroke="#617e8d" stroke-width="5"/>
-        <circle cx="321" cy="109" r="16" fill="#fffaf0" stroke="#a0b3b4" stroke-width="4"/><path d="M321 99v11l8 5" stroke="#617e8d" stroke-width="3" fill="none"/><path d="M304 241v-51a17 17 0 0134 0v51" fill="#6e8f97"/>
-        <g fill="#7696a3"><path d="M109 148h19v28h-19zm42 0h19v28h-19zm41 0h19v28h-19zM109 195h19v28h-19zm42 0h19v28h-19zm41 0h19v28h-19zM229 138h18v26h-18zm0 46h18v26h-18zM394 138h18v26h-18zm0 46h18v26h-18zM287 140h18v25h-18zm50 0h18v25h-18z"/></g>
-        <path d="M321 243l-32 33h93l-44-33" fill="#e9e0ce"/><g stroke="#79967f" stroke-width="5"><path d="M66 239V178m433 62v-73m-35 73v-37"/></g><g fill="#9ebca4"><ellipse cx="66" cy="169" rx="32" ry="45"/><ellipse cx="499" cy="157" rx="36" ry="53"/><circle cx="464" cy="194" r="25"/></g><g fill="#bdd1ad"><circle cx="43" cy="224" r="19"/><circle cx="89" cy="230" r="15"/><circle cx="525" cy="226" r="23"/></g><path d="M421 238h42m-37-12h32m-27 0v16m22-16v16" stroke="#ad9377" stroke-width="5" stroke-linecap="round"/><path d="M147 54q10-12 20 0m3-14q10-12 20 0" stroke="#8ca8b2" stroke-width="3" fill="none"/>
-      </svg>
-      <span class="hero-note">下一站，是无限可能。 ↗</span>
-    </section>
-    <section class="timeline" aria-label="大学进度"><div><span class="eyebrow">我的大学旅程</span><h2 id="term-label">大一 · 第一学期</h2></div><div class="journey"><div class="year-stops" id="year-stops"></div><div class="journey-track"><div id="journey-fill"></div></div></div><div class="round-info"><strong id="round-label">第 1 / 32 回合</strong><span id="term-round">本学期第 1 / 4 次行动</span></div></section>
-    <div class="game-grid">
-      <aside class="panel profile"><div class="section-heading"><h2>我的状态</h2><span class="tiny-label">成长档案</span></div><div class="identity"><div class="avatar">✦</div><div><strong>追光的同学</strong><span id="identity-sub">初来乍到，未来可期</span></div><span class="student-badge">在校生</span></div><div id="stats" class="stats" aria-live="polite"></div><div class="wallet"><span>生活余额 <small>理性消费，快乐生活</small></span><strong id="money">¥ 1,000</strong></div><div class="gentle-note"><span>☀</span><p id="tip">不必每一步都完美，<br>每一次选择都算数。</p></div><button class="text-button rules-button" id="show-rules">玩法与毕业方向 ↗</button></aside>
-      <section class="panel action-panel"><div class="section-heading"><div><span class="eyebrow">把时间花在喜欢的事上</span><h2>这一段日子，怎么过？</h2></div><span class="pill" id="action-status">选择 1 项行动</span></div><div id="actions" class="actions"></div><p class="action-footnote">每次行动后，都会遇见一段校园故事。选择之后，记得照顾自己。</p></section>
-      <section class="panel journal"><div class="section-heading"><h2>校园手记 <span class="handwritten">那些小小的瞬间</span></h2><span class="tiny-label" id="log-count">0 段经历</span></div><ol id="logs"></ol></section>
-    </div>
-    <footer>把日子过成自己的样子。 <span>大学四年 · 青春没有标准答案</span></footer>
-  </main>
-  <div id="modal-layer" class="modal-layer" hidden><section class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" tabindex="-1"><div id="modal-content"></div></section></div>
-  <div id="toast" class="toast" role="status" hidden></div>
-</body>
-</html>
+<header class="topbar"><button class="brand" id="go-home" aria-label="回到游戏首页"><span class="brand-mark">四</span><span>大学四年<small>青春没有标准答案</small></span></button><div class="top-actions"><span id="save-status" role="status">我的大学校园 · V3.4</span><button id="motion-toggle" class="text-button" aria-pressed="false">动画：开启</button><button class="text-button" id="sound-settings">声音设置</button><button class="text-button" id="new-game">新的一局</button><button class="text-button" id="clear-save">清除存档</button></div></header>
+<main>
+<section id="home-view" class="home-view" aria-labelledby="home-title">
+<div class="poster"><div class="poster-art" aria-hidden="true"></div><div class="poster-shade"></div><div class="poster-copy"><span class="eyebrow">一场关于成长的校园人生</span><div class="poster-rule"></div><h1 id="home-title">大学四年<span>青春没有<br>标准答案。</span></h1><p>在千万种可能里，<br>认真写下属于你的那一种。</p><div class="poster-portrait-slot"><div class="poster-people" aria-label="原创男女主角"><div class="actor poster-male" data-character="male"><div class="actor-frame"></div></div><div class="actor poster-female" data-character="female"><div class="actor-frame"></div></div></div></div><div class="home-buttons"><button id="home-new" class="primary">开始新游戏 <span>↗</span></button><button id="home-continue" class="glass-button">继续我的旅程 →</button></div><button id="home-rules" class="poster-link">怎么玩？ 阅读入学指南</button><div class="poster-meta"><span>四个学年</span><i></i><span>三十二次选择</span><i></i><span>八种人生方向</span></div></div><div class="poster-people" aria-label="原创男女主角"><div class="actor poster-male" data-character="male"><div class="actor-frame"></div></div><div class="actor poster-female" data-character="female"><div class="actor-frame"></div></div></div><span class="poster-note">愿每一段青春，都有自己的回声。</span><div class="poster-edition">我的大学校园 · V3.4 <span>02</span></div></div><div class="home-bottom"><span>不必每一步都完美，每一次选择都算数。</span><span>本地存档 · 无需登录 · 原创校园故事</span></div>
+</section>
+<section id="game-view" hidden aria-label="大学生活">
+<section class="timeline" aria-label="大学进度"><div><span class="eyebrow">我的大学旅程</span><h2 id="term-label">大一 · 第一学期</h2></div><div class="journey"><div class="year-stops" id="year-stops"></div><div class="journey-track"><div id="journey-fill"></div></div></div><div class="round-info"><strong id="round-label">第 1 / 32 回合</strong><span id="term-round">本学期第 1 / 4 次行动</span></div></section>
+<nav class="campus-tools" aria-label="校园互动"><button id="open-friends">人物档案与关系 ↗</button><button id="open-phone">校园手机</button><button id="open-stories">人物故事与羁绊</button><button id="open-map">探索校园地图 ↗</button><span>认真倾听，也是青春的一部分。</span></nav><div class="game-grid">
+<aside class="panel profile"><div class="section-heading"><h2>成长档案</h2><span class="tiny-label">每一步都有回响</span></div><div class="identity"><div class="avatar">✦</div><div><strong id="player-name">追光的同学</strong><span id="identity-sub">初来乍到，未来可期</span></div><span class="student-badge">在校生</span></div><div id="stats" class="stats" aria-live="polite"></div><div class="wallet"><span>生活余额<small>理性消费，快乐生活</small></span><strong id="money">¥ 1,000</strong></div><div class="gentle-note"><span>☀</span><p id="tip">不必每一步都完美，每一次选择都算数。</p></div><button class="text-button rules-button" id="show-rules">玩法与毕业方向 ↗</button><button class="text-button rules-button" id="change-character">更换人物形象 ↗</button></aside>
+<section id="campus-stage" class="campus-stage" aria-label="人物与校园场景"><div class="stage-backdrop scene-base"></div><div class="stage-backdrop scene-next"></div><div class="stage-vignette"></div><div class="scene-caption"><span class="eyebrow">这一刻，身在校园</span><strong id="scene-name">校园主广场</strong></div><button id="actor-reaction" class="actor-button" aria-label="和主角打个招呼"><span class="actor main-actor" data-character="male"><span class="actor-frame"></span><span class="actor-blink"></span></span></button><div class="stage-dialogue"><span id="expression-label">平静 · 来日方长</span><p id="stage-line">风从校园吹过，故事从这里开始。</p></div><span class="scene-counter">我的大学日记 <span id="scene-day">01</span></span></section>
+<section class="panel action-panel"><div class="section-heading"><div><span class="eyebrow">把今天，过成自己的样子</span><h2>这一段日子，怎么过？</h2></div><span class="pill" id="action-status">选择 1 项行动</span></div><div id="actions" class="actions"></div><p class="action-footnote">每回合选择一项行动，然后迎接一段校园故事。</p></section>
+<section class="panel journal"><div class="section-heading"><h2>校园手记 <span class="handwritten">那些小小的瞬间</span></h2><span class="tiny-label" id="log-count">0 段经历</span></div><ol id="logs"></ol></section>
+</div></section>
+<footer>把日子过成自己的样子。<span>大学四年 · 青春没有标准答案</span></footer>
+</main>
+<div id="modal-layer" class="modal-layer" hidden><section class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" tabindex="-1"><div id="modal-content"></div></section></div><div id="toast" class="toast" role="status" hidden></div><noscript>请在浏览器中启用 JavaScript 后开始大学旅程。</noscript>
+</body></html>

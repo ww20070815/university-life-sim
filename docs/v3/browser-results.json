@@ -1,0 +1,175 @@
+{
+  "audioWidths": [
+    {
+      "client": 305,
+      "modalClient": 264,
+      "modalScroll": 264,
+      "scroll": 305,
+      "width": 320
+    },
+    {
+      "client": 345,
+      "modalClient": 304,
+      "modalScroll": 304,
+      "scroll": 345,
+      "width": 360
+    },
+    {
+      "client": 360,
+      "modalClient": 319,
+      "modalScroll": 319,
+      "scroll": 360,
+      "width": 375
+    },
+    {
+      "client": 375,
+      "modalClient": 334,
+      "modalScroll": 334,
+      "scroll": 375,
+      "width": 390
+    },
+    {
+      "client": 397,
+      "modalClient": 356,
+      "modalScroll": 356,
+      "scroll": 397,
+      "width": 412
+    },
+    {
+      "client": 415,
+      "modalClient": 374,
+      "modalScroll": 374,
+      "scroll": 415,
+      "width": 430
+    }
+  ],
+  "npcWidths": [
+    {
+      "client": 305,
+      "modalClient": 264,
+      "modalScroll": 264,
+      "scroll": 305,
+      "width": 320
+    },
+    {
+      "client": 345,
+      "modalClient": 304,
+      "modalScroll": 304,
+      "scroll": 345,
+      "width": 360
+    },
+    {
+      "client": 360,
+      "modalClient": 319,
+      "modalScroll": 319,
+      "scroll": 360,
+      "width": 375
+    },
+    {
+      "client": 375,
+      "modalClient": 334,
+      "modalScroll": 334,
+      "scroll": 375,
+      "width": 390
+    },
+    {
+      "client": 397,
+      "modalClient": 356,
+      "modalScroll": 356,
+      "scroll": 397,
+      "width": 412
+    },
+    {
+      "client": 415,
+      "modalClient": 374,
+      "modalScroll": 374,
+      "scroll": 415,
+      "width": 430
+    }
+  ],
+  "rosterWidths": [
+    {
+      "client": 305,
+      "clipped": false,
+      "modalClient": 264,
+      "modalScroll": 264,
+      "scroll": 305,
+      "width": 320
+    },
+    {
+      "client": 345,
+      "clipped": false,
+      "modalClient": 304,
+      "modalScroll": 304,
+      "scroll": 345,
+      "width": 360
+    },
+    {
+      "client": 360,
+      "clipped": false,
+      "modalClient": 319,
+      "modalScroll": 319,
+      "scroll": 360,
+      "width": 375
+    },
+    {
+      "client": 375,
+      "clipped": false,
+      "modalClient": 334,
+      "modalScroll": 334,
+      "scroll": 375,
+      "width": 390
+    },
+    {
+      "client": 397,
+      "clipped": false,
+      "modalClient": 356,
+      "modalScroll": 356,
+      "scroll": 397,
+      "width": 412
+    },
+    {
+      "client": 415,
+      "clipped": false,
+      "modalClient": 374,
+      "modalScroll": 374,
+      "scroll": 415,
+      "width": 430
+    },
+    {
+      "client": 753,
+      "clipped": false,
+      "modalClient": 609,
+      "modalScroll": 609,
+      "scroll": 753,
+      "width": 768
+    },
+    {
+      "client": 1009,
+      "clipped": false,
+      "modalClient": 609,
+      "modalScroll": 609,
+      "scroll": 1009,
+      "width": 1024
+    },
+    {
+      "client": 1351,
+      "clipped": false,
+      "modalClient": 609,
+      "modalScroll": 609,
+      "scroll": 1351,
+      "width": 1366
+    }
+  ],
+  "noCoreChange": true,
+  "terms": [
+    "大一 · 第一学期结束了",
+    "大一 · 第二学期结束了",
+    "大二 · 第一学期结束了",
+    "大二 · 第二学期结束了",
+    "大三 · 第一学期结束了",
+    "大三 · 第二学期结束了",
+    "大四 · 第一学期结束了",
+    "大四 · 第二学期结束了"
+  ]
+}

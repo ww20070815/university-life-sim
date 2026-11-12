@@ -134,12 +134,27 @@
   if(typeof document==='undefined')return;
 
   const $=id=>document.getElementById(id);
-  let state=freshState(),storageBlocked=false,notice='',lastFocus=null,toastTimer;
-  try{const saved=localStorage.getItem(SAVE_KEY);if(saved){const valid=validateSave(JSON.parse(saved));if(valid)state=valid;else notice='存档版本不兼容或内容损坏，已安全开启新旅程。';}}catch{notice='无法读取本地存档，已开启新旅程；若浏览器禁用存储，本次进度只保留在当前页面。';}
-  function save(){try{localStorage.setItem(SAVE_KEY,JSON.stringify(state));storageBlocked=false;$('save-status').textContent='✓ 进度已自动保存';}catch{storageBlocked=true;$('save-status').textContent='存储不可用 · 本次进度仅保留在当前页面';}}
+  const visual=window.CampusVisual;
+  let state=freshState(),notice='',lastFocus=null,toastTimer,hasSave=false,inGame=false,previousStats=null;
+  // 首次进入只读旧档。即使外部数据无法读取，也不静默覆盖原始内容。
+  try{const saved=localStorage.getItem(SAVE_KEY);if(saved){const valid=validateSave(JSON.parse(saved));if(valid){state=valid;hasSave=true;}else notice='原存档暂时无法读取，已保留原始数据。开始新游戏前请确认是否需要备份。';}}catch{notice='无法读取本地存档；浏览器可能禁止存储。本次游玩可继续，但进度可能无法保存。';}
+  let extensionStorage;try{extensionStorage=window.localStorage;}catch{}
+  const friends=window.Relationships?.createStore(extensionStorage||{getItem(){throw new Error('storage disabled');},setItem(){throw new Error('storage disabled');},removeItem(){throw new Error('storage disabled');}},state);
+  const sound=window.CampusAudio;
+  let audioTransaction=0;
+  const companions=window.CompanionUI&&friends?window.CompanionUI.create({el,openModal,modalButton,closeModal,renderPhase,getState:()=>state,getScene:()=>inGame?visual.sceneFor(state):'campus',store:friends,toast,visual,sound,showStories}):null;
+  const stories=window.StoryUI&&window.CampusStory&&window.StoryData&&friends?window.StoryUI.create({el,openModal,modalButton,closeModal,renderPhase,getState:()=>state,getScene:()=>inGame?visual.sceneFor(state):'campus',store:friends,toast,sound,layer:$('modal-layer')}):null;
+  const campusPhone=window.PhoneUI&&window.CampusPhone&&window.PhoneData&&friends?window.PhoneUI.create({el,openModal,modalButton,closeModal,renderPhase,getState:()=>state,store:friends,toast,sound,showPeople:()=>companions?.people(),showStories,showCampus,button:$('open-phone')}):null;
+  const campusMap=window.CampusUI&&window.CampusWorld&&window.CampusData&&friends?window.CampusUI.create({el,openModal,modalButton,closeModal,renderPhase,getState:()=>state,getScene:()=>inGame?visual.sceneFor(state):'campus',store:friends,toast,sound,document,visual,showProfile:(id,back)=>companions?.profile(id,back),showChat:(id,back)=>campusPhone?.openChat(id,back),showStories,actions:ACTIONS,effectsText,affordable:effects=>affordable(state,effects),performAction:(location,id)=>{const check=window.CampusWorld.canAct(friends.data,state,location,id);if(!check.ok){toast(check.reason);return false;}return performMainAction(id);}}):null;
+  function showCampus(...args){if(campusMap)campusMap.open(...args);else toast('校园地图模块未载入，请刷新或检查预览版本。原有游戏可继续。');}
+  function showStories(...args){if(stories)stories.open(...args);else toast('人物故事模块未载入，请刷新或检查预览版本。原游戏可继续。');}
+  friends?.onChange(change=>{campusPhone?.badge();if(change.kind==='core'&&change.newMessages>0)sound?.effect('message',change.token);});
+  function save(){try{const write=()=>localStorage.setItem(SAVE_KEY,JSON.stringify(state));if(friends)friends.commitCore(state,write);else write();hasSave=true;$('save-status').textContent=friends&&!friends.persistent?'✓ 游戏已保存 · 人物与手机记录仅保留在本页':'✓ 进度已自动保存';}catch(error){$('save-status').textContent=error.code==='SAVE_CONFLICT'?'存档已在其他页面变化 · 本页未覆盖，请刷新后继续':'存储不可用 · 本次进度仅保留在当前页面';}}
   function toast(text){clearTimeout(toastTimer);$('toast').textContent=text;$('toast').hidden=false;toastTimer=setTimeout(()=>$('toast').hidden=true,3600);}
   function el(tag,className,text){const node=document.createElement(tag);if(className)node.className=className;if(text!==undefined)node.textContent=text;return node;}
-  function render(){
+  // 地图与原行动区共用这一个入口，数值、余额、事件与防重全部仍由原规则处理。
+  function performMainAction(id){const before={...state.stats};if(!takeAction(state,id))return false;save();sound?.settlement(Object.fromEntries(Object.keys(INITIAL).map(k=>[k,state.stats[k]-before[k]])),'action:'+ ++audioTransaction);render();return true;}
+  function render(reveal=true){
     const t=Math.min(state.turn,31),year=Math.floor(t/8),semester=Math.floor(t/4)%2;
     $('term-label').textContent=state.turn===32?'四年旅程 · 已完成':`${YEARS[year]} · 第${semester?'二':'一'}学期`;
     $('round-label').textContent=state.turn===32?'32 / 32 回合完成':`第 ${state.turn+1} / 32 回合`;
@@ -152,9 +167,16 @@
       const row=el('div','stat'),line=el('div','stat-line');line.append(el('span','',`${icon}  ${name}`));
       const value=el('span','stat-value',`${state.stats[key]} `);value.append(el('small','','/ 100'));line.append(value);
       const track=el('div','stat-track');track.setAttribute('role','progressbar');track.setAttribute('aria-label',name);track.setAttribute('aria-valuenow',state.stats[key]);track.setAttribute('aria-valuemin',0);track.setAttribute('aria-valuemax',100);
-      const fill=el('div','stat-fill');fill.style.setProperty('--stat-color',color);fill.style.width=`${state.stats[key]}%`;track.append(fill);row.append(line,track);return row;
+      const fill=el('div','stat-fill');fill.style.setProperty('--stat-color',color);fill.style.width=`${previousStats?previousStats[key]:state.stats[key]}%`;requestAnimationFrame(()=>{fill.style.width=`${state.stats[key]}%`;});track.append(fill);row.append(line,track);
+      const delta=previousStats?state.stats[key]-previousStats[key]:0;
+      if(delta){row.append(el('span',`stat-delta ${delta<0?'negative':''}`,`${delta>0?'+':''}${delta}`));value.classList.add('number-flash');}
+      return row;
     }));
     $('money').textContent=`¥ ${state.stats.money.toLocaleString('zh-CN')}`;
+    document.querySelectorAll('.wallet .stat-delta').forEach(n=>n.remove());
+    const moneyDelta=previousStats?state.stats.money-previousStats.money:0;
+    if(moneyDelta)document.querySelector('.wallet').append(el('span',`stat-delta ${moneyDelta<0?'negative':''}`,`${moneyDelta>0?'+':''}${moneyDelta}元`));
+    previousStats={...state.stats};visual.paint(state);
     $('tip').textContent=state.stats.health<30?'身体在提醒你：安排运动或休息，给自己充充电。':state.stats.study<40?'学业有些落后了，去图书馆找回自己的节奏吧。':'不必每一步都完美，每一次选择都算数。';
     $('action-status').textContent=state.phase==='action'?'选择 1 项行动':state.phase==='event'?'等待事件选择':state.phase==='summary'?'学期已结束':'四年圆满收官';
     $('actions').replaceChildren(...ACTIONS.map(action=>{
@@ -162,43 +184,55 @@
       const icon=el('span','action-icon',action.icon);icon.style.setProperty('--icon-bg',action.bg);icon.style.setProperty('--icon-color',action.color);
       const text=el('div','action-text');text.append(el('strong','',action.name),el('small','',action.desc));
       const effects=el('div','effect-preview');for(const [key,value] of Object.entries(action.effects))effects.append(el('span',value<0?'cost':'',`${key==='money'?'金钱':STAT_INFO[key][0]} ${value>0?'+':''}${value}${key==='money'?'元':''}  `));
-      text.append(effects);if(!affordable(state,action.effects))text.append(el('small','cost','余额不足'));button.append(icon,text);button.addEventListener('click',()=>{if(takeAction(state,action.id)){save();render();}});return button;
+      text.append(effects);if(!affordable(state,action.effects))text.append(el('small','cost','余额不足'));button.append(icon,text);button.addEventListener('click',()=>performMainAction(action.id));return button;
     }));
     $('log-count').textContent=`${state.logs.length} 段经历`;
+    campusPhone?.badge();
     $('logs').replaceChildren(...state.logs.map(log=>{const li=el('li');li.append(el('time','',log.turn===0?'入学第一天':`第 ${log.turn} 回合`));const text=el('div');text.append(el('strong','',log.title),el('p','',log.text));li.append(text);return li;}));
-    renderPhase();
+    if(reveal&&inGame)renderPhase();
   }
   function openModal(tag,title,desc){
     if($('modal-layer').hidden)lastFocus=document.activeElement;
-    $('modal-layer').hidden=false;const content=$('modal-content');content.replaceChildren(el('span','eyebrow',tag));const heading=el('h2','',title);heading.id='modal-title';content.append(heading);if(desc)content.append(el('p','modal-desc',desc));
+    $('modal-layer').hidden=false;delete $('modal-layer').dataset.storyReader;document.querySelector('main').inert=true;document.querySelector('header').inert=true;
+    const modal=document.querySelector('.modal');modal.dataset.kind='plain';delete modal.dataset.ending;modal.scrollTop=0;
+    const content=$('modal-content');content.replaceChildren(el('span','eyebrow',tag));const heading=el('h2','',title);heading.id='modal-title';content.append(heading);if(desc)content.append(el('p','modal-desc',desc));
     document.querySelector('.modal').focus();return content;
   }
-  function closeModal(){$('modal-layer').hidden=true;if(lastFocus?.isConnected&&!lastFocus.disabled)lastFocus.focus();}
+  function closeModal(){$('modal-layer').hidden=true;document.querySelector('main').inert=false;document.querySelector('header').inert=false;if(lastFocus?.isConnected&&!lastFocus.disabled)lastFocus.focus();}
   function modalButton(label,callback,secondary=false){const button=el('button',secondary?'modal-button secondary':'modal-button',label);button.addEventListener('click',callback);return button;}
   function renderPhase(){
+    if(!inGame){closeModal();return;}
     if(state.phase==='event'){
       const event=EVENTS.find(e=>e.id===state.pendingEvent),content=openModal(`校园来信 / ${event.tag}`,event.title,event.desc);
       content.append(el('p','modal-hint','你的主要行动已经完成。接下来，做一个小小的选择。'));
-      event.options.forEach((choice,index)=>{const button=modalButton('',()=>{if(chooseOption(state,index)){save();render();}});button.classList.add('choice');button.append(el('strong','',choice.label),el('span','',effectsText(choice.effects)));button.disabled=!affordable(state,choice.effects);if(button.disabled)button.append(el('small','','余额不足'));content.append(button);});
+      visual.decorateModal(content,state,'event');
+      event.options.forEach((choice,index)=>{const button=modalButton('',()=>{const before={...state.stats};if(chooseOption(state,index)){save();render(false);const actual=Object.fromEntries(Object.keys(INITIAL).map(k=>[k,state.stats[k]-before[k]]).filter(([,v])=>v!==0));const token='choice:'+ ++audioTransaction;sound?.effect('confirm',token);sound?.settlement(actual,token);if(state.phase==='summary')sound?.effect('term','term:'+state.turn);showOutcome(event,choice,actual);}});button.classList.add('choice');button.append(el('strong','',choice.label),el('span','',effectsText(choice.effects)));button.disabled=!affordable(state,choice.effects);if(button.disabled)button.append(el('small','','余额不足'));content.append(button);});
     }else if(state.phase==='summary'){
       const summary=state.summaries.at(-1),label=`${YEARS[Math.floor((summary.term-1)/2)]} · 第${summary.term%2?'一':'二'}学期`;
       const content=openModal('一段旅程，值得记录',`${label}结束了`,state.turn===32?'最后一个学期也走到了终点。看看这段日子的成长，再拆开属于你的毕业信。':'四次选择，汇成了这个学期。歇一口气，下一段校园生活正等着你。');
-      content.append(statSummary(summary.stats,summary.delta));
-      content.append(modalButton(state.turn===32?'拆开我的毕业信 →':'开启下一学期 →',()=>{if(continueTerm(state)){save();render();}}));
+      visual.decorateModal(content,state,'summary');content.append(statSummary(summary.stats,summary.delta));
+      const memories=state.logs.filter(l=>l.turn>state.turn-4&&l.turn<=state.turn&&l.title.includes(' · ')).map(l=>l.title.split(' · ')[0]);
+      content.append(el('p','term-memory',`这个学期，你经历了${memories.reverse().join('、')}。这些平凡的片段，也在慢慢塑造你。`));
+      content.append(modalButton(state.turn===32?'拆开我的毕业信 →':'开启下一学期 →',()=>{if(continueTerm(state)){save();if(state.phase==='ending')sound?.effect('graduation','graduation');render();}}));
     }else if(state.phase==='ending'){
       const ending=judgeEnding(state),content=openModal('毕业快乐 / 青春没有标准答案',`${ending.icon} ${ending.name}`,ending.story);
+      visual.decorateModal(content,state,'ending');content.parentElement.dataset.ending=ending.id;
       content.append(statSummary(state.stats));const most=ACTIONS.reduce((a,b)=>state.counts[a.id]>=state.counts[b.id]?a:b);
       content.append(el('p','graduation-summary',`32 次行动，8 个学期，4 年青春。你最常选择「${most.name}」，共 ${state.counts[most.id]} 次；四年里学习了 ${state.counts.study} 次，训练了 ${state.counts.skill} 次，兼职了 ${state.counts.work} 次。每一段经历，都是你来过的证明。`));
+      stories?.appendGraduation(content);
       content.append(modalButton('重新开始，书写另一种青春',()=>confirmReset(false)),modalButton('查看四年手记',closeModal,true));
       $('action-status').textContent='点击查看毕业结局';$('action-status').onclick=renderPhase;$('action-status').setAttribute('role','button');$('action-status').tabIndex=0;
     }else{closeModal();$('action-status').onclick=null;$('action-status').removeAttribute('role');$('action-status').removeAttribute('tabindex');}
+    if(campusPhone&&state.phase!=='action')$('modal-content').append(modalButton('查看校园手机 · 不推进回合',()=>campusPhone.open(),true));
+    if(stories&&state.phase!=='action')$('modal-content').append(modalButton('查看人物故事记录',()=>stories.open(),true));
+    if(campusMap&&state.phase!=='action')$('modal-content').append(modalButton('查看校园地图 · 自由浏览',()=>showCampus(),true));
   }
   function statSummary(stats,delta){const box=el('div','summary-grid');Object.entries(stats).forEach(([key,value])=>{const item=el('div','summary-stat');item.append(el('span','',key==='money'?'金钱':STAT_INFO[key][0]),el('strong','',key==='money'?`¥ ${value}`:String(value)));if(delta)item.append(el('small',delta[key]<0?'cost':'',`${delta[key]>0?'+':''}${delta[key]}`));box.append(item);});return box;}
   function confirmReset(clear){
     const content=openModal('旅程管理',clear?'清除这份存档？':'开启另一段青春？',clear?'当前进度与本局结局将被删除，并回到入学第一天。此操作无法撤销。':'当前进度与本局结局会被新的一局替换。每一次重新出发，都有不同的可能。');
     content.append(modalButton(clear?'确认清除存档':'确认开始新游戏',()=>{
-      if(clear){try{localStorage.removeItem(SAVE_KEY);state=freshState();render();$('save-status').textContent='存档已清除 · 行动后重新自动保存';toast('存档已清除。');}catch{toast('浏览器禁止访问存储，未能清除存档。');closeModal();renderPhase();}}
-      else{state=freshState();save();render();toast('新旅程开始了，祝你度过自己的大学四年。');}
+      if(clear){try{localStorage.removeItem(SAVE_KEY);hasSave=false;state=freshState();friends?.clear(state);previousStats=null;closeModal();showHome();$('save-status').textContent='存档已清除';toast('本局进度、关系和手机记录已清除，人物外观与声音设置仍保留。');}catch{toast('浏览器禁止访问存储，未能清除存档。');closeModal();renderPhase();}}
+      else chooseCharacter('new');
     }),modalButton('保留当前旅程',()=>{closeModal();renderPhase();},true));
   }
   $('new-game').addEventListener('click',()=>confirmReset(false));
@@ -207,5 +241,40 @@
   $('action-status').addEventListener('keydown',event=>{if(state.phase==='ending'&&['Enter',' '].includes(event.key)){event.preventDefault();renderPhase();}});
   // 键盘焦点留在弹窗内，避免通过 Tab 操作弹窗后面的行动按钮。
   document.addEventListener('keydown',event=>{if($('modal-layer').hidden)return;if(event.key==='Tab'){const nodes=[...$('modal-content').querySelectorAll('button:not(:disabled)')];if(!nodes.length)return;const first=nodes[0],last=nodes.at(-1);if(event.shiftKey&&(document.activeElement===first||document.activeElement===document.querySelector('.modal'))){event.preventDefault();last.focus();}else if(!event.shiftKey&&(document.activeElement===last||document.activeElement===document.querySelector('.modal'))){event.preventDefault();first.focus();}}});
-  render();if(notice)toast(notice);if(!storageBlocked)save();
+  // V2：人物选择和页面切换不调用任何数值计算。
+  function showHome(){inGame=false;sound?.setScene('campus');closeModal();$('home-view').hidden=false;$('game-view').hidden=true;$('home-continue').disabled=!hasSave;$('home-continue').textContent=hasSave?(state.phase==='ending'?'重温我的毕业结局 →':`继续我的旅程 · 第 ${Math.min(state.turn+1,32)} 回合 →`):'还没有存档，开启新旅程吧';}
+  function enterGame(){inGame=true;closeModal();$('home-view').hidden=true;$('game-view').hidden=false;render();window.scrollTo({top:0,behavior:'auto'});}
+  function chooseCharacter(mode){
+    let draft=visual.getSettings().character||'male';
+    const content=openModal('在这个故事里，成为自己',mode==='continue'?'给原来的旅程，一个新形象':'选择你的青春主角','人物只改变外观，不改变任何初始属性、行动数值或毕业规则。可以随时在成长档案中更换。');
+    const grid=el('div','character-grid');
+    function updateCards(){grid.replaceChildren(...Object.entries(visual.CHARACTERS).map(([id,info])=>{const card=el('button','character-card');card.setAttribute('aria-pressed',String(draft===id));card.append(visual.actor(id),el('strong','',info.name),el('p','',info.intro),el('span','selected-mark',draft===id?'✓ 已选择':'选择这位主角'));card.addEventListener('click',()=>{draft=id;updateCards();grid.querySelector(`[data-choice="${id}"]`).focus();});card.dataset.choice=id;return card;}));}
+    updateCards();content.append(grid,modalButton(mode==='new'?'以这个身份，开启四年 →':'确认形象，继续旅程 →',()=>{
+      visual.setCharacter(draft);
+      if(mode==='new'){state=freshState();friends?.reset(state);sound?.newRun();previousStats=null;save();}
+      enterGame();
+    }),modalButton(mode==='change'?'保留原来的形象':'暂时返回',()=>{closeModal();if(inGame)renderPhase();},true));
+  }
+  function showOutcome(event,choice,actual){
+    const reaction=(actual.mood||0)+(actual.health||0);visual.paint(state,reaction);
+    const content=openModal('这一刻，成为成长的一部分',choice.label,choice.story);
+    content.classList.add('choice-confirmed');
+    // 结果页展示刚才事件所在的场景；游戏已经保存，可随时刷新继续。
+    visual.decorateModal(content,{...state,pendingEvent:event.id,phase:'event'},'event',reaction);
+    content.append(el('p','term-memory',effectsText(actual)),modalButton(state.phase==='summary'?'收好这一页，查看学期总结 →':'收好这一页，继续校园生活 →',()=>{closeModal();renderPhase();}));
+  }
+  $('home-new').addEventListener('click',()=>hasSave?confirmReset(false):chooseCharacter('new'));
+  $('home-continue').addEventListener('click',()=>{if(hasSave){if(visual.getSettings().character)enterGame();else chooseCharacter('continue');}});
+  $('go-home').addEventListener('click',showHome);
+  $('home-rules').addEventListener('click',()=>$('show-rules').click());
+  $('change-character').addEventListener('click',()=>chooseCharacter('change'));
+  $('motion-toggle').addEventListener('click',()=>visual.toggleMotion());
+  $('sound-settings').addEventListener('click',()=>companions?.audioSettings());
+  $('open-friends').addEventListener('click',()=>companions?.people());
+  $('open-phone').addEventListener('click',()=>{if(campusPhone)campusPhone.open();else toast('校园手机模块未载入，请刷新页面或检查本地预览版本。原有游戏可继续。');});
+  $('open-stories').addEventListener('click',()=>showStories());
+  $('open-map').addEventListener('click',()=>showCampus());
+  $('actor-reaction').addEventListener('click',()=>{visual.paint(state,1);toast('愿你保持热爱，也好好照顾自己。');});
+  document.addEventListener('visibilitychange',()=>{if(document.hidden)document.querySelectorAll('.actor').forEach(a=>a.style.animationPlayState='paused');else{document.querySelectorAll('.actor').forEach(a=>a.style.animationPlayState='');if(inGame)visual.paint(state);}});
+  render(false);showHome();if(notice)toast(notice);
 })();

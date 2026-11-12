@@ -1,0 +1,271 @@
+{
+  "home": [
+    {
+      "client": 305,
+      "scroll": 305,
+      "width": 320
+    },
+    {
+      "client": 345,
+      "scroll": 345,
+      "width": 360
+    },
+    {
+      "client": 360,
+      "scroll": 360,
+      "width": 375
+    },
+    {
+      "client": 375,
+      "scroll": 375,
+      "width": 390
+    },
+    {
+      "client": 397,
+      "scroll": 397,
+      "width": 412
+    },
+    {
+      "client": 415,
+      "scroll": 415,
+      "width": 430
+    },
+    {
+      "client": 753,
+      "scroll": 753,
+      "width": 768
+    },
+    {
+      "client": 1009,
+      "scroll": 1009,
+      "width": 1024
+    },
+    {
+      "client": 1351,
+      "scroll": 1351,
+      "width": 1366
+    }
+  ],
+  "game": [
+    {
+      "client": 305,
+      "scene": "校园主广场",
+      "scroll": 305,
+      "width": 320
+    },
+    {
+      "client": 345,
+      "scene": "校园主广场",
+      "scroll": 345,
+      "width": 360
+    },
+    {
+      "client": 360,
+      "scene": "校园主广场",
+      "scroll": 360,
+      "width": 375
+    },
+    {
+      "client": 375,
+      "scene": "校园主广场",
+      "scroll": 375,
+      "width": 390
+    },
+    {
+      "client": 397,
+      "scene": "校园主广场",
+      "scroll": 397,
+      "width": 412
+    },
+    {
+      "client": 415,
+      "scene": "校园主广场",
+      "scroll": 415,
+      "width": 430
+    },
+    {
+      "client": 753,
+      "scene": "校园主广场",
+      "scroll": 753,
+      "width": 768
+    },
+    {
+      "client": 1009,
+      "scene": "校园主广场",
+      "scroll": 1009,
+      "width": 1024
+    },
+    {
+      "client": 1351,
+      "scene": "校园主广场",
+      "scroll": 1351,
+      "width": 1366
+    }
+  ],
+  "event": [
+    {
+      "client": 305,
+      "dialog": 279,
+      "dialogClient": 279,
+      "scroll": 305,
+      "width": 320
+    },
+    {
+      "client": 345,
+      "dialog": 319,
+      "dialogClient": 319,
+      "scroll": 345,
+      "width": 360
+    },
+    {
+      "client": 360,
+      "dialog": 335,
+      "dialogClient": 335,
+      "scroll": 360,
+      "width": 375
+    },
+    {
+      "client": 375,
+      "dialog": 349,
+      "dialogClient": 349,
+      "scroll": 375,
+      "width": 390
+    },
+    {
+      "client": 397,
+      "dialog": 371,
+      "dialogClient": 371,
+      "scroll": 397,
+      "width": 412
+    },
+    {
+      "client": 415,
+      "dialog": 389,
+      "dialogClient": 389,
+      "scroll": 415,
+      "width": 430
+    },
+    {
+      "client": 753,
+      "dialog": 609,
+      "dialogClient": 609,
+      "scroll": 753,
+      "width": 768
+    },
+    {
+      "client": 1009,
+      "dialog": 609,
+      "dialogClient": 609,
+      "scroll": 1009,
+      "width": 1024
+    },
+    {
+      "client": 1351,
+      "dialog": 609,
+      "dialogClient": 609,
+      "scroll": 1351,
+      "width": 1366
+    }
+  ],
+  "role": [
+    {
+      "client": 305,
+      "dialog": 279,
+      "dialogClient": 279,
+      "scroll": 305,
+      "width": 320
+    },
+    {
+      "client": 345,
+      "dialog": 319,
+      "dialogClient": 319,
+      "scroll": 345,
+      "width": 360
+    },
+    {
+      "client": 360,
+      "dialog": 335,
+      "dialogClient": 335,
+      "scroll": 360,
+      "width": 375
+    },
+    {
+      "client": 375,
+      "dialog": 349,
+      "dialogClient": 349,
+      "scroll": 375,
+      "width": 390
+    },
+    {
+      "client": 397,
+      "dialog": 371,
+      "dialogClient": 371,
+      "scroll": 397,
+      "width": 412
+    },
+    {
+      "client": 415,
+      "dialog": 389,
+      "dialogClient": 389,
+      "scroll": 415,
+      "width": 430
+    },
+    {
+      "client": 753,
+      "dialog": 609,
+      "dialogClient": 609,
+      "scroll": 753,
+      "width": 768
+    },
+    {
+      "client": 1009,
+      "dialog": 609,
+      "dialogClient": 609,
+      "scroll": 1009,
+      "width": 1024
+    },
+    {
+      "client": 1351,
+      "dialog": 609,
+      "dialogClient": 609,
+      "scroll": 1351,
+      "width": 1366
+    }
+  ],
+  "actions": [
+    {
+      "action": "技能训练",
+      "scene": "图书馆"
+    },
+    {
+      "action": "社交活动",
+      "scene": "校园主广场"
+    },
+    {
+      "action": "校园兼职",
+      "scene": "图书馆"
+    },
+    {
+      "summary": "大一 · 第一学期结束了"
+    },
+    {
+      "action": "健身运动",
+      "scene": "校园操场"
+    },
+    {
+      "action": "娱乐放松",
+      "scene": "学生宿舍"
+    },
+    {
+      "action": "好好休息",
+      "scene": "学生宿舍"
+    },
+    {
+      "action": "认真学习",
+      "scene": "图书馆"
+    },
+    {
+      "summary": "大一 · 第二学期结束了"
+    }
+  ]
+}

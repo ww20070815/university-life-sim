@@ -1,0 +1,42 @@
+[
+  {
+    "name": "male",
+    "prompt": "Character sprite atlas, TRANSPARENT background. Exactly 3 columns and 2 rows of the SAME full-body adult 20-year-old Chinese male student, identical frontal standing pose, identical scale and aligned feet in each cell. Six cells in reading order: calm eyes open, happy warm restrained smile, fatigued eyes half-lidded, dejected subtle frown, calm eyes CLOSED for blinking, graduation wearing black academic gown and mortarboard. Character: handsome recognizable angular but youthful face, clear determined dark brown eyes, natural short black hair with side part and loose strands, tall slim upright silhouette, white T-shirt, unbranded navy blue casual jacket, charcoal trousers, clean cream sneakers. Entire head to shoe visible in EACH cell, generous transparent gutters; no cell lines. Character fills 85% height of each cell. Refined main character presence, NOT businessman. Original premium semi-realistic 2D digital painted illustration for a modern Chinese university visual novel. Natural adult East Asian proportions, detailed painterly light, delicate confident linework, cinematic late afternoon, muted celadon greens, ivory, sky blue, pale gold. NOT anime, NOT chibi, NOT vector art, no logos, no watermark, no text.",
+    "source": "C:\\Users\\ljq\\.codex\\generated_images\\01a1c48f-5caa-72a0-a228-62095beb33ff\\exec-b816fb94-904d-4dcd-8f14-bb81976dbca6.png"
+  },
+  {
+    "name": "female",
+    "prompt": "Character sprite atlas, TRANSPARENT background. Exactly 3 columns and 2 rows of the SAME full-body adult 20-year-old Chinese female student, identical frontal standing pose, identical scale and aligned feet in each cell. Six cells in reading order: calm eyes open, happy warm restrained smile, fatigued eyes half-lidded, dejected subtle frown, calm eyes CLOSED for blinking, graduation wearing black academic gown and mortarboard. Character: beautiful distinctive refined face, natural proportional almond dark brown eyes, confident independent leading lady presence, natural long dark hair in a high ponytail with delicate loose strands, ivory blouse under muted sage lightweight cardigan, high-waisted slate blue straight-leg trousers, simple white sneakers, slim graceful adult proportions, elegant ordinary university outfit. Entire head to shoe visible in EACH cell, generous transparent gutters; no cell lines. Character fills 85% height of each cell. NOT childlike, no huge eyes. Original premium semi-realistic 2D digital painted illustration for a modern Chinese university visual novel. Natural adult East Asian proportions, detailed painterly light, delicate confident linework, cinematic late afternoon, muted celadon greens, ivory, sky blue, pale gold. NOT anime, NOT chibi, NOT vector art, no logos, no watermark, no text.",
+    "source": "C:\\Users\\ljq\\.codex\\generated_images\\01a1c48f-5caa-72a0-a228-62095beb33ff\\exec-5ab59437-bee6-4fc7-8a34-e09047cf9fb9.png"
+  },
+  {
+    "name": "campus",
+    "prompt": "Wide 16:9 game environment background with no foreground people: authentic modern Chinese university main square, long symmetrical avenue of plane trees framing contemporary warm limestone and glass teaching building, broad stairs, grass lawns, bicycle stands, quiet blue sky, hazy sunshine, intimate cinematic depth. Foreground spacious for overlay character. Architecture modern not traditional. Original premium semi-realistic 2D digital painted illustration for a modern Chinese university visual novel. Natural adult East Asian proportions, detailed painterly light, delicate confident linework, cinematic late afternoon, muted celadon greens, ivory, sky blue, pale gold. NOT anime, NOT chibi, NOT vector art, no logos, no watermark, no text.",
+    "source": "C:\\Users\\ljq\\.codex\\generated_images\\01a1c48f-5caa-72a0-a228-62095beb33ff\\exec-b6b57ae1-8d0a-4db5-9b80-899447056443.png"
+  },
+  {
+    "name": "library",
+    "prompt": "Wide 16:9 game environment background with no people: contemporary Chinese university library interior, warm oak bookshelves, long reading desks with books and muted green desk lamps, tall windows showing plane trees, glass and concrete modern architecture, late afternoon sunlight casting long diagonal shadows on floor. Spacious foreground for overlay character. Original premium semi-realistic 2D digital painted illustration for a modern Chinese university visual novel. Natural adult East Asian proportions, detailed painterly light, delicate confident linework, cinematic late afternoon, muted celadon greens, ivory, sky blue, pale gold. NOT anime, NOT chibi, NOT vector art, no logos, no watermark, no text.",
+    "source": "C:\\Users\\ljq\\.codex\\generated_images\\01a1c48f-5caa-72a0-a228-62095beb33ff\\exec-efa3aa07-7c14-4886-a439-69313f1a337b.png"
+  },
+  {
+    "name": "dorm",
+    "prompt": "Wide 16:9 game environment background with no people: authentic tidy four-student Chinese university dorm interior, loft beds ABOVE study desks, ladders, navy and ivory bedding, laptop, textbooks, mug, warm desk lamp, laundry basket, balcony window with sunset glow, lived-in youthful details. No luxury apartment. Spacious central foreground. Original premium semi-realistic 2D digital painted illustration for a modern Chinese university visual novel. Natural adult East Asian proportions, detailed painterly light, delicate confident linework, cinematic late afternoon, muted celadon greens, ivory, sky blue, pale gold. NOT anime, NOT chibi, NOT vector art, no logos, no watermark, no text.",
+    "source": "C:\\Users\\ljq\\.codex\\generated_images\\01a1c48f-5caa-72a0-a228-62095beb33ff\\exec-5b5d7c7c-06dd-4787-ade7-b6d38b9841e6.png"
+  },
+  {
+    "name": "track",
+    "prompt": "Wide 16:9 game environment background with no people: modern Chinese university athletics field, terracotta red running track curving into distance, green football pitch, simple blue and cream spectator stands, distant modern teaching buildings and trees, peach pink sunset sky, soft golden backlight. Spacious foreground. Original premium semi-realistic 2D digital painted illustration for a modern Chinese university visual novel. Natural adult East Asian proportions, detailed painterly light, delicate confident linework, cinematic late afternoon, muted celadon greens, ivory, sky blue, pale gold. NOT anime, NOT chibi, NOT vector art, no logos, no watermark, no text.",
+    "source": "C:\\Users\\ljq\\.codex\\generated_images\\01a1c48f-5caa-72a0-a228-62095beb33ff\\exec-311049fa-ed6b-4223-8999-abfa52b2be59.png"
+  },
+  {
+    "name": "canteen",
+    "prompt": "Wide 16:9 game environment background with no people: contemporary Chinese university canteen, rows of wood and mint chairs and simple tables, stainless steel food service counters, trays, food display behind glass, soft warm pendant lighting, broad bright windows showing trees, lunch-hour sunshine, calm authentic student atmosphere. Spacious central foreground. Original premium semi-realistic 2D digital painted illustration for a modern Chinese university visual novel. Natural adult East Asian proportions, detailed painterly light, delicate confident linework, cinematic late afternoon, muted celadon greens, ivory, sky blue, pale gold. NOT anime, NOT chibi, NOT vector art, no logos, no watermark, no text.",
+    "source": "C:\\Users\\ljq\\.codex\\generated_images\\01a1c48f-5caa-72a0-a228-62095beb33ff\\exec-8023b091-3401-44fc-a673-350b78d0132a.png"
+  },
+  {
+    "name": "graduation",
+    "prompt": "Wide 16:9 game environment background with no foreground people: modern Chinese university graduation ceremony at golden hour, broad steps of contemporary limestone university hall, discreet ivory and blue ceremony decorations, empty foreground stage area and flower arrangements, a few black mortarboards arcing high into luminous blue sky, tiny distant silhouettes only, pale gold sun rays and delicate confetti. Warm hopeful cinematic finale, no readable text. Original premium semi-realistic 2D digital painted illustration for a modern Chinese university visual novel. Natural adult East Asian proportions, detailed painterly light, delicate confident linework, cinematic late afternoon, muted celadon greens, ivory, sky blue, pale gold. NOT anime, NOT chibi, NOT vector art, no logos, no watermark, no text.",
+    "source": "C:\\Users\\ljq\\.codex\\generated_images\\01a1c48f-5caa-72a0-a228-62095beb33ff\\exec-56ba30af-8a3c-4e04-9546-44842740ef2f.png"
+  }
+]

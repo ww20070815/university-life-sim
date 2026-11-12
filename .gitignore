@@ -1,0 +1,5 @@
+backups/
+tests/art-input.json
+tests/qa-results/
+node_modules/
+*.log
